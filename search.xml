@@ -31,11 +31,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>用户中心系统项目笔记</title>
-    <url>/2023/11/04/usercenterProjNote/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>JavaSE笔记</title>
     <url>/2023/11/03/JavaEE/</url>
     <content><![CDATA[<h1 id="常用类"><a href="#常用类" class="headerlink" title="常用类"></a>常用类</h1><h2 id="包装类"><a href="#包装类" class="headerlink" title="包装类"></a>包装类</h2><ol>
@@ -586,7 +581,7 @@
 <ol>
 <li>给泛型指定数据类型时，要求是引用类型，不能是基本数据类型</li>
 <li>在指定泛型具体类型后，可以传入该类型或者其子类类型</li>
-<li>若不明确指定则默认为<E>，即Object</li>
+<li>若不明确指定则默认为<E>，即Object</E></li>
 </ol>
 </li>
 </ol>
@@ -767,5 +762,10 @@
 <li>OutputStreamWriter</li>
 </ol>
 <h2 id="Properties类"><a href="#Properties类" class="headerlink" title="Properties类"></a>Properties类</h2>]]></content>
+  </entry>
+  <entry>
+    <title>用户中心系统项目笔记</title>
+    <url>/2023/11/04/usercenterProjNote/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
