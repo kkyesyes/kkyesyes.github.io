@@ -766,7 +766,235 @@
   <entry>
     <title>操作系统</title>
     <url>/2023/11/07/OS-Notes/</url>
-    <content><![CDATA[<h3 id="整理ing…"><a href="#整理ing…" class="headerlink" title="整理ing…"></a>整理ing…</h3>]]></content>
+    <content><![CDATA[<h1 id="8086基础阶段总结"><a href="#8086基础阶段总结" class="headerlink" title="8086基础阶段总结"></a>8086基础阶段总结</h1><h2 id="通用寄存器"><a href="#通用寄存器" class="headerlink" title="通用寄存器"></a>通用寄存器</h2><h2 id="内存访问-字节序"><a href="#内存访问-字节序" class="headerlink" title="内存访问&amp;字节序"></a>内存访问&amp;字节序</h2><h2 id="段地址-偏移地址"><a href="#段地址-偏移地址" class="headerlink" title="段地址&amp;偏移地址"></a>段地址&amp;偏移地址</h2><h2 id="虚拟硬盘の写入-虚拟机-Bochs"><a href="#虚拟硬盘の写入-虚拟机-Bochs" class="headerlink" title="虚拟硬盘の写入&amp;虚拟机(Bochs)"></a>虚拟硬盘の写入&amp;虚拟机(Bochs)</h2><h3 id="虚拟硬盘"><a href="#虚拟硬盘" class="headerlink" title="虚拟硬盘"></a>虚拟硬盘</h3><ol>
+<li>写入数据工具：WinHex</li>
+<li>一切从<strong>主引导扇区</strong>开始</li>
+</ol>
+<h3 id="Bochs虚拟机"><a href="#Bochs虚拟机" class="headerlink" title="Bochs虚拟机"></a>Bochs虚拟机</h3><p>可调试操作系统の虚拟机</p>
+<h2 id="显卡-显存"><a href="#显卡-显存" class="headerlink" title="显卡&amp;显存"></a>显卡&amp;显存</h2><h3 id="屏幕显示文本"><a href="#屏幕显示文本" class="headerlink" title="屏幕显示文本"></a>屏幕显示文本</h3><ol>
+<li><p>一字节字符编码信息 + 一字节显示属性信息</p>
+</li>
+<li><p><strong>MOV</strong></p>
+<p>mov 目的操作数，源操作数</p>
+</li>
+<li><p>汇编程序の<strong>标号</strong></p>
+<p>代表距离最近的汇编指令の汇编地址</p>
+</li>
+<li><p><strong>JMP</strong> -&gt; <em>段间绝对跳转指令</em></p>
+<p>jmp 段地址:偏移地址</p>
+</li>
+<li><p>虚拟机添加硬盘运行写屏程序</p>
+</li>
+<li><p><strong>主引导扇区</strong>布局</p>
+<p>0x07C00 - 0x07E00</p>
+</li>
+<li><p>使用标号计算偏移地址</p>
+<p>直接 对标号做加减操作 进行跳转</p>
+</li>
+<li><p>寄存器 绝对 间接 近跳转 -&gt; <em>jmp bx</em></p>
+<ol>
+<li><p>近跳转：段内跳转</p>
+</li>
+<li><p>间接    ：跳转地址由寄存器间接给出</p>
+</li>
+<li><p>绝对    ：给出的地址是实际地址</p>
+</li>
+</ol>
+</li>
+<li><p>使用相对偏移量の短跳转&amp;近跳转(可省参数)</p>
+<ol>
+<li>短跳转：jmp (short) 标号  -编译-&gt;  EB <strong>8位の相对偏移量</strong></li>
+<li>近跳转：jmp (near) 标号   -编译-&gt;  E9 <strong>16位の相对偏移量</strong></li>
+</ol>
+</li>
+</ol>
+<h3 id="屏幕显示数字"><a href="#屏幕显示数字" class="headerlink" title="屏幕显示数字"></a>屏幕显示数字</h3><ol>
+<li>无符号数除法 指令</li>
+<li><strong>XOR</strong> -&gt; <em>异或指令</em></li>
+<li><strong>ADD</strong> -&gt; <em>加法指令</em></li>
+<li>段超越前缀 -&gt; <em>跨段访问内存时，使用另一个段地址寄存器作前缀用：连接</em></li>
+</ol>
+<h2 id="循环、批量传送-和-条件转移"><a href="#循环、批量传送-和-条件转移" class="headerlink" title="循环、批量传送 和 条件转移"></a>循环、批量传送 和 条件转移</h2><ol>
+<li><p>NASM 的 $ 和 $$ 指令</p>
+<p><strong>$</strong> -&gt; <em>当前代码的汇编地址</em></p>
+<p><strong>$$</strong> -&gt; <em>代码首部的起始汇编地址</em></p>
+</li>
+<li><p>跳过 非指令の数据区</p>
+<ol>
+<li>指令：db、dw等定义数据区</li>
+<li>在起始处用jmp跳至指令区</li>
+</ol>
+</li>
+<li><p>串传送</p>
+<ol>
+<li><p>使用前准备工作：</p>
+<p>DS:SI		原始数据串地址：偏移地址</p>
+<p>ES:DI		目标位置段地址：偏移地址</p>
+</li>
+<li><p>指令(REP指令依cx计数)：</p>
+<ol>
+<li><strong>(REP) MOVSB</strong> -&gt; <em>（重复） 按字节传送(一次)</em></li>
+<li><strong>(REP) MOVSW</strong> -&gt; <em>（重复）按字传送(一次)</em></li>
+<li><strong>CLD</strong> -&gt; <em>方向标志清零，使之指示正方向(低地址-&gt;高地址)</em></li>
+<li><strong>STD</strong> -&gt; <em>置方向标志为1，指示反方向</em></li>
+</ol>
+</li>
+<li><p>标志寄存器FLAGS中：</p>
+<ol>
+<li>方向标志(DF)：指示串传送流方向</li>
+<li>零	标志(ZF)：指示最近一次计算所得是(1)否(0)为零</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p><strong>LOOP</strong>指令</p>
+<ol>
+<li><p>用法：loop 标号(地址)</p>
+</li>
+<li><p>循环次数：cx寄存器中所存数值</p>
+</li>
+<li><p>机器码：E2 8位相对偏移量</p>
+</li>
+<li><p>执行过程：</p>
+<ol>
+<li>将cx内容减一</li>
+<li>若cx内容 不为零，转移执行，否则顺序往后执行</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>基址寻址&amp; INC指令</p>
+<p><strong>INC</strong> -&gt; <em>自增(可用于 基址偏移地址寻址 使基地址循环自增)</em></p>
+<p>​	inc r&#x2F;m(m需指定占用字节大小)</p>
+<p>8086中，只能使用BX、SI、DI、BP寄存器来提供偏移地址(如mov [bx], dl)</p>
+<p><em>@寄存器BX在设计之初的作用之一就是用来提供数据访问的基地址，所以又叫<strong>基址寄存器(Base Address Register)</strong></em></p>
+<p>*@在设计8086处理器时，每个寄存器都有自己的特殊用途，比如<strong>AX</strong>是<strong>累加器(Accumulator)<strong>，与它有关的指令还会做指令长度上的优化(较短)；</strong>CX</strong>是<strong>计数器(Counter)<strong>；</strong>DX</strong>是<strong>数据寄存器(Data)<strong>，除了作为通用寄存器外，还专门用于和外设之间进行数据传送；</strong>SI</strong>是<strong>源索引寄存器(Source Index)<strong>；</strong>DI</strong>是**目标索引寄存器(Destination Index)*<em>，用于数据传送操作，我们已经在movsb和movsw指令用法中领略过了</em></p>
+</li>
+<li><p>DEC指令</p>
+<p><strong>DEC</strong> -&gt; <em>自减</em></p>
+<p>​	dec (r&#x2F;m)</p>
+</li>
+<li><p>基址变址寻扯&amp;条件转移指令</p>
+<ol>
+<li><p>8086中基址变址允许的组合：</p>
+<p>bx + si</p>
+<p>bx + di</p>
+<p>bp + si</p>
+<p>bp + di</p>
+</li>
+<li><p>条件转移指令：</p>
+<ol>
+<li><strong>JNS</strong> -&gt; <em>符号标志(SF)为0时跳转</em></li>
+</ol>
+</li>
+<li><p>标志寄存器FLAGS中：</p>
+<ol>
+<li>符号标志(SF)：计算结果最高位为0则为0，反之为1</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="计算机中的负数"><a href="#计算机中的负数" class="headerlink" title="计算机中的负数"></a>计算机中的负数</h2><ol>
+<li><p>减法指令&amp;求补指令(SUB&amp;NEG)</p>
+<ol>
+<li><p><strong>SUB</strong> -&gt; <em>减法指令</em></p>
+<p>​	sub r&#x2F;m, r&#x2F;m&#x2F;imm(立即数)</p>
+<p>​	注意：两操作数宽度需一致，且不能同为内存地址(m)</p>
+</li>
+<li><p><strong>NEG</strong> -&gt; <em>求负or求补</em></p>
+<p>​	neg r&#x2F;m -&gt; 执行 <strong>0-操作数</strong> 操作 得到补码(负数)，执行后替换操作数中的内容</p>
+</li>
+</ol>
+</li>
+<li><p>对于 有(无)符号数 の区分</p>
+<blockquote>
+<p>可以说，大多数指令既适用于无符号整数，也适用于有符号整数。指令执行的结果不管是用无符号整数来解释，还是用有符号整数来解释，都是正确的</p>
+</blockquote>
+<blockquote>
+<p>但是，也有一些指令不能同时应付无符号数和有符号数，需要根据你的实际情况选择它们的无符号版本和有符号版本。比如，无符号数乘法指令mul和有符号数乘法指令imul，以及无符号数除法指令div和有符号数除法指令idiv</p>
+</blockquote>
+<blockquote>
+<p>简单总结，有些指令皆适用，有些指令要区分使用</p>
+</blockquote>
+</li>
+<li><p>有符号数の除法指令IDIV</p>
+<p>​	idiv r&#x2F;m</p>
+<ol>
+<li><p>商和余数的符号性</p>
+<p>如果 被除数 和 除数 的<strong>符号不同</strong>，<strong>商</strong>为负数</p>
+<p><strong>余数</strong>的符号 始终 和被除数相同</p>
+</li>
+</ol>
+</li>
+<li><p>有符号数の符号扩展指令</p>
+</li>
+</ol>
+<h2 id="栈-逻辑指令"><a href="#栈-逻辑指令" class="headerlink" title="栈&amp;逻辑指令"></a>栈&amp;逻辑指令</h2><ol>
+<li><p>栈</p>
+<ol>
+<li><p>cs -&gt; <em>指定代码段识别区</em></p>
+</li>
+<li><p>ds&#x2F;es -&gt; <em>指定数据段识别区</em></p>
+</li>
+<li><p>ss:sp -&gt; <em>指定<strong>栈段识别区</strong></em></p>
+</li>
+<li><p><strong>栈の使用</strong>：(必须保持栈平衡，有压必有出)</p>
+<ol>
+<li><p><strong>PUSH</strong> -&gt; <em>入栈</em></p>
+<p>​	push r&#x2F;m</p>
+<blockquote>
+<p>push dx</p>
+<p>push word [0x2002]</p>
+</blockquote>
+<p>​	push 执行过程：</p>
+<ol>
+<li>sp &#x3D; sp - 操作数大小(字节);</li>
+<li>利用ss:sp生成物理地址;</li>
+<li>将操作数写入上述地址处</li>
+</ol>
+</li>
+<li><p><strong>POP</strong> -&gt; <em>出栈</em></p>
+<p>​	pop r&#x2F;m</p>
+<blockquote>
+<p>pop ax</p>
+<p>pop word [0x08]</p>
+</blockquote>
+<p>​	pop 执行过程：</p>
+<ol>
+<li>利用ss:sp生成物理地址;</li>
+<li>从上述地址处取得数据，存入由操作数提供的目标位置处;</li>
+<li>sp &#x3D; sp + 2;</li>
+</ol>
+</li>
+<li><p>注意：</p>
+<ol>
+<li>必须保持栈平衡，有压必有出</li>
+<li>充分估计需要的栈空间，开辟安全的空间</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>逻辑指令</p>
+<ol>
+<li><p><strong>OR</strong> -&gt; <em>逻辑或</em></p>
+<p>​	or r&#x2F;m, r&#x2F;m&#x2F;imm(左右操作数长度需一致)</p>
+</li>
+<li><p><strong>AND</strong> -&gt; <em>逻辑与</em></p>
+<p>​	and r&#x2F;m, r&#x2F;m&#x2F;imm(长度需一致)</p>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="Intel8086处理器の寻址方式"><a href="#Intel8086处理器の寻址方式" class="headerlink" title="Intel8086处理器の寻址方式"></a>Intel8086处理器の寻址方式</h2><ol>
+<li>寄存器&#x2F;立即数寻址&#x2F;直接寻址</li>
+<li>基址寻址</li>
+<li>变址寻址</li>
+<li>基址变址寻址</li>
+</ol>
+<h2 id="硬盘-显卡の访问与控制"><a href="#硬盘-显卡の访问与控制" class="headerlink" title="硬盘&amp;显卡の访问与控制"></a>硬盘&amp;显卡の访问与控制</h2><h2 id="中断-动态时钟显示"><a href="#中断-动态时钟显示" class="headerlink" title="中断&amp;动态时钟显示"></a>中断&amp;动态时钟显示</h2><h1 id="32位x86处理器架构"><a href="#32位x86处理器架构" class="headerlink" title="32位x86处理器架构"></a>32位x86处理器架构</h1><h2 id="保护模式"><a href="#保护模式" class="headerlink" title="保护模式"></a>保护模式</h2>]]></content>
   </entry>
   <entry>
     <title>用户中心系统</title>
