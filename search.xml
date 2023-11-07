@@ -12,25 +12,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>四级翻译</title>
-    <url>/2023/11/04/CET4Translation/</url>
-    <content><![CDATA[<h1 id="四级翻译"><a href="#四级翻译" class="headerlink" title="四级翻译"></a>四级翻译</h1><h2 id="重点考察句型"><a href="#重点考察句型" class="headerlink" title="重点考察句型"></a>重点考察句型</h2><ol>
-<li>[2019.6&#x2F;2020.7]“……已有……多年的历史” -&gt; <em>…has a history of more than…years.</em></li>
-</ol>
-<h2 id="常用句型"><a href="#常用句型" class="headerlink" title="常用句型"></a>常用句型</h2><ol>
-<li>“吃火锅时” -&gt; <em>When (family members and friends are) having hot pot,</em>(When 引导的时间状语从句+句子主干+with伴随状语)</li>
-<li>“……同时……” -&gt; <em>…can do A while doing B.</em></li>
-</ol>
-<h2 id="词汇"><a href="#词汇" class="headerlink" title="词汇"></a>词汇</h2><ol>
-<li><p>地方：</p>
-<p>1 | food culture -&gt; 饮食文化</p>
-<p>2 | delicious cuisine -&gt; 佳肴</p>
-<p>3 | rich cultural charm -&gt; 丰富的文化韵味</p>
-</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
     <title>JavaSE笔记</title>
     <url>/2023/11/03/JavaEE/</url>
     <content><![CDATA[<h1 id="常用类"><a href="#常用类" class="headerlink" title="常用类"></a>常用类</h1><h2 id="包装类"><a href="#包装类" class="headerlink" title="包装类"></a>包装类</h2><ol>
@@ -764,6 +745,25 @@
 <h2 id="Properties类"><a href="#Properties类" class="headerlink" title="Properties类"></a>Properties类</h2>]]></content>
   </entry>
   <entry>
+    <title>四级翻译</title>
+    <url>/2023/11/04/CET4Translation/</url>
+    <content><![CDATA[<h1 id="四级翻译"><a href="#四级翻译" class="headerlink" title="四级翻译"></a>四级翻译</h1><h2 id="重点考察句型"><a href="#重点考察句型" class="headerlink" title="重点考察句型"></a>重点考察句型</h2><ol>
+<li>[2019.6&#x2F;2020.7]“……已有……多年的历史” -&gt; <em>…has a history of more than…years.</em></li>
+</ol>
+<h2 id="常用句型"><a href="#常用句型" class="headerlink" title="常用句型"></a>常用句型</h2><ol>
+<li>“吃火锅时” -&gt; <em>When (family members and friends are) having hot pot,</em>(When 引导的时间状语从句+句子主干+with伴随状语)</li>
+<li>“……同时……” -&gt; <em>…can do A while doing B.</em></li>
+</ol>
+<h2 id="词汇"><a href="#词汇" class="headerlink" title="词汇"></a>词汇</h2><ol>
+<li><p>地方：</p>
+<p>1 | food culture -&gt; 饮食文化</p>
+<p>2 | delicious cuisine -&gt; 佳肴</p>
+<p>3 | rich cultural charm -&gt; 丰富的文化韵味</p>
+</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
     <title>操作系统</title>
     <url>/2023/11/07/OS-Notes/</url>
     <content><![CDATA[<h1 id="8086基础阶段总结"><a href="#8086基础阶段总结" class="headerlink" title="8086基础阶段总结"></a>8086基础阶段总结</h1><h2 id="通用寄存器"><a href="#通用寄存器" class="headerlink" title="通用寄存器"></a>通用寄存器</h2><h2 id="内存访问-字节序"><a href="#内存访问-字节序" class="headerlink" title="内存访问&amp;字节序"></a>内存访问&amp;字节序</h2><h2 id="段地址-偏移地址"><a href="#段地址-偏移地址" class="headerlink" title="段地址&amp;偏移地址"></a>段地址&amp;偏移地址</h2><h2 id="虚拟硬盘の写入-虚拟机-Bochs"><a href="#虚拟硬盘の写入-虚拟机-Bochs" class="headerlink" title="虚拟硬盘の写入&amp;虚拟机(Bochs)"></a>虚拟硬盘の写入&amp;虚拟机(Bochs)</h2><h3 id="虚拟硬盘"><a href="#虚拟硬盘" class="headerlink" title="虚拟硬盘"></a>虚拟硬盘</h3><ol>
@@ -867,8 +867,12 @@
 <p><strong>INC</strong> -&gt; <em>自增(可用于 基址偏移地址寻址 使基地址循环自增)</em></p>
 <p>​	inc r&#x2F;m(m需指定占用字节大小)</p>
 <p>8086中，只能使用BX、SI、DI、BP寄存器来提供偏移地址(如mov [bx], dl)</p>
-<p><em>@寄存器BX在设计之初的作用之一就是用来提供数据访问的基地址，所以又叫<strong>基址寄存器(Base Address Register)</strong></em></p>
-<p>*@在设计8086处理器时，每个寄存器都有自己的特殊用途，比如<strong>AX</strong>是<strong>累加器(Accumulator)<strong>，与它有关的指令还会做指令长度上的优化(较短)；</strong>CX</strong>是<strong>计数器(Counter)<strong>；</strong>DX</strong>是<strong>数据寄存器(Data)<strong>，除了作为通用寄存器外，还专门用于和外设之间进行数据传送；</strong>SI</strong>是<strong>源索引寄存器(Source Index)<strong>；</strong>DI</strong>是**目标索引寄存器(Destination Index)*<em>，用于数据传送操作，我们已经在movsb和movsw指令用法中领略过了</em></p>
+<blockquote>
+<p>寄存器BX在设计之初的作用之一就是用来提供数据访问的基地址，所以又叫<strong>基址寄存器(Base Address Register)</strong>*</p>
+</blockquote>
+<blockquote>
+<p>在设计8086处理器时，每个寄存器都有自己的特殊用途，比如<strong>AX</strong>是<strong>累加器(Accumulator)<strong>，与它有关的指令还会做指令长度上的优化(较短)；</strong>CX</strong>是<strong>计数器(Counter)<strong>；</strong>DX</strong>是<strong>数据寄存器(Data)<strong>，除了作为通用寄存器外，还专门用于和外设之间进行数据传送；</strong>SI</strong>是<strong>源索引寄存器(Source Index)<strong>；</strong>DI</strong>是**目标索引寄存器(Destination Index)**，用于数据传送操作，我们已经在movsb和movsw指令用法中领略过了</p>
+</blockquote>
 </li>
 <li><p>DEC指令</p>
 <p><strong>DEC</strong> -&gt; <em>自减</em></p>
