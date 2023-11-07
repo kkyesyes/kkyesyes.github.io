@@ -12,6 +12,25 @@
 ]]></content>
   </entry>
   <entry>
+    <title>四级翻译</title>
+    <url>/2023/11/04/CET4Translation/</url>
+    <content><![CDATA[<h1 id="四级翻译"><a href="#四级翻译" class="headerlink" title="四级翻译"></a>四级翻译</h1><h2 id="重点考察句型"><a href="#重点考察句型" class="headerlink" title="重点考察句型"></a>重点考察句型</h2><ol>
+<li>[2019.6&#x2F;2020.7]“……已有……多年的历史” -&gt; <em>…has a history of more than…years.</em></li>
+</ol>
+<h2 id="常用句型"><a href="#常用句型" class="headerlink" title="常用句型"></a>常用句型</h2><ol>
+<li>“吃火锅时” -&gt; <em>When (family members and friends are) having hot pot,</em>(When 引导的时间状语从句+句子主干+with伴随状语)</li>
+<li>“……同时……” -&gt; <em>…can do A while doing B.</em></li>
+</ol>
+<h2 id="词汇"><a href="#词汇" class="headerlink" title="词汇"></a>词汇</h2><ol>
+<li><p>地方：</p>
+<p>1 | food culture -&gt; 饮食文化</p>
+<p>2 | delicious cuisine -&gt; 佳肴</p>
+<p>3 | rich cultural charm -&gt; 丰富的文化韵味</p>
+</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
     <title>JavaSE笔记</title>
     <url>/2023/11/03/JavaEE/</url>
     <content><![CDATA[<h1 id="常用类"><a href="#常用类" class="headerlink" title="常用类"></a>常用类</h1><h2 id="包装类"><a href="#包装类" class="headerlink" title="包装类"></a>包装类</h2><ol>
@@ -50,8 +69,7 @@
 
 <p><strong>常量相加看池，变量相加看堆</strong></p>
 <p>例题：</p>
-<p><img src="/JavaEE/imgs/image-20230901115129955.png" alt="image-20230901115129955"></p>
-</li>
+<img src="/2023/11/03/JavaEE/image-20230901115129955.png" class title="image-20230901115129955"></li>
 </ol>
 <h2 id="StringBuffer-类-可变字符序列-效率高-增删-线程安全"><a href="#StringBuffer-类-可变字符序列-效率高-增删-线程安全" class="headerlink" title="StringBuffer 类 -&gt;可变字符序列 效率高(增删) 线程安全"></a>StringBuffer 类 -&gt;<em>可变字符序列 效率高(增删) 线程安全</em></h2><ol>
 <li><p>java.lang.StringBuffer代表可变字符序列(<strong>可变长度</strong>)，可对字符串内容进行增删</p>
@@ -225,7 +243,8 @@
 </ol>
 <h1 id="集合-笔记"><a href="#集合-笔记" class="headerlink" title="集合 -&gt; 笔记"></a>集合 -&gt; <a href="./%E9%9B%86%E5%90%88">笔记</a></h1><p><strong>集合：</strong>主分为<strong>单列集合</strong>和<strong>双列集合</strong>可以动态保存任意多个对象，提供操作对象的方法，代码简洁</p>
 <h2 id="Collection-单列集合接口-存放单个元素"><a href="#Collection-单列集合接口-存放单个元素" class="headerlink" title="Collection -&gt; 单列集合接口 -&gt; 存放单个元素"></a>Collection -&gt; 单列集合接口 -&gt; 存放单个元素</h2><p><em>下图重点：</em></p>
-<p><img src="/JavaEE/imgs/image-20230903105315583.png" alt="image-20230903105315583"></p>
+<img src="/2023/11/03/JavaEE/image-20230903105315583.png" class title="image-20230903105315583">
+
 <ol>
 <li><p>常用方法：</p>
 <ol>
@@ -375,7 +394,8 @@
 <li><p><strong>HashSet</strong></p>
 <ol>
 <li><p><strong>底层机制源码分析</strong></p>
-<p><img src="/JavaEE/imgs/image-20230905191423649.png" alt="image-20230905191423649"></p>
+<img src="/2023/11/03/JavaEE/image-20230905191423649.png" class title="image-20230905191423649">
+
 <ol>
 <li><p>HashSet  底层是 HashMap</p>
 <p>HashMap底层是 <strong>数组 + 链表 + 红黑树</strong></p>
@@ -427,7 +447,8 @@
 </ol>
 <p><em>&lt; ctrl+j -&gt; 列出目前所有缩略指令 &gt;</em></p>
 <h2 id="Map-双列集合接口-存放-K-key-V-value-映射关系数据"><a href="#Map-双列集合接口-存放-K-key-V-value-映射关系数据" class="headerlink" title="Map -&gt; 双列集合接口 -&gt; 存放 K(key)-V(value) 映射关系数据"></a>Map -&gt; 双列集合接口 -&gt; 存放 K(key)-V(value) 映射关系数据</h2><p><em>下图重点：</em></p>
-<p><img src="/JavaEE/imgs/image-20230903105605983.png" alt="image-20230903105605983"></p>
+<img src="/2023/11/03/JavaEE/image-20230903105605983.png" class title="image-20230903105605983">
+
 <ol>
 <li><p>实现类的特点：</p>
 <ol>
@@ -745,25 +766,6 @@
 <h2 id="Properties类"><a href="#Properties类" class="headerlink" title="Properties类"></a>Properties类</h2>]]></content>
   </entry>
   <entry>
-    <title>四级翻译</title>
-    <url>/2023/11/04/CET4Translation/</url>
-    <content><![CDATA[<h1 id="四级翻译"><a href="#四级翻译" class="headerlink" title="四级翻译"></a>四级翻译</h1><h2 id="重点考察句型"><a href="#重点考察句型" class="headerlink" title="重点考察句型"></a>重点考察句型</h2><ol>
-<li>[2019.6&#x2F;2020.7]“……已有……多年的历史” -&gt; <em>…has a history of more than…years.</em></li>
-</ol>
-<h2 id="常用句型"><a href="#常用句型" class="headerlink" title="常用句型"></a>常用句型</h2><ol>
-<li>“吃火锅时” -&gt; <em>When (family members and friends are) having hot pot,</em>(When 引导的时间状语从句+句子主干+with伴随状语)</li>
-<li>“……同时……” -&gt; <em>…can do A while doing B.</em></li>
-</ol>
-<h2 id="词汇"><a href="#词汇" class="headerlink" title="词汇"></a>词汇</h2><ol>
-<li><p>地方：</p>
-<p>1 | food culture -&gt; 饮食文化</p>
-<p>2 | delicious cuisine -&gt; 佳肴</p>
-<p>3 | rich cultural charm -&gt; 丰富的文化韵味</p>
-</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
     <title>操作系统</title>
     <url>/2023/11/07/OS-Notes/</url>
     <content><![CDATA[<h1 id="8086基础阶段总结"><a href="#8086基础阶段总结" class="headerlink" title="8086基础阶段总结"></a>8086基础阶段总结</h1><h2 id="通用寄存器"><a href="#通用寄存器" class="headerlink" title="通用寄存器"></a>通用寄存器</h2><h2 id="内存访问-字节序"><a href="#内存访问-字节序" class="headerlink" title="内存访问&amp;字节序"></a>内存访问&amp;字节序</h2><h2 id="段地址-偏移地址"><a href="#段地址-偏移地址" class="headerlink" title="段地址&amp;偏移地址"></a>段地址&amp;偏移地址</h2><h2 id="虚拟硬盘の写入-虚拟机-Bochs"><a href="#虚拟硬盘の写入-虚拟机-Bochs" class="headerlink" title="虚拟硬盘の写入&amp;虚拟机(Bochs)"></a>虚拟硬盘の写入&amp;虚拟机(Bochs)</h2><h3 id="虚拟硬盘"><a href="#虚拟硬盘" class="headerlink" title="虚拟硬盘"></a>虚拟硬盘</h3><ol>
@@ -999,6 +1001,24 @@
 <li>基址变址寻址</li>
 </ol>
 <h2 id="硬盘-显卡の访问与控制"><a href="#硬盘-显卡の访问与控制" class="headerlink" title="硬盘&amp;显卡の访问与控制"></a>硬盘&amp;显卡の访问与控制</h2><h2 id="中断-动态时钟显示"><a href="#中断-动态时钟显示" class="headerlink" title="中断&amp;动态时钟显示"></a>中断&amp;动态时钟显示</h2><h1 id="32位x86处理器架构"><a href="#32位x86处理器架构" class="headerlink" title="32位x86处理器架构"></a>32位x86处理器架构</h1><h2 id="保护模式"><a href="#保护模式" class="headerlink" title="保护模式"></a>保护模式</h2>]]></content>
+  </entry>
+  <entry>
+    <title>Tips</title>
+    <url>/2023/11/07/Tips/</url>
+    <content><![CDATA[<h3 id="11-7-桃河"><a href="#11-7-桃河" class="headerlink" title="11.7 - 桃河"></a>11.7 - 桃河</h3><img src="/2023/11/07/Tips/11.7.1.jpg" class title="11.7.1">
+
+<img src="/2023/11/07/Tips/11.7.2.jpg" class title="11.7.2">
+
+<img src="/2023/11/07/Tips/11.7.3.jpg" class title="11.7.3">
+
+<img src="/2023/11/07/Tips/11.7.4.jpg" class title="11.7.4">
+
+<img src="/2023/11/07/Tips/11.7.5.jpg" class title="11.7.5">
+
+<img src="/2023/11/07/Tips/11.7.6.jpg" class title="11.7.6">
+
+<p>怀念那个桃河边弹吉他的晚上</p>
+]]></content>
   </entry>
   <entry>
     <title>用户中心系统</title>
