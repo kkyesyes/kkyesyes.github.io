@@ -766,24 +766,6 @@
 <h2 id="Properties类"><a href="#Properties类" class="headerlink" title="Properties类"></a>Properties类</h2>]]></content>
   </entry>
   <entry>
-    <title>杂想</title>
-    <url>/2023/11/07/Tips/</url>
-    <content><![CDATA[<h3 id="11-7-桃河"><a href="#11-7-桃河" class="headerlink" title="11.7 - 桃河"></a>11.7 - 桃河</h3><img src="/2023/11/07/Tips/11.7.1.jpg" class title="11.7.1">
-
-<img src="/2023/11/07/Tips/11.7.2.jpg" class title="11.7.2">
-
-<img src="/2023/11/07/Tips/11.7.3.jpg" class title="11.7.3">
-
-<img src="/2023/11/07/Tips/11.7.4.jpg" class title="11.7.4">
-
-<img src="/2023/11/07/Tips/11.7.5.jpg" class title="11.7.5">
-
-<img src="/2023/11/07/Tips/11.7.6.jpg" class title="11.7.6">
-
-<p>怀念那个桃河边弹吉他的晚上</p>
-]]></content>
-  </entry>
-  <entry>
     <title>操作系统</title>
     <url>/2023/11/07/OS-Notes/</url>
     <content><![CDATA[<h1 id="8086基础阶段总结"><a href="#8086基础阶段总结" class="headerlink" title="8086基础阶段总结"></a>8086基础阶段总结</h1><h2 id="通用寄存器"><a href="#通用寄存器" class="headerlink" title="通用寄存器"></a>通用寄存器</h2><h2 id="内存访问-字节序"><a href="#内存访问-字节序" class="headerlink" title="内存访问&amp;字节序"></a>内存访问&amp;字节序</h2><h2 id="段地址-偏移地址"><a href="#段地址-偏移地址" class="headerlink" title="段地址&amp;偏移地址"></a>段地址&amp;偏移地址</h2><h2 id="虚拟硬盘の写入-虚拟机-Bochs"><a href="#虚拟硬盘の写入-虚拟机-Bochs" class="headerlink" title="虚拟硬盘の写入&amp;虚拟机(Bochs)"></a>虚拟硬盘の写入&amp;虚拟机(Bochs)</h2><h3 id="虚拟硬盘"><a href="#虚拟硬盘" class="headerlink" title="虚拟硬盘"></a>虚拟硬盘</h3><ol>
@@ -1019,6 +1001,26 @@
 <li>基址变址寻址</li>
 </ol>
 <h2 id="硬盘-显卡の访问与控制"><a href="#硬盘-显卡の访问与控制" class="headerlink" title="硬盘&amp;显卡の访问与控制"></a>硬盘&amp;显卡の访问与控制</h2><h2 id="中断-动态时钟显示"><a href="#中断-动态时钟显示" class="headerlink" title="中断&amp;动态时钟显示"></a>中断&amp;动态时钟显示</h2><h1 id="32位x86处理器架构"><a href="#32位x86处理器架构" class="headerlink" title="32位x86处理器架构"></a>32位x86处理器架构</h1><h2 id="保护模式"><a href="#保护模式" class="headerlink" title="保护模式"></a>保护模式</h2>]]></content>
+  </entry>
+  <entry>
+    <title>杂想</title>
+    <url>/2023/11/07/Tips/</url>
+    <content><![CDATA[<h3 id="11-9-每日歌曲推荐"><a href="#11-9-每日歌曲推荐" class="headerlink" title="11.9 - 每日歌曲推荐"></a>11.9 - 每日歌曲推荐</h3><p>来自Coldplay的单曲《Everglow》: <a href="https://t1.kugou.com/3knbbf0BhV2">Everglow</a>（@酷狗概念版）</p>
+<p>Oh they say people come<br>看遍人海潮落潮起<br>Say people go<br>尝尽世间人聚人离<br>……</p>
+<h3 id="11-7-桃河"><a href="#11-7-桃河" class="headerlink" title="11.7 - 桃河"></a>11.7 - 桃河</h3><img src="/2023/11/07/Tips/11.7.1.jpg" class title="11.7.1">
+
+<img src="/2023/11/07/Tips/11.7.2.jpg" class title="11.7.2">
+
+<img src="/2023/11/07/Tips/11.7.3.jpg" class title="11.7.3">
+
+<img src="/2023/11/07/Tips/11.7.4.jpg" class title="11.7.4">
+
+<img src="/2023/11/07/Tips/11.7.5.jpg" class title="11.7.5">
+
+<img src="/2023/11/07/Tips/11.7.6.jpg" class title="11.7.6">
+
+<p>怀念那个桃河边弹吉他的晚上</p>
+]]></content>
   </entry>
   <entry>
     <title>用户中心系统</title>
