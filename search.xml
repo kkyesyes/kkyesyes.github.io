@@ -20,6 +20,33 @@
 ]]></content>
   </entry>
   <entry>
+    <title>算法模板</title>
+    <url>/2023/11/06/Algorithm-Templates/</url>
+    <content><![CDATA[<p><a href="https://github.com/TheAlgorithms">Github算法仓库</a></p>
+<h2 id="个人整理"><a href="#个人整理" class="headerlink" title="个人整理"></a>个人整理</h2><h3 id="加法计算代码模板"><a href="#加法计算代码模板" class="headerlink" title="加法计算代码模板"></a>加法计算代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">n1</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">n2</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">carry</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> n1 + n2 + carry;</span><br><span class="line">carry = sum / <span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">res</span> <span class="operator">=</span> sum % <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
+
+<h3 id="双指针双对象代码模板"><a href="#双指针双对象代码模板" class="headerlink" title="双指针双对象代码模板"></a>双指针双对象代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">num1</span> <span class="operator">=</span> <span class="string">&quot;51198&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">num2</span> <span class="operator">=</span> <span class="string">&quot;967895&quot;</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> num1.length() - <span class="number">1</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> num2.length() - <span class="number">1</span>;</span><br><span class="line"><span class="keyword">while</span> (i &gt;= <span class="number">0</span> || j &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">n1</span> <span class="operator">=</span> i &gt;= <span class="number">0</span> ? num1.charAt(i) - <span class="string">&#x27;0&#x27;</span> : <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> <span class="variable">n2</span> <span class="operator">=</span> j &gt;= <span class="number">0</span> ? num2.charAt(j) - <span class="string">&#x27;0&#x27;</span> : <span class="number">0</span>;</span><br><span class="line">    i--;j--;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="字符串转十进制转换数代码模板"><a href="#字符串转十进制转换数代码模板" class="headerlink" title="字符串转十进制转换数代码模板"></a>字符串转十进制转换数代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">num</span> <span class="operator">=</span> <span class="string">&quot;1234&quot;</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">index</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span> (index &lt; len &amp;&amp; Character.isDigit(num.charAt(index))) &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">ans</span> <span class="operator">=</span> num.charAt(index) - <span class="string">&#x27;0&#x27;</span>;</span><br><span class="line">    sum = sum * <span class="number">10</span> + ans;</span><br><span class="line">    index++;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> sum;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+  </entry>
+  <entry>
+    <title>Python爬虫</title>
+    <url>/2023/11/11/Crawler/</url>
+    <content><![CDATA[<h1 id="Scrapy"><a href="#Scrapy" class="headerlink" title="Scrapy"></a>Scrapy</h1>]]></content>
+  </entry>
+  <entry>
+    <title>Github资源</title>
+    <url>/2023/11/13/Github-Resources/</url>
+    <content><![CDATA[<ol>
+<li><a href="https://github.com/ruanyf/weekly/tree/master">科技爱好者周刊跳转链接 –to-&gt; Github</a></li>
+<li><a href="https://github.com/EbookFoundation/free-programming-books">编程资源跳转链接 –to-&gt; Github</a></li>
+<li><a href="https://github.com/TheAlgorithms">算法模板大全 –to–&gt; Github</a></li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
     <title>操作系统</title>
     <url>/2023/11/07/OS-Notes/</url>
     <content><![CDATA[<h1 id="8086基础阶段总结"><a href="#8086基础阶段总结" class="headerlink" title="8086基础阶段总结"></a>8086基础阶段总结</h1><h2 id="通用寄存器"><a href="#通用寄存器" class="headerlink" title="通用寄存器"></a>通用寄存器</h2><h2 id="内存访问-字节序"><a href="#内存访问-字节序" class="headerlink" title="内存访问&amp;字节序"></a>内存访问&amp;字节序</h2><h2 id="段地址-偏移地址"><a href="#段地址-偏移地址" class="headerlink" title="段地址&amp;偏移地址"></a>段地址&amp;偏移地址</h2><h2 id="虚拟硬盘の写入-虚拟机-Bochs"><a href="#虚拟硬盘の写入-虚拟机-Bochs" class="headerlink" title="虚拟硬盘の写入&amp;虚拟机(Bochs)"></a>虚拟硬盘の写入&amp;虚拟机(Bochs)</h2><h3 id="虚拟硬盘"><a href="#虚拟硬盘" class="headerlink" title="虚拟硬盘"></a>虚拟硬盘</h3><ol>
@@ -291,18 +318,6 @@
 </li>
 </ol>
 <h2 id="中断-动态时钟显示"><a href="#中断-动态时钟显示" class="headerlink" title="中断&amp;动态时钟显示"></a>中断&amp;动态时钟显示</h2><h1 id="32位x86处理器架构"><a href="#32位x86处理器架构" class="headerlink" title="32位x86处理器架构"></a>32位x86处理器架构</h1><h2 id="保护模式"><a href="#保护模式" class="headerlink" title="保护模式"></a>保护模式</h2>]]></content>
-  </entry>
-  <entry>
-    <title>算法模板</title>
-    <url>/2023/11/06/Algorithm-Templates/</url>
-    <content><![CDATA[<p><a href="https://github.com/TheAlgorithms">Github算法仓库</a></p>
-<h2 id="个人整理"><a href="#个人整理" class="headerlink" title="个人整理"></a>个人整理</h2><h3 id="加法计算代码模板"><a href="#加法计算代码模板" class="headerlink" title="加法计算代码模板"></a>加法计算代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">n1</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">n2</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">carry</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> n1 + n2 + carry;</span><br><span class="line">carry = sum / <span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">res</span> <span class="operator">=</span> sum % <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
-
-<h3 id="双指针双对象代码模板"><a href="#双指针双对象代码模板" class="headerlink" title="双指针双对象代码模板"></a>双指针双对象代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">num1</span> <span class="operator">=</span> <span class="string">&quot;51198&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">num2</span> <span class="operator">=</span> <span class="string">&quot;967895&quot;</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> num1.length() - <span class="number">1</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> num2.length() - <span class="number">1</span>;</span><br><span class="line"><span class="keyword">while</span> (i &gt;= <span class="number">0</span> || j &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">n1</span> <span class="operator">=</span> i &gt;= <span class="number">0</span> ? num1.charAt(i) - <span class="string">&#x27;0&#x27;</span> : <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> <span class="variable">n2</span> <span class="operator">=</span> j &gt;= <span class="number">0</span> ? num2.charAt(j) - <span class="string">&#x27;0&#x27;</span> : <span class="number">0</span>;</span><br><span class="line">    i--;j--;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="字符串转十进制转换数代码模板"><a href="#字符串转十进制转换数代码模板" class="headerlink" title="字符串转十进制转换数代码模板"></a>字符串转十进制转换数代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">num</span> <span class="operator">=</span> <span class="string">&quot;1234&quot;</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">index</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span> (index &lt; len &amp;&amp; Character.isDigit(num.charAt(index))) &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">ans</span> <span class="operator">=</span> num.charAt(index) - <span class="string">&#x27;0&#x27;</span>;</span><br><span class="line">    sum = sum * <span class="number">10</span> + ans;</span><br><span class="line">    index++;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> sum;</span><br></pre></td></tr></table></figure>
-
-]]></content>
   </entry>
   <entry>
     <title>JavaSE笔记</title>
@@ -1126,7 +1141,7 @@
   <entry>
     <title>杂想</title>
     <url>/2023/11/07/Tips/</url>
-    <content><![CDATA[<h3 id="11-11-关于热爱"><a href="#11-11-关于热爱" class="headerlink" title="11.11 - 关于热爱"></a>11.11 - 关于热爱</h3><p>最初<br>我喜欢音乐，喜欢计算机<br>不是为做好音乐，玩转计算机<br>而是音乐和计算机让我知道<br>什么是真正的<br>念念不忘，必有回响</p>
+    <content><![CDATA[<h1 id="11-11-关于热爱"><a href="#11-11-关于热爱" class="headerlink" title="11.11 - 关于热爱"></a>11.11 - 关于热爱</h1><p>最初<br>我喜欢音乐，喜欢计算机<br>不是为做好音乐，玩转计算机<br>而是音乐和计算机让我知道<br>什么是真正的<br>念念不忘，必有回响</p>
 <h3 id="11-9-今日歌曲推荐"><a href="#11-9-今日歌曲推荐" class="headerlink" title="11.9 - 今日歌曲推荐"></a>11.9 - 今日歌曲推荐</h3><p>Oh they say people come<br>看遍人海潮落潮起<br>Say people go<br>尝尽世间人聚人离<br>……<br>来自Coldplay的单曲《<a href="https://t1.kugou.com/3knbbf0BhV2">Everglow</a>》（@酷狗概念版）</p>
 <h3 id="11-7-桃河"><a href="#11-7-桃河" class="headerlink" title="11.7 - 桃河"></a>11.7 - 桃河</h3><img src="/2023/11/07/Tips/11.7.1.jpg" class title="11.7.1">
 
@@ -1144,13 +1159,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Python爬虫</title>
-    <url>/2023/11/11/crawler/</url>
-    <content><![CDATA[<h1 id="Scrapy"><a href="#Scrapy" class="headerlink" title="Scrapy"></a>Scrapy</h1>]]></content>
-  </entry>
-  <entry>
     <title>用户中心系统</title>
-    <url>/2023/11/04/usercenterProjNote/</url>
+    <url>/2023/11/04/UsercenterProjNote/</url>
     <content><![CDATA[<h3 id="更新ing…"><a href="#更新ing…" class="headerlink" title="更新ing…"></a>更新ing…</h3>]]></content>
   </entry>
 </search>
