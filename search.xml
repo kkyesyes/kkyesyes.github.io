@@ -32,18 +32,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Computer-Architecture</title>
-    <url>/2023/11/14/Computer-Architecture/</url>
-    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1ZJ411b7Na/?spm_id_from=333.999.0.0&vd_source=760264507c20c8ac38634e47af1aa1fa">微机原理 （西安电子科技大学）_哔哩哔哩_bilibili</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Python爬虫</title>
-    <url>/2023/11/11/Crawler/</url>
-    <content><![CDATA[<h1 id="Scrapy"><a href="#Scrapy" class="headerlink" title="Scrapy"></a>Scrapy</h1><img src="/2023/11/11/Crawler/Scrapy.jpg" class title="Scrapy">
-]]></content>
-  </entry>
-  <entry>
     <title>Github资源</title>
     <url>/2023/11/13/Github-Resources/</url>
     <content><![CDATA[<ol>
@@ -55,9 +43,15 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Internet</title>
-    <url>/2023/11/14/Internet/</url>
-    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1JV411t7ow/?spm_id_from=333.337.search-card.all.click&vd_source=760264507c20c8ac38634e47af1aa1fa">中科大郑烇、杨坚全套《计算机网络（自顶向下方法 第7版，James F.Kurose，Keith W.Ross）》课程_哔哩哔哩_bilibili</a></p>
+    <title>计算机体系结构/组成原理</title>
+    <url>/2023/11/14/Computer-Architecture/</url>
+    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1ZJ411b7Na/?spm_id_from=333.999.0.0&vd_source=760264507c20c8ac38634e47af1aa1fa">微机原理 （西安电子科技大学）_哔哩哔哩_bilibili</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Python爬虫</title>
+    <url>/2023/11/11/Crawler/</url>
+    <content><![CDATA[<h1 id="Scrapy"><a href="#Scrapy" class="headerlink" title="Scrapy"></a>Scrapy</h1><img src="/2023/11/11/Crawler/Scrapy.jpg" class title="Scrapy">
 ]]></content>
   </entry>
   <entry>
@@ -923,6 +917,12 @@
 <li>移除 &amp; 废弃</li>
 </ol>
 <h1 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h1><h2 id="骑士周游问题（算法优化）"><a href="#骑士周游问题（算法优化）" class="headerlink" title="骑士周游问题（算法优化）"></a>骑士周游问题（算法优化）</h2><h2 id="满汉楼"><a href="#满汉楼" class="headerlink" title="满汉楼"></a>满汉楼</h2><h2 id="多用户通信系统-推消息-私聊-发文件"><a href="#多用户通信系统-推消息-私聊-发文件" class="headerlink" title="多用户通信系统 -&gt; 推消息 &#x2F;私聊 &#x2F;发文件"></a>多用户通信系统 -&gt; <em>推消息 &#x2F;私聊 &#x2F;发文件</em></h2>]]></content>
+  </entry>
+  <entry>
+    <title>计算机网络</title>
+    <url>/2023/11/14/Internet/</url>
+    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1JV411t7ow/?spm_id_from=333.337.search-card.all.click&vd_source=760264507c20c8ac38634e47af1aa1fa">中科大郑烇、杨坚全套《计算机网络（自顶向下方法 第7版，James F.Kurose，Keith W.Ross）》课程_哔哩哔哩_bilibili</a></p>
+]]></content>
   </entry>
   <entry>
     <title>操作系统</title>
