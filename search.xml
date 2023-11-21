@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>算法模板</title>
-    <url>/2023/11/06/Algorithm-Templates/</url>
-    <content><![CDATA[<p><a href="https://github.com/TheAlgorithms">Github算法仓库</a></p>
-<h2 id="个人整理"><a href="#个人整理" class="headerlink" title="个人整理"></a>个人整理</h2><h3 id="加法计算代码模板"><a href="#加法计算代码模板" class="headerlink" title="加法计算代码模板"></a>加法计算代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">n1</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">n2</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">carry</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> n1 + n2 + carry;</span><br><span class="line">carry = sum / <span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">res</span> <span class="operator">=</span> sum % <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
-
-<h3 id="双指针双对象代码模板"><a href="#双指针双对象代码模板" class="headerlink" title="双指针双对象代码模板"></a>双指针双对象代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">num1</span> <span class="operator">=</span> <span class="string">&quot;51198&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">num2</span> <span class="operator">=</span> <span class="string">&quot;967895&quot;</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> num1.length() - <span class="number">1</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> num2.length() - <span class="number">1</span>;</span><br><span class="line"><span class="keyword">while</span> (i &gt;= <span class="number">0</span> || j &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">n1</span> <span class="operator">=</span> i &gt;= <span class="number">0</span> ? num1.charAt(i) - <span class="string">&#x27;0&#x27;</span> : <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> <span class="variable">n2</span> <span class="operator">=</span> j &gt;= <span class="number">0</span> ? num2.charAt(j) - <span class="string">&#x27;0&#x27;</span> : <span class="number">0</span>;</span><br><span class="line">    i--;j--;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="字符串转十进制转换数代码模板"><a href="#字符串转十进制转换数代码模板" class="headerlink" title="字符串转十进制转换数代码模板"></a>字符串转十进制转换数代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">num</span> <span class="operator">=</span> <span class="string">&quot;1234&quot;</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">index</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span> (index &lt; len &amp;&amp; Character.isDigit(num.charAt(index))) &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">ans</span> <span class="operator">=</span> num.charAt(index) - <span class="string">&#x27;0&#x27;</span>;</span><br><span class="line">    sum = sum * <span class="number">10</span> + ans;</span><br><span class="line">    index++;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> sum;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-  </entry>
-  <entry>
     <title>四级翻译</title>
     <url>/2023/11/04/CET4Translation/</url>
     <content><![CDATA[<h1 id="四级翻译"><a href="#四级翻译" class="headerlink" title="四级翻译"></a>四级翻译</h1><h2 id="重点考察句型"><a href="#重点考察句型" class="headerlink" title="重点考察句型"></a>重点考察句型</h2><ol>
@@ -32,18 +20,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>计算机网络</title>
-    <url>/2023/11/14/Internet/</url>
-    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1JV411t7ow/?spm_id_from=333.337.search-card.all.click&vd_source=760264507c20c8ac38634e47af1aa1fa">中科大郑烇、杨坚全套《计算机网络（自顶向下方法 第7版，James F.Kurose，Keith W.Ross）》课程_哔哩哔哩_bilibili</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>计算机体系结构/组成原理</title>
-    <url>/2023/11/14/Computer-Architecture/</url>
-    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1ZJ411b7Na/?spm_id_from=333.999.0.0&vd_source=760264507c20c8ac38634e47af1aa1fa">微机原理 （西安电子科技大学）_哔哩哔哩_bilibili</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Github-Resources (-&gt; click here for details &lt;-)</title>
     <url>/2023/11/13/Github-Resources/</url>
     <content><![CDATA[<ol>
@@ -53,6 +29,327 @@
 <li><a href="https://github.com/krahets/hello-algo">Hello算法 –to–&gt; Github</a></li>
 <li><a href="https://github.com/HeroHai/it-pdf-books">新版 1000 多本计算机电子书免费下载 –to–&gt; Github</a></li>
 </ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>算法模板</title>
+    <url>/2023/11/06/Algorithm-Templates/</url>
+    <content><![CDATA[<p><a href="https://github.com/TheAlgorithms">Github算法仓库</a></p>
+<h2 id="个人整理"><a href="#个人整理" class="headerlink" title="个人整理"></a>个人整理</h2><h3 id="一、加法计算代码模板"><a href="#一、加法计算代码模板" class="headerlink" title="一、加法计算代码模板"></a>一、加法计算代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">n1</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">n2</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">carry</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> n1 + n2 + carry;</span><br><span class="line">carry = sum / <span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">res</span> <span class="operator">=</span> sum % <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
+
+<h3 id="二、双指针双对象代码模板"><a href="#二、双指针双对象代码模板" class="headerlink" title="二、双指针双对象代码模板"></a>二、双指针双对象代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">num1</span> <span class="operator">=</span> <span class="string">&quot;51198&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">num2</span> <span class="operator">=</span> <span class="string">&quot;967895&quot;</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> num1.length() - <span class="number">1</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> num2.length() - <span class="number">1</span>;</span><br><span class="line"><span class="keyword">while</span> (i &gt;= <span class="number">0</span> || j &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">n1</span> <span class="operator">=</span> i &gt;= <span class="number">0</span> ? num1.charAt(i) - <span class="string">&#x27;0&#x27;</span> : <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> <span class="variable">n2</span> <span class="operator">=</span> j &gt;= <span class="number">0</span> ? num2.charAt(j) - <span class="string">&#x27;0&#x27;</span> : <span class="number">0</span>;</span><br><span class="line">    i--;j--;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="三、字符串转十进制转换数代码模板"><a href="#三、字符串转十进制转换数代码模板" class="headerlink" title="三、字符串转十进制转换数代码模板"></a>三、字符串转十进制转换数代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">num</span> <span class="operator">=</span> <span class="string">&quot;1234&quot;</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">index</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span> (index &lt; len &amp;&amp; Character.isDigit(num.charAt(index))) &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">ans</span> <span class="operator">=</span> num.charAt(index) - <span class="string">&#x27;0&#x27;</span>;</span><br><span class="line">    sum = sum * <span class="number">10</span> + ans;</span><br><span class="line">    index++;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> sum;</span><br></pre></td></tr></table></figure>
+
+<h3 id="四、快速排序算法模板"><a href="#四、快速排序算法模板" class="headerlink" title="四、快速排序算法模板"></a>四、快速排序算法模板</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">quick_sort</span><span class="params">(<span class="type">int</span> q[], <span class="type">int</span> l, <span class="type">int</span> r)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (l &gt;= r) <span class="keyword">return</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="type">int</span> i = l - <span class="number">1</span>, j = r + <span class="number">1</span>, x = q[l];</span><br><span class="line">    <span class="keyword">while</span> (i &lt; j)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">do</span> i ++ ; <span class="keyword">while</span> (q[i] &lt; x);</span><br><span class="line">        <span class="keyword">do</span> j -- ; <span class="keyword">while</span> (q[j] &gt; x);</span><br><span class="line">        <span class="keyword">if</span> (i &lt; j) <span class="built_in">swap</span>(q[i], q[j]);</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">break</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">quick_sort</span>(q, l, j), <span class="built_in">quick_sort</span>(q, j + <span class="number">1</span>, r);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="五、归并排序算法模板"><a href="#五、归并排序算法模板" class="headerlink" title="五、归并排序算法模板"></a>五、归并排序算法模板</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">merge_sort</span><span class="params">(<span class="type">int</span> q[], <span class="type">int</span> l, <span class="type">int</span> r)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (l &gt;= r) <span class="keyword">return</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="type">int</span> mid = l + r &gt;&gt; <span class="number">1</span>;</span><br><span class="line">    <span class="built_in">merge_sort</span>(q, l, mid);</span><br><span class="line">    <span class="built_in">merge_sort</span>(q, mid + <span class="number">1</span>, r);</span><br><span class="line">    </span><br><span class="line">    <span class="type">int</span> k = <span class="number">0</span>, i = l, j = mid + <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span> (i &lt;= mid &amp;&amp; j &lt;= r)</span><br><span class="line">        <span class="keyword">if</span> (q[i] &lt; q[j]) tmp[k ++ ] = q[i ++ ];</span><br><span class="line">        <span class="keyword">else</span> tmp[k ++ ] = q[j ++ ];</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span> (i &lt;= mid) tmp[k ++ ] = q[i ++ ];</span><br><span class="line">    <span class="keyword">while</span> (j &lt;= r) tmp[k ++ ] = q[j ++ ];</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> (i = l, j = <span class="number">0</span>; i &lt;= r; i ++, j ++ ) q[i] = tmp[j];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="六、整数二分算法模板"><a href="#六、整数二分算法模板" class="headerlink" title="六、整数二分算法模板"></a>六、整数二分算法模板</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">bool</span> <span class="title">check</span><span class="params">(<span class="type">int</span> x)</span> </span>&#123;<span class="comment">/* ... */</span>&#125; <span class="comment">// 检查x是否满足某种性质</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 区间[l, r]被划分成[l, mid]和[mid + 1, r]时使用：</span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">bsearch_1</span><span class="params">(<span class="type">int</span> l, <span class="type">int</span> r)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">while</span> (l &lt; r)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="type">int</span> mid = l + r &gt;&gt; <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">check</span>(mid)) r = mid;    <span class="comment">// check()判断mid是否满足性质</span></span><br><span class="line">        <span class="keyword">else</span> l = mid + <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> l;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 区间[l, r]被划分成[l, mid - 1]和[mid, r]时使用：</span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">bsearch_2</span><span class="params">(<span class="type">int</span> l, <span class="type">int</span> r)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">while</span> (l &lt; r)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="type">int</span> mid = l + r + <span class="number">1</span> &gt;&gt; <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">check</span>(mid)) l = mid;</span><br><span class="line">        <span class="keyword">else</span> r = mid - <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> l;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="七、浮点数二分算法模板"><a href="#七、浮点数二分算法模板" class="headerlink" title="七、浮点数二分算法模板"></a>七、浮点数二分算法模板</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">bool</span> <span class="title">check</span><span class="params">(<span class="type">double</span> x)</span> </span>&#123;<span class="comment">/* ... */</span>&#125; <span class="comment">// 检查x是否满足某种性质</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">double</span> <span class="title">bsearch_3</span><span class="params">(<span class="type">double</span> l, <span class="type">double</span> r)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">const</span> <span class="type">double</span> eps = <span class="number">1e-6</span>;   <span class="comment">// eps 表示精度，取决于题目对精度的要求</span></span><br><span class="line">    <span class="keyword">while</span> (r - l &gt; eps)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="type">double</span> mid = (l + r) / <span class="number">2</span>;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">check</span>(mid)) r = mid;</span><br><span class="line">        <span class="keyword">else</span> l = mid;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> l;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="八、高精度加法"><a href="#八、高精度加法" class="headerlink" title="八、高精度加法"></a>八、高精度加法</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// C = A + B, A &gt;= 0, B &gt;= 0</span></span><br><span class="line"><span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">add</span><span class="params">(vector&lt;<span class="type">int</span>&gt; &amp;A, vector&lt;<span class="type">int</span>&gt; &amp;B)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (A.<span class="built_in">size</span>() &lt; B.<span class="built_in">size</span>()) <span class="keyword">return</span> <span class="built_in">add</span>(B, A);</span><br><span class="line">    </span><br><span class="line">    vector&lt;<span class="type">int</span>&gt; C;</span><br><span class="line">    <span class="type">int</span> t = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; A.<span class="built_in">size</span>(); i ++ )</span><br><span class="line">    &#123;</span><br><span class="line">        t += A[i];</span><br><span class="line">        <span class="keyword">if</span> (i &lt; B.<span class="built_in">size</span>()) t += B[i];</span><br><span class="line">        C.<span class="built_in">push_back</span>(t % <span class="number">10</span>);</span><br><span class="line">        t /= <span class="number">10</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> (t) C.<span class="built_in">push_back</span>(t);</span><br><span class="line">    <span class="keyword">return</span> C;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="九、高精度减法"><a href="#九、高精度减法" class="headerlink" title="九、高精度减法"></a>九、高精度减法</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// C = A - B, 满足A &gt;= B, A &gt;= 0, B &gt;= 0</span></span><br><span class="line"><span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">sub</span><span class="params">(vector&lt;<span class="type">int</span>&gt; &amp;A, vector&lt;<span class="type">int</span>&gt; &amp;B)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    vector&lt;<span class="type">int</span>&gt; C;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>, t = <span class="number">0</span>; i &lt; A.<span class="built_in">size</span>(); i ++ )</span><br><span class="line">    &#123;</span><br><span class="line">        t = A[i] - t;</span><br><span class="line">        <span class="keyword">if</span> (i &lt; B.<span class="built_in">size</span>()) t -= B[i];</span><br><span class="line">        C.<span class="built_in">push_back</span>((t + <span class="number">10</span>) % <span class="number">10</span>);</span><br><span class="line">        <span class="keyword">if</span> (t &lt; <span class="number">0</span>) t = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">else</span> t = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (C.<span class="built_in">size</span>() &gt; <span class="number">1</span> &amp;&amp; C.<span class="built_in">back</span>() == <span class="number">0</span>) C.<span class="built_in">pop_back</span>();</span><br><span class="line">    <span class="keyword">return</span> C;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="十、高精度乘低精度"><a href="#十、高精度乘低精度" class="headerlink" title="十、高精度乘低精度"></a>十、高精度乘低精度</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// C = A * b, A &gt;= 0, b &gt; 0</span></span><br><span class="line"><span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">mul</span><span class="params">(vector&lt;<span class="type">int</span>&gt; &amp;A, <span class="type">int</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    vector&lt;<span class="type">int</span>&gt; C;</span><br><span class="line">    <span class="type">int</span> t = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; A.<span class="built_in">size</span>() || t; i ++ )</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (i &lt; A.<span class="built_in">size</span>()) t += A[i] * b;</span><br><span class="line">        C.<span class="built_in">push_back</span>(t % <span class="number">10</span>);</span><br><span class="line">        t /= <span class="number">10</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> C;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="十一、高精度除以低精度"><a href="#十一、高精度除以低精度" class="headerlink" title="十一、高精度除以低精度"></a>十一、高精度除以低精度</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// A / b = C ... r, A &gt;= 0, b &gt; 0</span></span><br><span class="line"><span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">div</span><span class="params">(vector&lt;<span class="type">int</span>&gt; &amp;A, <span class="type">int</span> b, <span class="type">int</span> &amp;r)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    vector&lt;<span class="type">int</span>&gt; C;</span><br><span class="line">    r = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = A.<span class="built_in">size</span>() - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i -- )</span><br><span class="line">    &#123;</span><br><span class="line">        r = r * <span class="number">10</span> + A[i];</span><br><span class="line">        C.<span class="built_in">push_back</span>(r / b);</span><br><span class="line">        r %= b;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">reverse</span>(C.<span class="built_in">begin</span>(), C.<span class="built_in">end</span>());</span><br><span class="line">    <span class="keyword">while</span> (C.<span class="built_in">size</span>() &gt; <span class="number">1</span> &amp;&amp; C.<span class="built_in">back</span>() == <span class="number">0</span>) C.<span class="built_in">pop_back</span>();</span><br><span class="line">    <span class="keyword">return</span> C;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="十二、一维前缀和"><a href="#十二、一维前缀和" class="headerlink" title="十二、一维前缀和"></a>十二、一维前缀和</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// S[i] = a[1] + a[2] + ... a[i]</span></span><br><span class="line"><span class="comment">// a[l] + ... + a[r] = S[r] - S[l - 1]</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="十三、二维前缀和"><a href="#十三、二维前缀和" class="headerlink" title="十三、二维前缀和"></a>十三、二维前缀和</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// S[i, j] = 第i行j列格子左上部分所有元素的和</span></span><br><span class="line"><span class="comment">// 以(x1, y1)为左上角，(x2, y2)为右下角的子矩阵的和为 S[x2, y2] - S[x1 - 1, y2] - S[x2, y1 - 1] + S[x1 - 1, y1 - 1]</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="十四、一维差分"><a href="#十四、一维差分" class="headerlink" title="十四、一维差分"></a>十四、一维差分</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// B[i] = a[i] - a[i - 1]</span></span><br><span class="line"><span class="comment">// 给区间[l, r]中的每个数加上c：B[l] += c, B[r + 1] -= c</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="十五、二维差分"><a href="#十五、二维差分" class="headerlink" title="十五、二维差分"></a>十五、二维差分</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 给以(x1, y1)为左上角，(x2, y2)为右下角的子矩阵中的所有元素加上c：</span></span><br><span class="line"><span class="comment">// S[x1, y1] += c, S[x2 + 1, y1] -= c, S[x1, y2 + 1] -= c, S[x2 + 1, y2 + 1] += c</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+  </entry>
+  <entry>
+    <title>操作系统</title>
+    <url>/2023/11/07/OS-Notes/</url>
+    <content><![CDATA[<h1 id="8086基础阶段总结"><a href="#8086基础阶段总结" class="headerlink" title="8086基础阶段总结"></a>8086基础阶段总结</h1><h2 id="通用寄存器"><a href="#通用寄存器" class="headerlink" title="通用寄存器"></a>通用寄存器</h2><h2 id="内存访问-字节序"><a href="#内存访问-字节序" class="headerlink" title="内存访问&amp;字节序"></a>内存访问&amp;字节序</h2><h2 id="段地址-偏移地址"><a href="#段地址-偏移地址" class="headerlink" title="段地址&amp;偏移地址"></a>段地址&amp;偏移地址</h2><h2 id="虚拟硬盘の写入-虚拟机-Bochs"><a href="#虚拟硬盘の写入-虚拟机-Bochs" class="headerlink" title="虚拟硬盘の写入&amp;虚拟机(Bochs)"></a>虚拟硬盘の写入&amp;虚拟机(Bochs)</h2><h3 id="虚拟硬盘"><a href="#虚拟硬盘" class="headerlink" title="虚拟硬盘"></a>虚拟硬盘</h3><ol>
+<li>写入数据工具：WinHex</li>
+<li>一切从<strong>主引导扇区</strong>开始</li>
+</ol>
+<h3 id="Bochs虚拟机"><a href="#Bochs虚拟机" class="headerlink" title="Bochs虚拟机"></a>Bochs虚拟机</h3><p>可调试操作系统の虚拟机</p>
+<h2 id="显卡-显存"><a href="#显卡-显存" class="headerlink" title="显卡&amp;显存"></a>显卡&amp;显存</h2><h3 id="屏幕显示文本"><a href="#屏幕显示文本" class="headerlink" title="屏幕显示文本"></a>屏幕显示文本</h3><ol>
+<li><p>一字节字符编码信息 + 一字节显示属性信息</p>
+</li>
+<li><p><strong>MOV</strong></p>
+<p>mov 目的操作数，源操作数</p>
+</li>
+<li><p>汇编程序の<strong>标号</strong></p>
+<p>代表距离最近的汇编指令の汇编地址</p>
+</li>
+<li><p><strong>JMP</strong> -&gt; <em>段间绝对跳转指令</em></p>
+<p>jmp 段地址:偏移地址</p>
+</li>
+<li><p>虚拟机添加硬盘运行写屏程序</p>
+</li>
+<li><p><strong>主引导扇区</strong>布局</p>
+<p>0x07C00 - 0x07E00</p>
+</li>
+<li><p>使用标号计算偏移地址</p>
+<p>直接 对标号做加减操作 进行跳转</p>
+</li>
+<li><p>寄存器 绝对 间接 近跳转 -&gt; <em>jmp bx</em></p>
+<ol>
+<li><p>近跳转：段内跳转</p>
+</li>
+<li><p>间接    ：跳转地址由寄存器间接给出</p>
+</li>
+<li><p>绝对    ：给出的地址是实际地址</p>
+</li>
+</ol>
+</li>
+<li><p>使用相对偏移量の短跳转&amp;近跳转(可省参数)</p>
+<ol>
+<li>短跳转：jmp (short) 标号  -编译-&gt;  EB <strong>8位の相对偏移量</strong></li>
+<li>近跳转：jmp (near) 标号   -编译-&gt;  E9 <strong>16位の相对偏移量</strong></li>
+</ol>
+</li>
+</ol>
+<h3 id="屏幕显示数字"><a href="#屏幕显示数字" class="headerlink" title="屏幕显示数字"></a>屏幕显示数字</h3><ol>
+<li>无符号数除法 指令</li>
+<li><strong>XOR</strong> -&gt; <em>异或指令</em></li>
+<li><strong>ADD</strong> -&gt; <em>加法指令</em></li>
+<li>段超越前缀 -&gt; <em>跨段访问内存时，使用另一个段地址寄存器作前缀用：连接</em></li>
+</ol>
+<h2 id="循环、批量传送-和-条件转移"><a href="#循环、批量传送-和-条件转移" class="headerlink" title="循环、批量传送 和 条件转移"></a>循环、批量传送 和 条件转移</h2><ol>
+<li><p>NASM 的 $ 和 $$ 指令</p>
+<p><strong>$</strong> -&gt; <em>当前代码的汇编地址</em></p>
+<p><strong>$$</strong> -&gt; <em>代码首部的起始汇编地址</em></p>
+</li>
+<li><p>跳过 非指令の数据区</p>
+<ol>
+<li>指令：db、dw等定义数据区</li>
+<li>在起始处用jmp跳至指令区</li>
+</ol>
+</li>
+<li><p>串传送</p>
+<ol>
+<li><p>使用前准备工作：</p>
+<p>DS:SI		原始数据串地址：偏移地址</p>
+<p>ES:DI		目标位置段地址：偏移地址</p>
+</li>
+<li><p>指令(REP指令依cx计数)：</p>
+<ol>
+<li><strong>(REP) MOVSB</strong> -&gt; <em>（重复） 按字节传送(一次)</em></li>
+<li><strong>(REP) MOVSW</strong> -&gt; <em>（重复）按字传送(一次)</em></li>
+<li><strong>CLD</strong> -&gt; <em>方向标志清零，使之指示正方向(低地址-&gt;高地址)</em></li>
+<li><strong>STD</strong> -&gt; <em>置方向标志为1，指示反方向</em></li>
+</ol>
+</li>
+<li><p>标志寄存器FLAGS中：</p>
+<ol>
+<li>方向标志(DF)：指示串传送流方向</li>
+<li>零	标志(ZF)：指示最近一次计算所得是(1)否(0)为零</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p><strong>LOOP</strong>指令</p>
+<ol>
+<li><p>用法：loop 标号(地址)</p>
+</li>
+<li><p>循环次数：cx寄存器中所存数值</p>
+</li>
+<li><p>机器码：E2 8位相对偏移量</p>
+</li>
+<li><p>执行过程：</p>
+<ol>
+<li>将cx内容减一</li>
+<li>若cx内容 不为零，转移执行，否则顺序往后执行</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>基址寻址&amp; INC指令</p>
+<p><strong>INC</strong> -&gt; <em>自增(可用于 基址偏移地址寻址 使基地址循环自增)</em></p>
+<p>​	inc r&#x2F;m(m需指定占用字节大小)</p>
+<p>8086中，只能使用BX、SI、DI、BP寄存器来提供偏移地址(如mov [bx], dl)</p>
+<blockquote>
+<p>寄存器BX在设计之初的作用之一就是用来提供数据访问的基地址，所以又叫<strong>基址寄存器(Base Address Register)</strong>*</p>
+</blockquote>
+<blockquote>
+<p>在设计8086处理器时，每个寄存器都有自己的特殊用途，比如<strong>AX</strong>是<strong>累加器(Accumulator)<strong>，与它有关的指令还会做指令长度上的优化(较短)；</strong>CX</strong>是<strong>计数器(Counter)<strong>；</strong>DX</strong>是<strong>数据寄存器(Data)<strong>，除了作为通用寄存器外，还专门用于和外设之间进行数据传送；</strong>SI</strong>是<strong>源索引寄存器(Source Index)<strong>；</strong>DI</strong>是**目标索引寄存器(Destination Index)**，用于数据传送操作，我们已经在movsb和movsw指令用法中领略过了</p>
+</blockquote>
+</li>
+<li><p>DEC指令</p>
+<p><strong>DEC</strong> -&gt; <em>自减</em></p>
+<p>​	dec (r&#x2F;m)</p>
+</li>
+<li><p>基址变址寻扯&amp;条件转移指令</p>
+<ol>
+<li><p>8086中基址变址允许的组合：</p>
+<p>bx + si</p>
+<p>bx + di</p>
+<p>bp + si</p>
+<p>bp + di</p>
+</li>
+<li><p>条件转移指令：</p>
+<ol>
+<li><strong>JNS</strong> -&gt; <em>符号标志(SF)为0时跳转</em></li>
+</ol>
+</li>
+<li><p>标志寄存器FLAGS中：</p>
+<ol>
+<li>符号标志(SF)：计算结果最高位为0则为0，反之为1</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="计算机中的负数"><a href="#计算机中的负数" class="headerlink" title="计算机中的负数"></a>计算机中的负数</h2><ol>
+<li><p>减法指令&amp;求补指令(SUB&amp;NEG)</p>
+<ol>
+<li><p><strong>SUB</strong> -&gt; <em>减法指令</em></p>
+<p>​	sub r&#x2F;m, r&#x2F;m&#x2F;imm(立即数)</p>
+<p>​	注意：两操作数宽度需一致，且不能同为内存地址(m)</p>
+</li>
+<li><p><strong>NEG</strong> -&gt; <em>求负or求补</em></p>
+<p>​	neg r&#x2F;m -&gt; 执行 <strong>0-操作数</strong> 操作 得到补码(负数)，执行后替换操作数中的内容</p>
+</li>
+</ol>
+</li>
+<li><p>对于 有(无)符号数 の区分</p>
+<blockquote>
+<p>可以说，大多数指令既适用于无符号整数，也适用于有符号整数。指令执行的结果不管是用无符号整数来解释，还是用有符号整数来解释，都是正确的</p>
+</blockquote>
+<blockquote>
+<p>但是，也有一些指令不能同时应付无符号数和有符号数，需要根据你的实际情况选择它们的无符号版本和有符号版本。比如，无符号数乘法指令mul和有符号数乘法指令imul，以及无符号数除法指令div和有符号数除法指令idiv</p>
+</blockquote>
+<blockquote>
+<p>简单总结，有些指令皆适用，有些指令要区分使用</p>
+</blockquote>
+</li>
+<li><p>有符号数の除法指令IDIV</p>
+<p>​	idiv r&#x2F;m</p>
+<ol>
+<li><p>商和余数的符号性</p>
+<p>如果 被除数 和 除数 的<strong>符号不同</strong>，<strong>商</strong>为负数</p>
+<p><strong>余数</strong>的符号 始终 和被除数相同</p>
+</li>
+</ol>
+</li>
+<li><p>有符号数の符号扩展指令</p>
+</li>
+</ol>
+<h2 id="栈-逻辑指令"><a href="#栈-逻辑指令" class="headerlink" title="栈&amp;逻辑指令"></a>栈&amp;逻辑指令</h2><ol>
+<li><p>栈</p>
+<ol>
+<li><p>cs -&gt; <em>指定代码段识别区</em></p>
+</li>
+<li><p>ds&#x2F;es -&gt; <em>指定数据段识别区</em></p>
+</li>
+<li><p>ss:sp -&gt; <em>指定<strong>栈段识别区</strong></em></p>
+</li>
+<li><p><strong>栈の使用</strong>：(必须保持栈平衡，有压必有出)</p>
+<ol>
+<li><p><strong>PUSH</strong> -&gt; <em>入栈</em></p>
+<p>​	push r&#x2F;m</p>
+<blockquote>
+<p>push dx</p>
+<p>push word [0x2002]</p>
+</blockquote>
+<p>​	push 执行过程：</p>
+<ol>
+<li>sp &#x3D; sp - 操作数大小(字节);</li>
+<li>利用ss:sp生成物理地址;</li>
+<li>将操作数写入上述地址处</li>
+</ol>
+</li>
+<li><p><strong>POP</strong> -&gt; <em>出栈</em></p>
+<p>​	pop r&#x2F;m</p>
+<blockquote>
+<p>pop ax</p>
+<p>pop word [0x08]</p>
+</blockquote>
+<p>​	pop 执行过程：</p>
+<ol>
+<li>利用ss:sp生成物理地址;</li>
+<li>从上述地址处取得数据，存入由操作数提供的目标位置处;</li>
+<li>sp &#x3D; sp + 2;</li>
+</ol>
+</li>
+<li><p>注意：</p>
+<ol>
+<li>必须保持栈平衡，有压必有出</li>
+<li>充分估计需要的栈空间，开辟安全的空间</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>逻辑指令</p>
+<ol>
+<li><p><strong>OR</strong> -&gt; <em>逻辑或</em></p>
+<p>​	or r&#x2F;m, r&#x2F;m&#x2F;imm(左右操作数长度需一致)</p>
+</li>
+<li><p><strong>AND</strong> -&gt; <em>逻辑与</em></p>
+<p>​	and r&#x2F;m, r&#x2F;m&#x2F;imm(长度需一致)</p>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="Intel8086处理器の寻址方式"><a href="#Intel8086处理器の寻址方式" class="headerlink" title="Intel8086处理器の寻址方式"></a>Intel8086处理器の寻址方式</h2><ol>
+<li>寄存器&#x2F;立即数寻址&#x2F;直接寻址</li>
+<li>基址寻址</li>
+<li>变址寻址</li>
+<li>基址变址寻址</li>
+</ol>
+<h2 id="硬盘-显卡の访问与控制"><a href="#硬盘-显卡の访问与控制" class="headerlink" title="硬盘&amp;显卡の访问与控制"></a>硬盘&amp;显卡の访问与控制</h2><ol>
+<li><p><strong>align</strong> -&gt; <em>设置段对齐长度</em></p>
+<blockquote>
+<p>section s	align&#x3D;16</p>
+</blockquote>
+</li>
+<li><p><strong>vstart</strong> -&gt; <em>设置段内相对起始汇编地址</em></p>
+<blockquote>
+<p>section s	align&#x3D;16	vstart&#x3D;0x100</p>
+</blockquote>
+</li>
+<li><p>加载器 &amp; 用户程序</p>
+<img src="/2023/11/07/OS-Notes/image-20231111103004990.png" alt="image-20231111103004990" style="zoom:80%;">
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">;=================================================</span><br><span class="line">section header vstart=0</span><br><span class="line">	; 程序总长度</span><br><span class="line">	program_lenth	dd	program_end</span><br><span class="line">	; 用户程序入口点</span><br><span class="line">	code_entry		dw	start</span><br><span class="line">					dd	section.code.start</span><br><span class="line">	; 段重定位表项个数		</span><br><span class="line">	realloc_tbl_len	dw	(segtbl_end-segtbl_begin)/4</span><br><span class="line">	; 段重定位表</span><br><span class="line">	segtbl_begin:</span><br><span class="line">	code_segment	dd	section.code.start</span><br><span class="line">	data_segment	dd	section.data.start</span><br><span class="line">	stack_segment	dd	section.stack.start</span><br><span class="line">	segtbl_end:</span><br><span class="line">;=================================================</span><br><span class="line">section code align=16 vstart=0</span><br><span class="line">	start:</span><br></pre></td></tr></table></figure>
+
+<p><strong>section.段名字.start</strong> -&gt; <em>计算段汇编地址</em></p>
+<img src="/2023/11/07/OS-Notes/image-20231111103908690.png" alt="image-20231111103908690" style="zoom: 50%;">
+</li>
+<li><p>加载器的工作流程 &amp; 常数的声明方法</p>
+<ol>
+<li><p>加载器工作流程</p>
+<ol>
+<li>读取用户程序的起始扇区</li>
+<li>把整个用户程序都读入内存</li>
+<li>计算段的物理地址和逻辑段地址（段的重定位）</li>
+<li>转移到用户程序执行（将处理器的控制权交给用户程序）</li>
+</ol>
+</li>
+<li><p><strong>声明常量</strong>:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">app_lba_start equ(als) 100	; 相当于#define，常数的声明不占用汇编地址</span><br></pre></td></tr></table></figure></li>
+</ol>
+</li>
+<li><p>外围设备及其接口</p>
+</li>
+</ol>
+<h2 id="中断-动态时钟显示"><a href="#中断-动态时钟显示" class="headerlink" title="中断&amp;动态时钟显示"></a>中断&amp;动态时钟显示</h2><h1 id="32位x86处理器架构"><a href="#32位x86处理器架构" class="headerlink" title="32位x86处理器架构"></a>32位x86处理器架构</h1><h2 id="保护模式"><a href="#保护模式" class="headerlink" title="保护模式"></a>保护模式</h2>]]></content>
+  </entry>
+  <entry>
+    <title>计算机网络</title>
+    <url>/2023/11/14/Internet/</url>
+    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1JV411t7ow/?spm_id_from=333.337.search-card.all.click&vd_source=760264507c20c8ac38634e47af1aa1fa">中科大郑烇、杨坚全套《计算机网络（自顶向下方法 第7版，James F.Kurose，Keith W.Ross）》课程_哔哩哔哩_bilibili</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>计算机体系结构/组成原理</title>
+    <url>/2023/11/14/Computer-Architecture/</url>
+    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1ZJ411b7Na/?spm_id_from=333.999.0.0&vd_source=760264507c20c8ac38634e47af1aa1fa">微机原理 （西安电子科技大学）_哔哩哔哩_bilibili</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -949,7 +1246,11 @@
 </ol>
 <img src="/2023/11/03/JavaEE/image-20231115180315937.png" class title="image-20231115180315937">
 
-<h2 id="TCP编程"><a href="#TCP编程" class="headerlink" title="TCP编程"></a>TCP编程</h2><h2 id="UDP编程"><a href="#UDP编程" class="headerlink" title="UDP编程"></a>UDP编程</h2><h1 id="反射"><a href="#反射" class="headerlink" title="反射"></a>反射</h1><h1 id="MySQL基础"><a href="#MySQL基础" class="headerlink" title="MySQL基础"></a>MySQL基础</h1><h1 id="JDBC-连接池"><a href="#JDBC-连接池" class="headerlink" title="JDBC &amp; 连接池"></a>JDBC &amp; 连接池</h1><h1 id="正则表达式"><a href="#正则表达式" class="headerlink" title="正则表达式"></a>正则表达式</h1><h1 id="Java8-Java11新特性"><a href="#Java8-Java11新特性" class="headerlink" title="Java8 &#x2F; Java11新特性"></a>Java8 &#x2F; Java11新特性</h1><h2 id="Java8"><a href="#Java8" class="headerlink" title="Java8"></a>Java8</h2><h3 id="Lambda"><a href="#Lambda" class="headerlink" title="Lambda"></a>Lambda</h3><h3 id="函数式接口"><a href="#函数式接口" class="headerlink" title="函数式接口"></a>函数式接口</h3><h3 id="接口静态方法"><a href="#接口静态方法" class="headerlink" title="接口静态方法"></a>接口静态方法</h3><h3 id="接口默认方法"><a href="#接口默认方法" class="headerlink" title="接口默认方法"></a>接口默认方法</h3><h3 id="方法引用"><a href="#方法引用" class="headerlink" title="方法引用"></a>方法引用</h3><h3 id="构造器引用"><a href="#构造器引用" class="headerlink" title="构造器引用"></a>构造器引用</h3><h3 id="stream-API"><a href="#stream-API" class="headerlink" title="stream API"></a>stream API</h3><h3 id="并行流"><a href="#并行流" class="headerlink" title="并行流"></a>并行流</h3><h3 id="串行流"><a href="#串行流" class="headerlink" title="串行流"></a>串行流</h3><h3 id="Optional"><a href="#Optional" class="headerlink" title="Optional"></a>Optional</h3><h2 id="新时间日期API"><a href="#新时间日期API" class="headerlink" title="新时间日期API"></a>新时间日期API</h2><h2 id="Java11-含Java9-Java10"><a href="#Java11-含Java9-Java10" class="headerlink" title="Java11(含Java9, Java10)"></a>Java11(含Java9, Java10)</h2><h3 id="代码层"><a href="#代码层" class="headerlink" title="代码层"></a>代码层</h3><ol>
+<h2 id="TCP编程"><a href="#TCP编程" class="headerlink" title="TCP编程"></a>TCP编程</h2><h3 id="netstat"><a href="#netstat" class="headerlink" title="netstat"></a>netstat</h3><ol>
+<li>netstat -an -&gt; <em>可以查看当前主机的网络情况，包括<strong>端口监听</strong>情况和<strong>网络连接</strong>情况</em></li>
+<li>netstat -an | more -&gt; <em>可以分页显示</em></li>
+</ol>
+<h2 id="UDP编程"><a href="#UDP编程" class="headerlink" title="UDP编程"></a>UDP编程</h2><h1 id="反射"><a href="#反射" class="headerlink" title="反射"></a>反射</h1><h1 id="MySQL基础"><a href="#MySQL基础" class="headerlink" title="MySQL基础"></a>MySQL基础</h1><h1 id="JDBC-连接池"><a href="#JDBC-连接池" class="headerlink" title="JDBC &amp; 连接池"></a>JDBC &amp; 连接池</h1><h1 id="正则表达式"><a href="#正则表达式" class="headerlink" title="正则表达式"></a>正则表达式</h1><h1 id="Java8-Java11新特性"><a href="#Java8-Java11新特性" class="headerlink" title="Java8 &#x2F; Java11新特性"></a>Java8 &#x2F; Java11新特性</h1><h2 id="Java8"><a href="#Java8" class="headerlink" title="Java8"></a>Java8</h2><h3 id="Lambda"><a href="#Lambda" class="headerlink" title="Lambda"></a>Lambda</h3><h3 id="函数式接口"><a href="#函数式接口" class="headerlink" title="函数式接口"></a>函数式接口</h3><h3 id="接口静态方法"><a href="#接口静态方法" class="headerlink" title="接口静态方法"></a>接口静态方法</h3><h3 id="接口默认方法"><a href="#接口默认方法" class="headerlink" title="接口默认方法"></a>接口默认方法</h3><h3 id="方法引用"><a href="#方法引用" class="headerlink" title="方法引用"></a>方法引用</h3><h3 id="构造器引用"><a href="#构造器引用" class="headerlink" title="构造器引用"></a>构造器引用</h3><h3 id="stream-API"><a href="#stream-API" class="headerlink" title="stream API"></a>stream API</h3><h3 id="并行流"><a href="#并行流" class="headerlink" title="并行流"></a>并行流</h3><h3 id="串行流"><a href="#串行流" class="headerlink" title="串行流"></a>串行流</h3><h3 id="Optional"><a href="#Optional" class="headerlink" title="Optional"></a>Optional</h3><h2 id="新时间日期API"><a href="#新时间日期API" class="headerlink" title="新时间日期API"></a>新时间日期API</h2><h2 id="Java11-含Java9-Java10"><a href="#Java11-含Java9-Java10" class="headerlink" title="Java11(含Java9, Java10)"></a>Java11(含Java9, Java10)</h2><h3 id="代码层"><a href="#代码层" class="headerlink" title="代码层"></a>代码层</h3><ol>
 <li>JShell</li>
 <li><strong>类型推断</strong></li>
 <li><strong>集合增强API</strong></li>
@@ -972,279 +1273,6 @@
 <li>移除 &amp; 废弃</li>
 </ol>
 <h1 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h1><h2 id="骑士周游问题（算法优化）"><a href="#骑士周游问题（算法优化）" class="headerlink" title="骑士周游问题（算法优化）"></a>骑士周游问题（算法优化）</h2><h2 id="满汉楼"><a href="#满汉楼" class="headerlink" title="满汉楼"></a>满汉楼</h2><h2 id="多用户通信系统-推消息-私聊-发文件"><a href="#多用户通信系统-推消息-私聊-发文件" class="headerlink" title="多用户通信系统 -&gt; 推消息 &#x2F;私聊 &#x2F;发文件"></a>多用户通信系统 -&gt; <em>推消息 &#x2F;私聊 &#x2F;发文件</em></h2>]]></content>
-  </entry>
-  <entry>
-    <title>操作系统</title>
-    <url>/2023/11/07/OS-Notes/</url>
-    <content><![CDATA[<h1 id="8086基础阶段总结"><a href="#8086基础阶段总结" class="headerlink" title="8086基础阶段总结"></a>8086基础阶段总结</h1><h2 id="通用寄存器"><a href="#通用寄存器" class="headerlink" title="通用寄存器"></a>通用寄存器</h2><h2 id="内存访问-字节序"><a href="#内存访问-字节序" class="headerlink" title="内存访问&amp;字节序"></a>内存访问&amp;字节序</h2><h2 id="段地址-偏移地址"><a href="#段地址-偏移地址" class="headerlink" title="段地址&amp;偏移地址"></a>段地址&amp;偏移地址</h2><h2 id="虚拟硬盘の写入-虚拟机-Bochs"><a href="#虚拟硬盘の写入-虚拟机-Bochs" class="headerlink" title="虚拟硬盘の写入&amp;虚拟机(Bochs)"></a>虚拟硬盘の写入&amp;虚拟机(Bochs)</h2><h3 id="虚拟硬盘"><a href="#虚拟硬盘" class="headerlink" title="虚拟硬盘"></a>虚拟硬盘</h3><ol>
-<li>写入数据工具：WinHex</li>
-<li>一切从<strong>主引导扇区</strong>开始</li>
-</ol>
-<h3 id="Bochs虚拟机"><a href="#Bochs虚拟机" class="headerlink" title="Bochs虚拟机"></a>Bochs虚拟机</h3><p>可调试操作系统の虚拟机</p>
-<h2 id="显卡-显存"><a href="#显卡-显存" class="headerlink" title="显卡&amp;显存"></a>显卡&amp;显存</h2><h3 id="屏幕显示文本"><a href="#屏幕显示文本" class="headerlink" title="屏幕显示文本"></a>屏幕显示文本</h3><ol>
-<li><p>一字节字符编码信息 + 一字节显示属性信息</p>
-</li>
-<li><p><strong>MOV</strong></p>
-<p>mov 目的操作数，源操作数</p>
-</li>
-<li><p>汇编程序の<strong>标号</strong></p>
-<p>代表距离最近的汇编指令の汇编地址</p>
-</li>
-<li><p><strong>JMP</strong> -&gt; <em>段间绝对跳转指令</em></p>
-<p>jmp 段地址:偏移地址</p>
-</li>
-<li><p>虚拟机添加硬盘运行写屏程序</p>
-</li>
-<li><p><strong>主引导扇区</strong>布局</p>
-<p>0x07C00 - 0x07E00</p>
-</li>
-<li><p>使用标号计算偏移地址</p>
-<p>直接 对标号做加减操作 进行跳转</p>
-</li>
-<li><p>寄存器 绝对 间接 近跳转 -&gt; <em>jmp bx</em></p>
-<ol>
-<li><p>近跳转：段内跳转</p>
-</li>
-<li><p>间接    ：跳转地址由寄存器间接给出</p>
-</li>
-<li><p>绝对    ：给出的地址是实际地址</p>
-</li>
-</ol>
-</li>
-<li><p>使用相对偏移量の短跳转&amp;近跳转(可省参数)</p>
-<ol>
-<li>短跳转：jmp (short) 标号  -编译-&gt;  EB <strong>8位の相对偏移量</strong></li>
-<li>近跳转：jmp (near) 标号   -编译-&gt;  E9 <strong>16位の相对偏移量</strong></li>
-</ol>
-</li>
-</ol>
-<h3 id="屏幕显示数字"><a href="#屏幕显示数字" class="headerlink" title="屏幕显示数字"></a>屏幕显示数字</h3><ol>
-<li>无符号数除法 指令</li>
-<li><strong>XOR</strong> -&gt; <em>异或指令</em></li>
-<li><strong>ADD</strong> -&gt; <em>加法指令</em></li>
-<li>段超越前缀 -&gt; <em>跨段访问内存时，使用另一个段地址寄存器作前缀用：连接</em></li>
-</ol>
-<h2 id="循环、批量传送-和-条件转移"><a href="#循环、批量传送-和-条件转移" class="headerlink" title="循环、批量传送 和 条件转移"></a>循环、批量传送 和 条件转移</h2><ol>
-<li><p>NASM 的 $ 和 $$ 指令</p>
-<p><strong>$</strong> -&gt; <em>当前代码的汇编地址</em></p>
-<p><strong>$$</strong> -&gt; <em>代码首部的起始汇编地址</em></p>
-</li>
-<li><p>跳过 非指令の数据区</p>
-<ol>
-<li>指令：db、dw等定义数据区</li>
-<li>在起始处用jmp跳至指令区</li>
-</ol>
-</li>
-<li><p>串传送</p>
-<ol>
-<li><p>使用前准备工作：</p>
-<p>DS:SI		原始数据串地址：偏移地址</p>
-<p>ES:DI		目标位置段地址：偏移地址</p>
-</li>
-<li><p>指令(REP指令依cx计数)：</p>
-<ol>
-<li><strong>(REP) MOVSB</strong> -&gt; <em>（重复） 按字节传送(一次)</em></li>
-<li><strong>(REP) MOVSW</strong> -&gt; <em>（重复）按字传送(一次)</em></li>
-<li><strong>CLD</strong> -&gt; <em>方向标志清零，使之指示正方向(低地址-&gt;高地址)</em></li>
-<li><strong>STD</strong> -&gt; <em>置方向标志为1，指示反方向</em></li>
-</ol>
-</li>
-<li><p>标志寄存器FLAGS中：</p>
-<ol>
-<li>方向标志(DF)：指示串传送流方向</li>
-<li>零	标志(ZF)：指示最近一次计算所得是(1)否(0)为零</li>
-</ol>
-</li>
-</ol>
-</li>
-<li><p><strong>LOOP</strong>指令</p>
-<ol>
-<li><p>用法：loop 标号(地址)</p>
-</li>
-<li><p>循环次数：cx寄存器中所存数值</p>
-</li>
-<li><p>机器码：E2 8位相对偏移量</p>
-</li>
-<li><p>执行过程：</p>
-<ol>
-<li>将cx内容减一</li>
-<li>若cx内容 不为零，转移执行，否则顺序往后执行</li>
-</ol>
-</li>
-</ol>
-</li>
-<li><p>基址寻址&amp; INC指令</p>
-<p><strong>INC</strong> -&gt; <em>自增(可用于 基址偏移地址寻址 使基地址循环自增)</em></p>
-<p>​	inc r&#x2F;m(m需指定占用字节大小)</p>
-<p>8086中，只能使用BX、SI、DI、BP寄存器来提供偏移地址(如mov [bx], dl)</p>
-<blockquote>
-<p>寄存器BX在设计之初的作用之一就是用来提供数据访问的基地址，所以又叫<strong>基址寄存器(Base Address Register)</strong>*</p>
-</blockquote>
-<blockquote>
-<p>在设计8086处理器时，每个寄存器都有自己的特殊用途，比如<strong>AX</strong>是<strong>累加器(Accumulator)<strong>，与它有关的指令还会做指令长度上的优化(较短)；</strong>CX</strong>是<strong>计数器(Counter)<strong>；</strong>DX</strong>是<strong>数据寄存器(Data)<strong>，除了作为通用寄存器外，还专门用于和外设之间进行数据传送；</strong>SI</strong>是<strong>源索引寄存器(Source Index)<strong>；</strong>DI</strong>是**目标索引寄存器(Destination Index)**，用于数据传送操作，我们已经在movsb和movsw指令用法中领略过了</p>
-</blockquote>
-</li>
-<li><p>DEC指令</p>
-<p><strong>DEC</strong> -&gt; <em>自减</em></p>
-<p>​	dec (r&#x2F;m)</p>
-</li>
-<li><p>基址变址寻扯&amp;条件转移指令</p>
-<ol>
-<li><p>8086中基址变址允许的组合：</p>
-<p>bx + si</p>
-<p>bx + di</p>
-<p>bp + si</p>
-<p>bp + di</p>
-</li>
-<li><p>条件转移指令：</p>
-<ol>
-<li><strong>JNS</strong> -&gt; <em>符号标志(SF)为0时跳转</em></li>
-</ol>
-</li>
-<li><p>标志寄存器FLAGS中：</p>
-<ol>
-<li>符号标志(SF)：计算结果最高位为0则为0，反之为1</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-<h2 id="计算机中的负数"><a href="#计算机中的负数" class="headerlink" title="计算机中的负数"></a>计算机中的负数</h2><ol>
-<li><p>减法指令&amp;求补指令(SUB&amp;NEG)</p>
-<ol>
-<li><p><strong>SUB</strong> -&gt; <em>减法指令</em></p>
-<p>​	sub r&#x2F;m, r&#x2F;m&#x2F;imm(立即数)</p>
-<p>​	注意：两操作数宽度需一致，且不能同为内存地址(m)</p>
-</li>
-<li><p><strong>NEG</strong> -&gt; <em>求负or求补</em></p>
-<p>​	neg r&#x2F;m -&gt; 执行 <strong>0-操作数</strong> 操作 得到补码(负数)，执行后替换操作数中的内容</p>
-</li>
-</ol>
-</li>
-<li><p>对于 有(无)符号数 の区分</p>
-<blockquote>
-<p>可以说，大多数指令既适用于无符号整数，也适用于有符号整数。指令执行的结果不管是用无符号整数来解释，还是用有符号整数来解释，都是正确的</p>
-</blockquote>
-<blockquote>
-<p>但是，也有一些指令不能同时应付无符号数和有符号数，需要根据你的实际情况选择它们的无符号版本和有符号版本。比如，无符号数乘法指令mul和有符号数乘法指令imul，以及无符号数除法指令div和有符号数除法指令idiv</p>
-</blockquote>
-<blockquote>
-<p>简单总结，有些指令皆适用，有些指令要区分使用</p>
-</blockquote>
-</li>
-<li><p>有符号数の除法指令IDIV</p>
-<p>​	idiv r&#x2F;m</p>
-<ol>
-<li><p>商和余数的符号性</p>
-<p>如果 被除数 和 除数 的<strong>符号不同</strong>，<strong>商</strong>为负数</p>
-<p><strong>余数</strong>的符号 始终 和被除数相同</p>
-</li>
-</ol>
-</li>
-<li><p>有符号数の符号扩展指令</p>
-</li>
-</ol>
-<h2 id="栈-逻辑指令"><a href="#栈-逻辑指令" class="headerlink" title="栈&amp;逻辑指令"></a>栈&amp;逻辑指令</h2><ol>
-<li><p>栈</p>
-<ol>
-<li><p>cs -&gt; <em>指定代码段识别区</em></p>
-</li>
-<li><p>ds&#x2F;es -&gt; <em>指定数据段识别区</em></p>
-</li>
-<li><p>ss:sp -&gt; <em>指定<strong>栈段识别区</strong></em></p>
-</li>
-<li><p><strong>栈の使用</strong>：(必须保持栈平衡，有压必有出)</p>
-<ol>
-<li><p><strong>PUSH</strong> -&gt; <em>入栈</em></p>
-<p>​	push r&#x2F;m</p>
-<blockquote>
-<p>push dx</p>
-<p>push word [0x2002]</p>
-</blockquote>
-<p>​	push 执行过程：</p>
-<ol>
-<li>sp &#x3D; sp - 操作数大小(字节);</li>
-<li>利用ss:sp生成物理地址;</li>
-<li>将操作数写入上述地址处</li>
-</ol>
-</li>
-<li><p><strong>POP</strong> -&gt; <em>出栈</em></p>
-<p>​	pop r&#x2F;m</p>
-<blockquote>
-<p>pop ax</p>
-<p>pop word [0x08]</p>
-</blockquote>
-<p>​	pop 执行过程：</p>
-<ol>
-<li>利用ss:sp生成物理地址;</li>
-<li>从上述地址处取得数据，存入由操作数提供的目标位置处;</li>
-<li>sp &#x3D; sp + 2;</li>
-</ol>
-</li>
-<li><p>注意：</p>
-<ol>
-<li>必须保持栈平衡，有压必有出</li>
-<li>充分估计需要的栈空间，开辟安全的空间</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li><p>逻辑指令</p>
-<ol>
-<li><p><strong>OR</strong> -&gt; <em>逻辑或</em></p>
-<p>​	or r&#x2F;m, r&#x2F;m&#x2F;imm(左右操作数长度需一致)</p>
-</li>
-<li><p><strong>AND</strong> -&gt; <em>逻辑与</em></p>
-<p>​	and r&#x2F;m, r&#x2F;m&#x2F;imm(长度需一致)</p>
-</li>
-</ol>
-</li>
-</ol>
-<h2 id="Intel8086处理器の寻址方式"><a href="#Intel8086处理器の寻址方式" class="headerlink" title="Intel8086处理器の寻址方式"></a>Intel8086处理器の寻址方式</h2><ol>
-<li>寄存器&#x2F;立即数寻址&#x2F;直接寻址</li>
-<li>基址寻址</li>
-<li>变址寻址</li>
-<li>基址变址寻址</li>
-</ol>
-<h2 id="硬盘-显卡の访问与控制"><a href="#硬盘-显卡の访问与控制" class="headerlink" title="硬盘&amp;显卡の访问与控制"></a>硬盘&amp;显卡の访问与控制</h2><ol>
-<li><p><strong>align</strong> -&gt; <em>设置段对齐长度</em></p>
-<blockquote>
-<p>section s	align&#x3D;16</p>
-</blockquote>
-</li>
-<li><p><strong>vstart</strong> -&gt; <em>设置段内相对起始汇编地址</em></p>
-<blockquote>
-<p>section s	align&#x3D;16	vstart&#x3D;0x100</p>
-</blockquote>
-</li>
-<li><p>加载器 &amp; 用户程序</p>
-<img src="/2023/11/07/OS-Notes/image-20231111103004990.png" alt="image-20231111103004990" style="zoom:80%;">
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">;=================================================</span><br><span class="line">section header vstart=0</span><br><span class="line">	; 程序总长度</span><br><span class="line">	program_lenth	dd	program_end</span><br><span class="line">	; 用户程序入口点</span><br><span class="line">	code_entry		dw	start</span><br><span class="line">					dd	section.code.start</span><br><span class="line">	; 段重定位表项个数		</span><br><span class="line">	realloc_tbl_len	dw	(segtbl_end-segtbl_begin)/4</span><br><span class="line">	; 段重定位表</span><br><span class="line">	segtbl_begin:</span><br><span class="line">	code_segment	dd	section.code.start</span><br><span class="line">	data_segment	dd	section.data.start</span><br><span class="line">	stack_segment	dd	section.stack.start</span><br><span class="line">	segtbl_end:</span><br><span class="line">;=================================================</span><br><span class="line">section code align=16 vstart=0</span><br><span class="line">	start:</span><br></pre></td></tr></table></figure>
-
-<p><strong>section.段名字.start</strong> -&gt; <em>计算段汇编地址</em></p>
-<img src="/2023/11/07/OS-Notes/image-20231111103908690.png" alt="image-20231111103908690" style="zoom: 50%;">
-</li>
-<li><p>加载器的工作流程 &amp; 常数的声明方法</p>
-<ol>
-<li><p>加载器工作流程</p>
-<ol>
-<li>读取用户程序的起始扇区</li>
-<li>把整个用户程序都读入内存</li>
-<li>计算段的物理地址和逻辑段地址（段的重定位）</li>
-<li>转移到用户程序执行（将处理器的控制权交给用户程序）</li>
-</ol>
-</li>
-<li><p><strong>声明常量</strong>:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">app_lba_start equ(als) 100	; 相当于#define，常数的声明不占用汇编地址</span><br></pre></td></tr></table></figure></li>
-</ol>
-</li>
-<li><p>外围设备及其接口</p>
-</li>
-</ol>
-<h2 id="中断-动态时钟显示"><a href="#中断-动态时钟显示" class="headerlink" title="中断&amp;动态时钟显示"></a>中断&amp;动态时钟显示</h2><h1 id="32位x86处理器架构"><a href="#32位x86处理器架构" class="headerlink" title="32位x86处理器架构"></a>32位x86处理器架构</h1><h2 id="保护模式"><a href="#保护模式" class="headerlink" title="保护模式"></a>保护模式</h2>]]></content>
   </entry>
   <entry>
     <title>杂想</title>
