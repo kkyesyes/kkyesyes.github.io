@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>四级翻译</title>
+    <url>/2023/11/04/CET4Translation/</url>
+    <content><![CDATA[<h1 id="四级翻译"><a href="#四级翻译" class="headerlink" title="四级翻译"></a>四级翻译</h1><h2 id="重点考察句型"><a href="#重点考察句型" class="headerlink" title="重点考察句型"></a>重点考察句型</h2><ol>
+<li>[2019.6&#x2F;2020.7]“……已有……多年的历史” -&gt; <em>…has a history of more than…years.</em></li>
+</ol>
+<h2 id="常用句型"><a href="#常用句型" class="headerlink" title="常用句型"></a>常用句型</h2><ol>
+<li>“吃火锅时” -&gt; <em>When (family members and friends are) having hot pot,</em>(When 引导的时间状语从句+句子主干+with伴随状语)</li>
+<li>“……同时……” -&gt; <em>…can do A while doing B.</em></li>
+</ol>
+<h2 id="词汇"><a href="#词汇" class="headerlink" title="词汇"></a>词汇</h2><ol>
+<li><p>地方：</p>
+<p>1 | food culture -&gt; 饮食文化</p>
+<p>2 | delicious cuisine -&gt; 佳肴</p>
+<p>3 | rich cultural charm -&gt; 丰富的文化韵味</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>算法模板</title>
     <url>/2023/11/06/Algorithm-Templates/</url>
     <content><![CDATA[<p><a href="https://github.com/TheAlgorithms">Github算法仓库</a></p>
@@ -44,45 +69,6 @@
       </tags>
   </entry>
   <entry>
-    <title>四级翻译</title>
-    <url>/2023/11/04/CET4Translation/</url>
-    <content><![CDATA[<h1 id="四级翻译"><a href="#四级翻译" class="headerlink" title="四级翻译"></a>四级翻译</h1><h2 id="重点考察句型"><a href="#重点考察句型" class="headerlink" title="重点考察句型"></a>重点考察句型</h2><ol>
-<li>[2019.6&#x2F;2020.7]“……已有……多年的历史” -&gt; <em>…has a history of more than…years.</em></li>
-</ol>
-<h2 id="常用句型"><a href="#常用句型" class="headerlink" title="常用句型"></a>常用句型</h2><ol>
-<li>“吃火锅时” -&gt; <em>When (family members and friends are) having hot pot,</em>(When 引导的时间状语从句+句子主干+with伴随状语)</li>
-<li>“……同时……” -&gt; <em>…can do A while doing B.</em></li>
-</ol>
-<h2 id="词汇"><a href="#词汇" class="headerlink" title="词汇"></a>词汇</h2><ol>
-<li><p>地方：</p>
-<p>1 | food culture -&gt; 饮食文化</p>
-<p>2 | delicious cuisine -&gt; 佳肴</p>
-<p>3 | rich cultural charm -&gt; 丰富的文化韵味</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>英语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>计算机体系结构/组成原理</title>
-    <url>/2023/11/14/Computer-Architecture/</url>
-    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1ZJ411b7Na/?spm_id_from=333.999.0.0&vd_source=760264507c20c8ac38634e47af1aa1fa">微机原理 （西安电子科技大学）_哔哩哔哩_bilibili</a></p>
-]]></content>
-      <categories>
-        <category>计算机科学与技术</category>
-      </categories>
-      <tags>
-        <tag>计算机体系</tag>
-        <tag>计算机组成原理</tag>
-        <tag>微机原理</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Github资源集</title>
     <url>/2023/11/13/Github-Resources/</url>
     <content><![CDATA[<ol>
@@ -98,6 +84,20 @@
       </categories>
       <tags>
         <tag>男男交友</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机体系结构/组成原理</title>
+    <url>/2023/11/14/Computer-Architecture/</url>
+    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1ZJ411b7Na/?spm_id_from=333.999.0.0&vd_source=760264507c20c8ac38634e47af1aa1fa">微机原理 （西安电子科技大学）_哔哩哔哩_bilibili</a></p>
+]]></content>
+      <categories>
+        <category>计算机科学与技术</category>
+      </categories>
+      <tags>
+        <tag>计算机体系</tag>
+        <tag>计算机组成原理</tag>
+        <tag>微机原理</tag>
       </tags>
   </entry>
   <entry>
@@ -414,6 +414,59 @@
       </categories>
       <tags>
         <tag>计算机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>随想录</title>
+    <url>/2023/11/07/Tips/</url>
+    <content><![CDATA[<h1 id="11-25-今日歌曲推荐"><a href="#11-25-今日歌曲推荐" class="headerlink" title="11.25 - 今日歌曲推荐"></a>11.25 - 今日歌曲推荐</h1><img src="/2023/11/07/Tips/%E6%9C%80%E5%90%8E%E7%9A%84%E9%81%93%E5%88%AB.jpg" class title="最后的道别">
+
+<h1 id="11-24-今日歌曲推荐"><a href="#11-24-今日歌曲推荐" class="headerlink" title="11.24 - 今日歌曲推荐"></a>11.24 - 今日歌曲推荐</h1><img src="/2023/11/07/Tips/说爱你.jpg" alt="说爱你">
+
+<h1 id="11-22-随想"><a href="#11-22-随想" class="headerlink" title="11.22 - 随想"></a>11.22 - 随想</h1><p>看遍人海潮落潮起</p>
+<p>尝尽世间人聚人离</p>
+<p><strong>希望下一次，不再是不辞而别</strong></p>
+<h1 id="11-11-关于热爱"><a href="#11-11-关于热爱" class="headerlink" title="11.11 - 关于热爱"></a>11.11 - 关于热爱</h1><p>最初<br>我喜欢音乐，喜欢计算机<br>不是为做好音乐，玩转计算机<br>而是音乐和计算机让我知道<br>什么是真正的<br>念念不忘，必有回响</p>
+<h1 id="11-9-今日歌曲推荐"><a href="#11-9-今日歌曲推荐" class="headerlink" title="11.9 - 今日歌曲推荐"></a>11.9 - 今日歌曲推荐</h1><p>Oh they say people come<br>看遍人海潮落潮起<br>Say people go<br>尝尽世间人聚人离<br>……<br>来自Coldplay的单曲《<a href="https://t1.kugou.com/3knbbf0BhV2">Everglow</a>》（@酷狗概念版）</p>
+<h1 id="11-7-桃河"><a href="#11-7-桃河" class="headerlink" title="11.7 - 桃河"></a>11.7 - 桃河</h1><img src="/2023/11/07/Tips/11.7.1.jpg" alt="11.7.1">
+
+<img src="/2023/11/07/Tips/11.7.2.jpg" alt="11.7.2">
+
+<img src="/2023/11/07/Tips/11.7.3.jpg" alt="11.7.3">
+
+<img src="/2023/11/07/Tips/11.7.4.jpg" alt="11.7.4">
+
+<img src="/2023/11/07/Tips/11.7.5.jpg" alt="11.7.5">
+
+<img src="/2023/11/07/Tips/11.7.6.jpg" alt="11.7.6">
+
+<p>怀念那个桃河边弹吉他的晚上</p>
+]]></content>
+      <categories>
+        <category>随想录</category>
+      </categories>
+      <tags>
+        <tag>随想</tag>
+        <tag>音乐分享</tag>
+        <tag>人生思考</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>工具集</title>
+    <url>/2023/11/16/Utils/</url>
+    <content><![CDATA[<h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><ol>
+<li><a href="./utils.py.zip">utils.py.zip</a> -&gt; <em>ChromeWebdriverAntiCrawlSettingsFile</em></li>
+</ol>
+<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><ol>
+<li><a href="./Utility.java.zip">Utility.java.zip</a> -&gt; <em>UserInputHandler</em></li>
+</ol>
+]]></content>
+      <categories>
+        <category>计算机科学与技术</category>
+      </categories>
+      <tags>
+        <tag>编程工具类</tag>
+        <tag>编程模板</tag>
       </tags>
   </entry>
   <entry>
@@ -1355,6 +1408,18 @@
 <li>服务端收到客户端退出消息后，将线程结束并从线程管理集合中移除</li>
 </ol>
 </li>
+<li><p>私聊</p>
+<ol>
+<li>服务端收到私聊消息后选择对应用户，将线程取出后执行消息转发</li>
+</ol>
+</li>
+<li><p>群发</p>
+<ol>
+<li>服务端收到群发消息后遍历在线用户后，逐个取出线程执行消息转发</li>
+</ol>
+</li>
+<li><p>发送文件</p>
+</li>
 </ol>
 <h1 id="反射"><a href="#反射" class="headerlink" title="反射"></a>反射</h1><h1 id="MySQL基础"><a href="#MySQL基础" class="headerlink" title="MySQL基础"></a>MySQL基础</h1><h1 id="JDBC-连接池"><a href="#JDBC-连接池" class="headerlink" title="JDBC &amp; 连接池"></a>JDBC &amp; 连接池</h1><h1 id="正则表达式"><a href="#正则表达式" class="headerlink" title="正则表达式"></a>正则表达式</h1><h1 id="Java8-Java11新特性"><a href="#Java8-Java11新特性" class="headerlink" title="Java8 &#x2F; Java11新特性"></a>Java8 &#x2F; Java11新特性</h1><h2 id="Java8"><a href="#Java8" class="headerlink" title="Java8"></a>Java8</h2><h3 id="Lambda"><a href="#Lambda" class="headerlink" title="Lambda"></a>Lambda</h3><h3 id="函数式接口"><a href="#函数式接口" class="headerlink" title="函数式接口"></a>函数式接口</h3><h3 id="接口静态方法"><a href="#接口静态方法" class="headerlink" title="接口静态方法"></a>接口静态方法</h3><h3 id="接口默认方法"><a href="#接口默认方法" class="headerlink" title="接口默认方法"></a>接口默认方法</h3><h3 id="方法引用"><a href="#方法引用" class="headerlink" title="方法引用"></a>方法引用</h3><h3 id="构造器引用"><a href="#构造器引用" class="headerlink" title="构造器引用"></a>构造器引用</h3><h3 id="stream-API"><a href="#stream-API" class="headerlink" title="stream API"></a>stream API</h3><h3 id="并行流"><a href="#并行流" class="headerlink" title="并行流"></a>并行流</h3><h3 id="串行流"><a href="#串行流" class="headerlink" title="串行流"></a>串行流</h3><h3 id="Optional"><a href="#Optional" class="headerlink" title="Optional"></a>Optional</h3><h2 id="新时间日期API"><a href="#新时间日期API" class="headerlink" title="新时间日期API"></a>新时间日期API</h2><h2 id="Java11-含Java9-Java10"><a href="#Java11-含Java9-Java10" class="headerlink" title="Java11(含Java9, Java10)"></a>Java11(含Java9, Java10)</h2><h3 id="代码层"><a href="#代码层" class="headerlink" title="代码层"></a>代码层</h3><ol>
 <li>JShell</li>
@@ -1384,59 +1449,6 @@
       </categories>
       <tags>
         <tag>JavaSE</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>随想录</title>
-    <url>/2023/11/07/Tips/</url>
-    <content><![CDATA[<h1 id="11-25-今日歌曲推荐"><a href="#11-25-今日歌曲推荐" class="headerlink" title="11.25 - 今日歌曲推荐"></a>11.25 - 今日歌曲推荐</h1><img src="/2023/11/07/Tips/%E6%9C%80%E5%90%8E%E7%9A%84%E9%81%93%E5%88%AB.jpg" class title="最后的道别">
-
-<h1 id="11-24-今日歌曲推荐"><a href="#11-24-今日歌曲推荐" class="headerlink" title="11.24 - 今日歌曲推荐"></a>11.24 - 今日歌曲推荐</h1><img src="/2023/11/07/Tips/说爱你.jpg" alt="说爱你">
-
-<h1 id="11-22-随想"><a href="#11-22-随想" class="headerlink" title="11.22 - 随想"></a>11.22 - 随想</h1><p>看遍人海潮落潮起</p>
-<p>尝尽世间人聚人离</p>
-<p><strong>希望下一次，不再是不辞而别</strong></p>
-<h1 id="11-11-关于热爱"><a href="#11-11-关于热爱" class="headerlink" title="11.11 - 关于热爱"></a>11.11 - 关于热爱</h1><p>最初<br>我喜欢音乐，喜欢计算机<br>不是为做好音乐，玩转计算机<br>而是音乐和计算机让我知道<br>什么是真正的<br>念念不忘，必有回响</p>
-<h1 id="11-9-今日歌曲推荐"><a href="#11-9-今日歌曲推荐" class="headerlink" title="11.9 - 今日歌曲推荐"></a>11.9 - 今日歌曲推荐</h1><p>Oh they say people come<br>看遍人海潮落潮起<br>Say people go<br>尝尽世间人聚人离<br>……<br>来自Coldplay的单曲《<a href="https://t1.kugou.com/3knbbf0BhV2">Everglow</a>》（@酷狗概念版）</p>
-<h1 id="11-7-桃河"><a href="#11-7-桃河" class="headerlink" title="11.7 - 桃河"></a>11.7 - 桃河</h1><img src="/2023/11/07/Tips/11.7.1.jpg" alt="11.7.1">
-
-<img src="/2023/11/07/Tips/11.7.2.jpg" alt="11.7.2">
-
-<img src="/2023/11/07/Tips/11.7.3.jpg" alt="11.7.3">
-
-<img src="/2023/11/07/Tips/11.7.4.jpg" alt="11.7.4">
-
-<img src="/2023/11/07/Tips/11.7.5.jpg" alt="11.7.5">
-
-<img src="/2023/11/07/Tips/11.7.6.jpg" alt="11.7.6">
-
-<p>怀念那个桃河边弹吉他的晚上</p>
-]]></content>
-      <categories>
-        <category>随想录</category>
-      </categories>
-      <tags>
-        <tag>随想</tag>
-        <tag>音乐分享</tag>
-        <tag>人生思考</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>工具集</title>
-    <url>/2023/11/16/Utils/</url>
-    <content><![CDATA[<h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><ol>
-<li><a href="./utils.py.zip">utils.py.zip</a> -&gt; <em>ChromeWebdriverAntiCrawlSettingsFile</em></li>
-</ol>
-<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><ol>
-<li><a href="./Utility.java.zip">Utility.java.zip</a> -&gt; <em>UserInputHandler</em></li>
-</ol>
-]]></content>
-      <categories>
-        <category>计算机科学与技术</category>
-      </categories>
-      <tags>
-        <tag>编程工具类</tag>
-        <tag>编程模板</tag>
       </tags>
   </entry>
 </search>
