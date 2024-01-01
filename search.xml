@@ -258,6 +258,24 @@
       </tags>
   </entry>
   <entry>
+    <title>Github资源集</title>
+    <url>/2023/11/13/Github-Resources/</url>
+    <content><![CDATA[<ol>
+<li><a href="https://github.com/ruanyf/weekly/tree/master">科技爱好者周刊跳转链接 –to-&gt; Github</a></li>
+<li><a href="https://github.com/EbookFoundation/free-programming-books">编程资源跳转链接 –to-&gt; Github</a></li>
+<li><a href="https://github.com/TheAlgorithms">算法模板大全 –to–&gt; Github</a></li>
+<li><a href="https://github.com/krahets/hello-algo">Hello算法 –to–&gt; Github</a></li>
+<li><a href="https://github.com/HeroHai/it-pdf-books">新版 1000 多本计算机电子书免费下载 –to–&gt; Github</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>资源归档</category>
+      </categories>
+      <tags>
+        <tag>男男交友</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>计算机体系结构/组成原理</title>
     <url>/2023/11/14/Computer-Architecture/</url>
     <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1ZJ411b7Na/?spm_id_from=333.999.0.0&vd_source=760264507c20c8ac38634e47af1aa1fa">微机原理 （西安电子科技大学）_哔哩哔哩_bilibili</a></p>
@@ -310,6 +328,150 @@
       </categories>
       <tags>
         <tag>Java项目</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JavaWeb笔记</title>
+    <url>/2023/12/21/JavaWeb/</url>
+    <content><![CDATA[<h1 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h1><h2 id="配置开发"><a href="#配置开发" class="headerlink" title="配置开发"></a>配置开发</h2><img src="/2023/12/21/JavaWeb/image-20231223232226072.png" class title="image-20231223232226072">
+
+<img src="/2023/12/21/JavaWeb/image-20231223232306106.png" class title="image-20231223232306106">
+
+
+
+<h2 id="注解开发"><a href="#注解开发" class="headerlink" title="注解开发"></a>注解开发</h2><img src="/2023/12/21/JavaWeb/image-20231223232843563.png" class title="image-20231223232843563">
+
+<p>与 <strong>配置开发</strong> 的区别在于读取注解，后对所注解的类进行反射（而非用给定的类的全路径）</p>
+<blockquote>
+<p>Ctrl + Alt + 方向键 -&gt; <em>切换历史标签页</em></p>
+</blockquote>
+<h1 id="HTTP协议"><a href="#HTTP协议" class="headerlink" title="HTTP协议"></a>HTTP协议</h1><img src="/2023/12/21/JavaWeb/image-20231224100149838.png" class title="image-20231224100149838">
+
+<h2 id="请求头"><a href="#请求头" class="headerlink" title="请求头"></a>请求头</h2><img src="/2023/12/21/JavaWeb/image-20231224101646524.png" class title="image-20231224101646524">
+
+<h2 id="响应头"><a href="#响应头" class="headerlink" title="响应头"></a>响应头</h2><img src="/2023/12/21/JavaWeb/image-20231224101733001.png" class title="image-20231224101733001">
+
+<h2 id="响应体"><a href="#响应体" class="headerlink" title="响应体"></a>响应体</h2><img src="/2023/12/21/JavaWeb/image-20231224101815734.png" class title="image-20231224101815734">
+
+<h2 id="HTTP请求包分析"><a href="#HTTP请求包分析" class="headerlink" title="HTTP请求包分析"></a>HTTP请求包分析</h2><h3 id="GET请求"><a href="#GET请求" class="headerlink" title="GET请求"></a>GET请求</h3><h3 id="POST请求"><a href="#POST请求" class="headerlink" title="POST请求"></a>POST请求</h3><h2 id="HTTP响应包分析"><a href="#HTTP响应包分析" class="headerlink" title="HTTP响应包分析"></a>HTTP响应包分析</h2><img src="/2023/12/21/JavaWeb/image-20231225005246431.png" class title="image-20231225005246431">
+
+<h3 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h3><ul>
+<li><a href="./HTTP_common_reqHeader_resHeader.zip">HTTP常见请求和响应头-说明.pdf（ZIP压缩包）</a></li>
+</ul>
+<h2 id="HTTP状态码"><a href="#HTTP状态码" class="headerlink" title="HTTP状态码"></a>HTTP状态码</h2><p>当浏览者访问一个网页时，浏览者的浏览器会向网页所在服务器发出请求。当浏览器接收并显示网页前，此网页所在的服务器会返回一个包含HTTP状态码（HTTP Status Code）的信息头（Server Header）用以响应浏览器的请求</p>
+<h3 id="常见HTTP状态码"><a href="#常见HTTP状态码" class="headerlink" title="常见HTTP状态码"></a>常见HTTP状态码</h3><ul>
+<li>200 - 请求成功</li>
+<li>301 - 资源（网页等）被永久转移到其它URL</li>
+<li>404 - 请求的资源（网页等）不存在</li>
+<li>500 - 内部服务器错误</li>
+</ul>
+<h3 id="状态码补充"><a href="#状态码补充" class="headerlink" title="状态码补充"></a>状态码补充</h3><ul>
+<li>302 - 临时移动（类似301），但资源只是临时被移动。客户端应继续使用原有URL</li>
+<li>304 - 未修改，取缓存页面</li>
+</ul>
+<h3 id="资源-1"><a href="#资源-1" class="headerlink" title="资源"></a>资源</h3><ul>
+<li><a href="./HTTP_resStatusCode.zip">HTTP响应状态码说明.docx（ZIP压缩包）</a></li>
+</ul>
+<h2 id="MIME类型"><a href="#MIME类型" class="headerlink" title="MIME类型"></a>MIME类型</h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><ul>
+<li>MIME (Multipurpose Internet Mail Extensions 多功能 Internet 邮件扩充服务) 是 HTTP 协议中数据类型（但不一定只能在浏览器中使用）。</li>
+</ul>
+<h3 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h3><ul>
+<li>大类型 &#x2F; 小类型 （并与某一种文件的扩展名相对应）e.g. text&#x2F;html</li>
+</ul>
+<h3 id="常见类型"><a href="#常见类型" class="headerlink" title="常见类型"></a>常见类型</h3><img src="/2023/12/21/JavaWeb/image-20231225111939228.png" class title="image-20231225111939228">
+
+<h1 id="ServletConfig"><a href="#ServletConfig" class="headerlink" title="ServletConfig"></a>ServletConfig</h1><p>通过 getServletConfig() 来获得配置详情</p>
+<h1 id="ServletContext"><a href="#ServletContext" class="headerlink" title="ServletContext"></a>ServletContext</h1><img src="/2023/12/21/JavaWeb/image-20231225152249922.png" class title="image-20231225152249922">
+
+<h2 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h2><ol>
+<li><p>ServletContext 是一个接口，它表示 Servlet 上下文对象</p>
+</li>
+<li><p>一个 web 工程，只有一个 ServletContext 对象实例</p>
+</li>
+<li><p>ServletContext 对象 是在 web 工程启动的时候创建的，在 web 工程停止的时候销毁</p>
+</li>
+<li><p>ServletContext 对象可以通过 ServletConfig.getServletContext() 方法获得对 ServletContext 对象的引用，也可以通过 this.getServletContext() 来获得其对象的引用</p>
+</li>
+<li><p>由于一个 web 应用中的所有 Servlet 共享同一个 ServletContext 对象，因此 Servlet 对象之间可以通过 ServletContext 对象来实现多个 Servlet 间通讯。ServletContext 对象通常也被称之为 域对象</p>
+<img src="/2023/12/21/JavaWeb/image-20231225154055956.png" class title="image-20231225154055956"></li>
+</ol>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><ol>
+<li>获取 web.xml 中配置的上下文参数 context-param [信息和整个 web 应用相关，而不是属于某个 Servlet]</li>
+<li>获取当前的工程路径，格式：&#x2F; 工程路径</li>
+<li>获取工程<strong>部署后</strong>在服务器硬盘上的<strong>绝对路径</strong></li>
+<li>像 <strong>Map</strong> 一样存取数据，多个 Servlet 共享数据</li>
+</ol>
+<h1 id="HttpServletRequest"><a href="#HttpServletRequest" class="headerlink" title="HttpServletRequest"></a>HttpServletRequest</h1><h2 id="介绍-1"><a href="#介绍-1" class="headerlink" title="介绍"></a>介绍</h2><ol>
+<li>HttpServletRequest 对象代表客户端的请求</li>
+<li>当 客户端 &#x2F; 浏览器 通过 HTTP 协议访问服务器时，HTTP 请求头中的所有信息都封装在这个对象中</li>
+<li>通过这个对象的方法，可以获得客户这些信息</li>
+</ol>
+<h2 id="常用方法"><a href="#常用方法" class="headerlink" title="常用方法"></a>常用方法</h2><ol>
+<li>getRequestURI() -&gt; <em>获取请求的资源路径</em></li>
+<li>getRequestURL() -&gt; <em>获取请求的统一资源定位符（绝对路径）</em></li>
+<li>getRemoteHost() -&gt; <em>获取客户端的主机</em></li>
+<li>getHeader() -&gt; <em>获取请求头</em></li>
+<li>getParameter() -&gt; <em>获取请求的参数</em></li>
+<li>getParameterValues() -&gt; <em>获取请求的参数（多个值的时候使用），如checkbox</em></li>
+<li>getMethod() -&gt; <em>获取请求的方式 GET 或 POST</em></li>
+<li>setAttribute(key, value) -&gt; <em>设置域数据</em></li>
+<li>getAttribute(key) -&gt; <em>获取域数据</em></li>
+<li>getRequestDispatcher() -&gt; <em>获取请求转发对象</em></li>
+</ol>
+<h2 id="请求转发"><a href="#请求转发" class="headerlink" title="请求转发"></a>请求转发</h2><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><ol>
+<li>实现请求转发：请求转发是指一个 web 资源收到客户端请求后，通知服务器去调用另一个 web 资源进行处理</li>
+<li>HttpServletRequest 对象（也叫 Request 对象）提供了一个 getRequestDispatcher 方法，该方法返回一个 RequestDispatcher 对象，调用这个对象的 forward 方法可以实现 请求转发</li>
+<li>request 对象 同时也是一个域对象，开发人员通过 request 对象在实现转发时，把数据通过 request 对象带给其它 web 资源处理<ul>
+<li>setAttribute()</li>
+<li>getAttribute()</li>
+<li>removeAttribute()</li>
+<li>getAttributeNames()</li>
+</ul>
+</li>
+</ol>
+<h3 id="示意图"><a href="#示意图" class="headerlink" title="示意图"></a>示意图</h3><img src="/2023/12/21/JavaWeb/image-20231228233617020.png" class title="image-20231228233617020">
+
+<img src="/2023/12/21/JavaWeb/image-20231229001125198.png" class title="image-20231229001125198">
+
+<h3 id="转发代码"><a href="#转发代码" class="headerlink" title="转发代码"></a>转发代码</h3><img src="/2023/12/21/JavaWeb/image-20231229000152839.png" class title="image-20231229000152839">
+
+<h3 id="注意事项-细节"><a href="#注意事项-细节" class="headerlink" title="注意事项 &amp; 细节"></a>注意事项 &amp; 细节</h3><ol>
+<li>浏览器地址不会变化（转发过程没有与浏览器交互）</li>
+<li>在同一次 HTTP 请求中，进行多次转发，仍然是一次 HTTP 请求</li>
+<li>在同一次 HTTP 请求中，进行多次转发，多个 Servlet 可以共享 request域 &#x2F; 对象 的数据（因为始终是同一个对象）</li>
+<li>可以转发到 WEB-INF 目录下</li>
+<li>不能访问当前 web 工程外的资源</li>
+<li>因为浏览器地址栏会停止在第一个 Servlet ，如果刷新页面，会再次发出请求（并且会带数据），所以在支付页面情况下，不能使用请求转发，否则会造成重复支付</li>
+</ol>
+<h1 id="HttpServletResponse"><a href="#HttpServletResponse" class="headerlink" title="HttpServletResponse"></a>HttpServletResponse</h1><h2 id="介绍-2"><a href="#介绍-2" class="headerlink" title="介绍"></a>介绍</h2><ol>
+<li><p>每次 HTTP 请求，Tomcat 会创建一个 HttpServletResponse 对象传递给 Servlet 程序去使用</p>
+</li>
+<li><p>HttpServletRequest 表示请求过来的信息，HttpServletResponse 表示所有响应的信息，如果需要设置返回给客户端的信息，通过 HttpServletResponse 对象来进行设置即可</p>
+<img src="/2023/12/21/JavaWeb/image-20231229003708391.png" class title="image-20231229003708391"></li>
+</ol>
+<h2 id="向客户端返回数据-注意事项-细节"><a href="#向客户端返回数据-注意事项-细节" class="headerlink" title="向客户端返回数据 注意事项 &amp; 细节"></a>向客户端返回数据 注意事项 &amp; 细节</h2><ol>
+<li><p>处理中文乱码问题（方案一）</p>
+<img src="/2023/12/21/JavaWeb/image-20231229004800885.png" class title="image-20231229004800885">
+</li>
+<li><p>处理中文乱码问题（方案二）</p>
+<img src="/2023/12/21/JavaWeb/image-20231229004818833.png" class title="image-20231229004818833"></li>
+</ol>
+<h1 id="Maven"><a href="#Maven" class="headerlink" title="Maven"></a>Maven</h1><h2 id="传统-Java-项目"><a href="#传统-Java-项目" class="headerlink" title="传统 Java 项目"></a>传统 Java 项目</h2><img src="/2023/12/21/JavaWeb/image-20231230161230672.png" class title="image-20231230161230672">
+
+<h2 id="Maven-的-Java-项目"><a href="#Maven-的-Java-项目" class="headerlink" title="Maven 的 Java 项目"></a>Maven 的 Java 项目</h2><img src="/2023/12/21/JavaWeb/image-20231230161329530.png" class title="image-20231230161329530">
+
+<h2 id="项目创建"><a href="#项目创建" class="headerlink" title="项目创建"></a>项目创建</h2><img src="/2023/12/21/JavaWeb/image-20231230163836243.png" class title="image-20231230163836243">
+
+<h1 id="Tomcat手动实现"><a href="#Tomcat手动实现" class="headerlink" title="Tomcat手动实现"></a>Tomcat手动实现</h1><p>Repo:	<a href="https://github.com/kkyesyes/KKTomcat">KKTomcat (Github)</a></p>
+<img src="/2023/12/21/JavaWeb/image-20231231195004662.png" class title="image-20231231195004662">
+
+<h2 id="原理图解-BIO-多线程模型"><a href="#原理图解-BIO-多线程模型" class="headerlink" title="原理图解 (BIO 多线程模型)"></a>原理图解 (BIO 多线程模型)</h2><img src="/2023/12/21/JavaWeb/image-20240101192059636.png" class title="image-20240101192059636">
+]]></content>
+      <categories>
+        <category>计算机科学与技术</category>
+      </categories>
+      <tags>
+        <tag>JavaWeb</tag>
       </tags>
   </entry>
   <entry>
@@ -1925,167 +2087,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Github资源集</title>
-    <url>/2023/11/13/Github-Resources/</url>
-    <content><![CDATA[<ol>
-<li><a href="https://github.com/ruanyf/weekly/tree/master">科技爱好者周刊跳转链接 –to-&gt; Github</a></li>
-<li><a href="https://github.com/EbookFoundation/free-programming-books">编程资源跳转链接 –to-&gt; Github</a></li>
-<li><a href="https://github.com/TheAlgorithms">算法模板大全 –to–&gt; Github</a></li>
-<li><a href="https://github.com/krahets/hello-algo">Hello算法 –to–&gt; Github</a></li>
-<li><a href="https://github.com/HeroHai/it-pdf-books">新版 1000 多本计算机电子书免费下载 –to–&gt; Github</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>资源归档</category>
-      </categories>
-      <tags>
-        <tag>男男交友</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JavaWeb笔记</title>
-    <url>/2023/12/21/JavaWeb/</url>
-    <content><![CDATA[<h1 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h1><h2 id="配置开发"><a href="#配置开发" class="headerlink" title="配置开发"></a>配置开发</h2><img src="/2023/12/21/JavaWeb/image-20231223232226072.png" class title="image-20231223232226072">
-
-<img src="/2023/12/21/JavaWeb/image-20231223232306106.png" class title="image-20231223232306106">
-
-
-
-<h2 id="注解开发"><a href="#注解开发" class="headerlink" title="注解开发"></a>注解开发</h2><img src="/2023/12/21/JavaWeb/image-20231223232843563.png" class title="image-20231223232843563">
-
-<p>与 <strong>配置开发</strong> 的区别在于读取注解，后对所注解的类进行反射（而非用给定的类的全路径）</p>
-<blockquote>
-<p>Ctrl + Alt + 方向键 -&gt; <em>切换历史标签页</em></p>
-</blockquote>
-<h1 id="HTTP协议"><a href="#HTTP协议" class="headerlink" title="HTTP协议"></a>HTTP协议</h1><img src="/2023/12/21/JavaWeb/image-20231224100149838.png" class title="image-20231224100149838">
-
-<h2 id="请求头"><a href="#请求头" class="headerlink" title="请求头"></a>请求头</h2><img src="/2023/12/21/JavaWeb/image-20231224101646524.png" class title="image-20231224101646524">
-
-<h2 id="响应头"><a href="#响应头" class="headerlink" title="响应头"></a>响应头</h2><img src="/2023/12/21/JavaWeb/image-20231224101733001.png" class title="image-20231224101733001">
-
-<h2 id="响应体"><a href="#响应体" class="headerlink" title="响应体"></a>响应体</h2><img src="/2023/12/21/JavaWeb/image-20231224101815734.png" class title="image-20231224101815734">
-
-<h2 id="HTTP请求包分析"><a href="#HTTP请求包分析" class="headerlink" title="HTTP请求包分析"></a>HTTP请求包分析</h2><h3 id="GET请求"><a href="#GET请求" class="headerlink" title="GET请求"></a>GET请求</h3><h3 id="POST请求"><a href="#POST请求" class="headerlink" title="POST请求"></a>POST请求</h3><h2 id="HTTP响应包分析"><a href="#HTTP响应包分析" class="headerlink" title="HTTP响应包分析"></a>HTTP响应包分析</h2><img src="/2023/12/21/JavaWeb/image-20231225005246431.png" class title="image-20231225005246431">
-
-<h3 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h3><ul>
-<li><a href="./HTTP_common_reqHeader_resHeader.zip">HTTP常见请求和响应头-说明.pdf（ZIP压缩包）</a></li>
-</ul>
-<h2 id="HTTP状态码"><a href="#HTTP状态码" class="headerlink" title="HTTP状态码"></a>HTTP状态码</h2><p>当浏览者访问一个网页时，浏览者的浏览器会向网页所在服务器发出请求。当浏览器接收并显示网页前，此网页所在的服务器会返回一个包含HTTP状态码（HTTP Status Code）的信息头（Server Header）用以响应浏览器的请求</p>
-<h3 id="常见HTTP状态码"><a href="#常见HTTP状态码" class="headerlink" title="常见HTTP状态码"></a>常见HTTP状态码</h3><ul>
-<li>200 - 请求成功</li>
-<li>301 - 资源（网页等）被永久转移到其它URL</li>
-<li>404 - 请求的资源（网页等）不存在</li>
-<li>500 - 内部服务器错误</li>
-</ul>
-<h3 id="状态码补充"><a href="#状态码补充" class="headerlink" title="状态码补充"></a>状态码补充</h3><ul>
-<li>302 - 临时移动（类似301），但资源只是临时被移动。客户端应继续使用原有URL</li>
-<li>304 - 未修改，取缓存页面</li>
-</ul>
-<h3 id="资源-1"><a href="#资源-1" class="headerlink" title="资源"></a>资源</h3><ul>
-<li><a href="./HTTP_resStatusCode.zip">HTTP响应状态码说明.docx（ZIP压缩包）</a></li>
-</ul>
-<h2 id="MIME类型"><a href="#MIME类型" class="headerlink" title="MIME类型"></a>MIME类型</h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><ul>
-<li>MIME (Multipurpose Internet Mail Extensions 多功能 Internet 邮件扩充服务) 是 HTTP 协议中数据类型（但不一定只能在浏览器中使用）。</li>
-</ul>
-<h3 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h3><ul>
-<li>大类型 &#x2F; 小类型 （并与某一种文件的扩展名相对应）e.g. text&#x2F;html</li>
-</ul>
-<h3 id="常见类型"><a href="#常见类型" class="headerlink" title="常见类型"></a>常见类型</h3><img src="/2023/12/21/JavaWeb/image-20231225111939228.png" class title="image-20231225111939228">
-
-<h1 id="ServletConfig"><a href="#ServletConfig" class="headerlink" title="ServletConfig"></a>ServletConfig</h1><p>通过 getServletConfig() 来获得配置详情</p>
-<h1 id="ServletContext"><a href="#ServletContext" class="headerlink" title="ServletContext"></a>ServletContext</h1><img src="/2023/12/21/JavaWeb/image-20231225152249922.png" class title="image-20231225152249922">
-
-<h2 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h2><ol>
-<li><p>ServletContext 是一个接口，它表示 Servlet 上下文对象</p>
-</li>
-<li><p>一个 web 工程，只有一个 ServletContext 对象实例</p>
-</li>
-<li><p>ServletContext 对象 是在 web 工程启动的时候创建的，在 web 工程停止的时候销毁</p>
-</li>
-<li><p>ServletContext 对象可以通过 ServletConfig.getServletContext() 方法获得对 ServletContext 对象的引用，也可以通过 this.getServletContext() 来获得其对象的引用</p>
-</li>
-<li><p>由于一个 web 应用中的所有 Servlet 共享同一个 ServletContext 对象，因此 Servlet 对象之间可以通过 ServletContext 对象来实现多个 Servlet 间通讯。ServletContext 对象通常也被称之为 域对象</p>
-<img src="/2023/12/21/JavaWeb/image-20231225154055956.png" class title="image-20231225154055956"></li>
-</ol>
-<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><ol>
-<li>获取 web.xml 中配置的上下文参数 context-param [信息和整个 web 应用相关，而不是属于某个 Servlet]</li>
-<li>获取当前的工程路径，格式：&#x2F; 工程路径</li>
-<li>获取工程<strong>部署后</strong>在服务器硬盘上的<strong>绝对路径</strong></li>
-<li>像 <strong>Map</strong> 一样存取数据，多个 Servlet 共享数据</li>
-</ol>
-<h1 id="HttpServletRequest"><a href="#HttpServletRequest" class="headerlink" title="HttpServletRequest"></a>HttpServletRequest</h1><h2 id="介绍-1"><a href="#介绍-1" class="headerlink" title="介绍"></a>介绍</h2><ol>
-<li>HttpServletRequest 对象代表客户端的请求</li>
-<li>当 客户端 &#x2F; 浏览器 通过 HTTP 协议访问服务器时，HTTP 请求头中的所有信息都封装在这个对象中</li>
-<li>通过这个对象的方法，可以获得客户这些信息</li>
-</ol>
-<h2 id="常用方法"><a href="#常用方法" class="headerlink" title="常用方法"></a>常用方法</h2><ol>
-<li>getRequestURI() -&gt; <em>获取请求的资源路径</em></li>
-<li>getRequestURL() -&gt; <em>获取请求的统一资源定位符（绝对路径）</em></li>
-<li>getRemoteHost() -&gt; <em>获取客户端的主机</em></li>
-<li>getHeader() -&gt; <em>获取请求头</em></li>
-<li>getParameter() -&gt; <em>获取请求的参数</em></li>
-<li>getParameterValues() -&gt; <em>获取请求的参数（多个值的时候使用），如checkbox</em></li>
-<li>getMethod() -&gt; <em>获取请求的方式 GET 或 POST</em></li>
-<li>setAttribute(key, value) -&gt; <em>设置域数据</em></li>
-<li>getAttribute(key) -&gt; <em>获取域数据</em></li>
-<li>getRequestDispatcher() -&gt; <em>获取请求转发对象</em></li>
-</ol>
-<h2 id="请求转发"><a href="#请求转发" class="headerlink" title="请求转发"></a>请求转发</h2><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><ol>
-<li>实现请求转发：请求转发是指一个 web 资源收到客户端请求后，通知服务器去调用另一个 web 资源进行处理</li>
-<li>HttpServletRequest 对象（也叫 Request 对象）提供了一个 getRequestDispatcher 方法，该方法返回一个 RequestDispatcher 对象，调用这个对象的 forward 方法可以实现 请求转发</li>
-<li>request 对象 同时也是一个域对象，开发人员通过 request 对象在实现转发时，把数据通过 request 对象带给其它 web 资源处理<ul>
-<li>setAttribute()</li>
-<li>getAttribute()</li>
-<li>removeAttribute()</li>
-<li>getAttributeNames()</li>
-</ul>
-</li>
-</ol>
-<h3 id="示意图"><a href="#示意图" class="headerlink" title="示意图"></a>示意图</h3><img src="/2023/12/21/JavaWeb/image-20231228233617020.png" class title="image-20231228233617020">
-
-<img src="/2023/12/21/JavaWeb/image-20231229001125198.png" class title="image-20231229001125198">
-
-<h3 id="转发代码"><a href="#转发代码" class="headerlink" title="转发代码"></a>转发代码</h3><img src="/2023/12/21/JavaWeb/image-20231229000152839.png" class title="image-20231229000152839">
-
-<h3 id="注意事项-细节"><a href="#注意事项-细节" class="headerlink" title="注意事项 &amp; 细节"></a>注意事项 &amp; 细节</h3><ol>
-<li>浏览器地址不会变化（转发过程没有与浏览器交互）</li>
-<li>在同一次 HTTP 请求中，进行多次转发，仍然是一次 HTTP 请求</li>
-<li>在同一次 HTTP 请求中，进行多次转发，多个 Servlet 可以共享 request域 &#x2F; 对象 的数据（因为始终是同一个对象）</li>
-<li>可以转发到 WEB-INF 目录下</li>
-<li>不能访问当前 web 工程外的资源</li>
-<li>因为浏览器地址栏会停止在第一个 Servlet ，如果刷新页面，会再次发出请求（并且会带数据），所以在支付页面情况下，不能使用请求转发，否则会造成重复支付</li>
-</ol>
-<h1 id="HttpServletResponse"><a href="#HttpServletResponse" class="headerlink" title="HttpServletResponse"></a>HttpServletResponse</h1><h2 id="介绍-2"><a href="#介绍-2" class="headerlink" title="介绍"></a>介绍</h2><ol>
-<li><p>每次 HTTP 请求，Tomcat 会创建一个 HttpServletResponse 对象传递给 Servlet 程序去使用</p>
-</li>
-<li><p>HttpServletRequest 表示请求过来的信息，HttpServletResponse 表示所有响应的信息，如果需要设置返回给客户端的信息，通过 HttpServletResponse 对象来进行设置即可</p>
-<img src="/2023/12/21/JavaWeb/image-20231229003708391.png" class title="image-20231229003708391"></li>
-</ol>
-<h2 id="向客户端返回数据-注意事项-细节"><a href="#向客户端返回数据-注意事项-细节" class="headerlink" title="向客户端返回数据 注意事项 &amp; 细节"></a>向客户端返回数据 注意事项 &amp; 细节</h2><ol>
-<li><p>处理中文乱码问题（方案一）</p>
-<img src="/2023/12/21/JavaWeb/image-20231229004800885.png" class title="image-20231229004800885">
-</li>
-<li><p>处理中文乱码问题（方案二）</p>
-<img src="/2023/12/21/JavaWeb/image-20231229004818833.png" class title="image-20231229004818833"></li>
-</ol>
-<h1 id="Maven"><a href="#Maven" class="headerlink" title="Maven"></a>Maven</h1><h2 id="传统-Java-项目"><a href="#传统-Java-项目" class="headerlink" title="传统 Java 项目"></a>传统 Java 项目</h2><img src="/2023/12/21/JavaWeb/image-20231230161230672.png" class title="image-20231230161230672">
-
-<h2 id="Maven-的-Java-项目"><a href="#Maven-的-Java-项目" class="headerlink" title="Maven 的 Java 项目"></a>Maven 的 Java 项目</h2><img src="/2023/12/21/JavaWeb/image-20231230161329530.png" class title="image-20231230161329530">
-
-<h2 id="项目创建"><a href="#项目创建" class="headerlink" title="项目创建"></a>项目创建</h2><img src="/2023/12/21/JavaWeb/image-20231230163836243.png" class title="image-20231230163836243">
-
-<h1 id="Tomcat手动实现"><a href="#Tomcat手动实现" class="headerlink" title="Tomcat手动实现"></a>Tomcat手动实现</h1><p>Repo:	<a href="https://github.com/kkyesyes/KKTomcat">KKTomcat (Github)</a></p>
-<img src="/2023/12/21/JavaWeb/image-20231231195004662.png" class title="image-20231231195004662">
-
-]]></content>
-      <categories>
-        <category>计算机科学与技术</category>
-      </categories>
-      <tags>
-        <tag>JavaWeb</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>操作系统</title>
     <url>/2023/11/07/OS-Notes/</url>
     <content><![CDATA[<h1 id="8086基础阶段总结"><a href="#8086基础阶段总结" class="headerlink" title="8086基础阶段总结"></a>8086基础阶段总结</h1><h2 id="通用寄存器"><a href="#通用寄存器" class="headerlink" title="通用寄存器"></a>通用寄存器</h2><h2 id="内存访问-字节序"><a href="#内存访问-字节序" class="headerlink" title="内存访问&amp;字节序"></a>内存访问&amp;字节序</h2><h2 id="段地址-偏移地址"><a href="#段地址-偏移地址" class="headerlink" title="段地址&amp;偏移地址"></a>段地址&amp;偏移地址</h2><h2 id="虚拟硬盘の写入-虚拟机-Bochs"><a href="#虚拟硬盘の写入-虚拟机-Bochs" class="headerlink" title="虚拟硬盘の写入&amp;虚拟机(Bochs)"></a>虚拟硬盘の写入&amp;虚拟机(Bochs)</h2><h3 id="虚拟硬盘"><a href="#虚拟硬盘" class="headerlink" title="虚拟硬盘"></a>虚拟硬盘</h3><ol>
@@ -2365,6 +2366,24 @@
       </tags>
   </entry>
   <entry>
+    <title>工具集</title>
+    <url>/2023/11/16/Utils/</url>
+    <content><![CDATA[<h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><ol>
+<li><a href="./utils.py.zip">utils.py.zip</a> -&gt; <em>ChromeWebdriverAntiCrawlSettingsFile</em></li>
+</ol>
+<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><ol>
+<li><a href="./Utility.java.zip">Utility.java.zip</a> -&gt; <em>UserInputHandler</em></li>
+</ol>
+]]></content>
+      <categories>
+        <category>计算机科学与技术</category>
+      </categories>
+      <tags>
+        <tag>编程工具类</tag>
+        <tag>编程模板</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>随想录</title>
     <url>/2023/11/07/Tips/</url>
     <content><![CDATA[<h1 id="12-12-今日歌曲推荐"><a href="#12-12-今日歌曲推荐" class="headerlink" title="12.12 - 今日歌曲推荐"></a>12.12 - 今日歌曲推荐</h1><img src="/2023/11/07/Tips/509ff6e6c7d8aacad75e9b447f55781.jpg" class title="509ff6e6c7d8aacad75e9b447f55781">
@@ -2401,24 +2420,6 @@
         <tag>随想</tag>
         <tag>音乐分享</tag>
         <tag>人生思考</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>工具集</title>
-    <url>/2023/11/16/Utils/</url>
-    <content><![CDATA[<h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><ol>
-<li><a href="./utils.py.zip">utils.py.zip</a> -&gt; <em>ChromeWebdriverAntiCrawlSettingsFile</em></li>
-</ol>
-<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><ol>
-<li><a href="./Utility.java.zip">Utility.java.zip</a> -&gt; <em>UserInputHandler</em></li>
-</ol>
-]]></content>
-      <categories>
-        <category>计算机科学与技术</category>
-      </categories>
-      <tags>
-        <tag>编程工具类</tag>
-        <tag>编程模板</tag>
       </tags>
   </entry>
 </search>
