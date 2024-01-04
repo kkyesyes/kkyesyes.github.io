@@ -1945,7 +1945,10 @@
   <entry>
     <title>JavaWeb笔记</title>
     <url>/2023/12/21/JavaWeb/</url>
-    <content><![CDATA[<h1 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h1><h2 id="配置开发"><a href="#配置开发" class="headerlink" title="配置开发"></a>配置开发</h2><img src="/2023/12/21/JavaWeb/image-20231223232226072.png" class title="image-20231223232226072">
+    <content><![CDATA[<h1 id="资源归档"><a href="#资源归档" class="headerlink" title="资源归档"></a>资源归档</h1><ul>
+<li><a href="./JAVA_EE_api_%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AF%B9%E7%85%A7%E7%89%88.chm">JAVA_EE_api_中英文对照版.chm</a></li>
+</ul>
+<h1 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h1><h2 id="配置开发"><a href="#配置开发" class="headerlink" title="配置开发"></a>配置开发</h2><img src="/2023/12/21/JavaWeb/image-20231223232226072.png" class title="image-20231223232226072">
 
 <img src="/2023/12/21/JavaWeb/image-20231223232306106.png" class title="image-20231223232306106">
 
@@ -2155,7 +2158,54 @@
 <li>删除 Cookie 时，path 必须一致，否则不会删除</li>
 <li>Java Servlet 中 Cookie 中文乱码解决（存放中文默认报错，可通过 URL 编码（工具类）来解决）</li>
 </ol>
-<h2 id="Session"><a href="#Session" class="headerlink" title="Session"></a>Session</h2>]]></content>
+<h2 id="Session"><a href="#Session" class="headerlink" title="Session"></a>Session</h2><h3 id="介绍-3"><a href="#介绍-3" class="headerlink" title="介绍"></a>介绍</h3><ol>
+<li>Session 是服务端技术，服务器在运行时为每一个用户的浏览器创建一个其独享的 Session 对象</li>
+<li>由于 Session 为各个用户浏览器独享，所以用户在访问服务器的不同页面时，可以从各自的 Session 中 读取 &#x2F; 添加 数据，从而完成相应任务</li>
+</ol>
+<h3 id="Session-基本原理"><a href="#Session-基本原理" class="headerlink" title="Session 基本原理"></a>Session 基本原理</h3><ol>
+<li>当用户打开浏览器，访问某个网站，<strong>操作 Session 时</strong>，服务器就会在内存中为该浏览品名<strong>分配</strong>一个 Session 对象，该 Session 对象被这个浏览器独占（JSESSIONID）</li>
+<li>这个 Session 对象也可看做是一个容器， Session 对象默认存在时间为 30 min，也可修改（tomcat &#x2F; conf &#x2F; web.xml）</li>
+</ol>
+<h3 id="Session-存储结构"><a href="#Session-存储结构" class="headerlink" title="Session 存储结构"></a>Session 存储结构</h3><ol>
+<li>Session 可看作是类似 HashMap 的容器，每一行（K-V）就是其一个属性</li>
+<li>每个属性包含两个部分，名（String） 与 值（Object）</li>
+</ol>
+<h3 id="Session-常用方法"><a href="#Session-常用方法" class="headerlink" title="Session 常用方法"></a>Session 常用方法</h3><ol>
+<li><p>创建 和 获取 Session</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">HttpSession</span> <span class="variable">hs</span> <span class="operator">=</span> req.getSession();</span><br></pre></td></tr></table></figure>
+
+<p><strong>第一次调用</strong> 是 <strong>创建</strong> Session 会话，之后调用是获取创建好的 Session 对象</p>
+</li>
+<li><p>向 Session 添加属性</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">hs.setAttribute(String name, Object val);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>从 Session 得到某个属性</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">Object</span> <span class="variable">obj</span> <span class="operator">=</span> hs.getAttribute(String name);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>从 Session 删除调某个属性</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">hs.removeAttribute(String name);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>判断是不是刚创建出来的 Session</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">hs.isNew();</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>每个 Session 都有一个唯一标识 Id 值，通过 getId() 得到 Session 会话的 Id 值</p>
+</li>
+</ol>
+<h3 id="Session-底层分析"><a href="#Session-底层分析" class="headerlink" title="Session 底层分析"></a>Session 底层分析</h3><img src="/2023/12/21/JavaWeb/image-20240104234506184.png" class title="image-20240104234506184">
+
+<img src="/2023/12/21/JavaWeb/image-20240104235756344.png" class title="image-20240104235756344">
+
+<h3 id="Session-生命周期"><a href="#Session-生命周期" class="headerlink" title="Session 生命周期"></a>Session 生命周期</h3><ol>
+<li>setMaxInactiveInterval(int interval) -&gt; <em>设置 Session 超时时间（以秒为单位），超过指定的时长，Session 就会被销毁</em></li>
+<li>值为正数的时候，设定 Session 的超时时长</li>
+<li><strong>负数表示永不超时</strong></li>
+<li>getMaxInactiveInterval() -&gt; <strong>获取 Session 的超时时间</strong></li>
+<li>invalidate() -&gt; <strong>让当前 Session 会话立即无效</strong></li>
+<li>如果没有调用 setMaxInactiveInterval() 来指定 Session 的生命周期，Tomcat 会以 Session 默认时长为准，Session 默认超时为 30 min，可以在 Tomcat 的 web.xml 中设置</li>
+<li>Session 的生命周期指的是：客户端 <strong>同一会话两次请求</strong> 最大间隔时长，而不是累积时长。即当客户端访问了自己的 Session，Session 的生命周期将从 0 开始重新计算</li>
+<li>底层：Tomcat 用一个线程来轮询会话状态，如果某个会话的空闲时间超过设定的最大值，则将该会话销毁</li>
+</ol>
+]]></content>
       <categories>
         <category>计算机科学与技术</category>
       </categories>
