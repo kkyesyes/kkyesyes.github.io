@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Arsenal</title>
+    <url>/2024/02/08/Arsenal/</url>
+    <content><![CDATA[<h1 id="PERSONAL-ARSENAL"><a href="#PERSONAL-ARSENAL" class="headerlink" title="&#x2F;&#x2F;&#x2F; PERSONAL ARSENAL &#x2F;&#x2F;&#x2F;"></a>&#x2F;&#x2F;&#x2F; PERSONAL ARSENAL &#x2F;&#x2F;&#x2F;</h1><h2 id="Asserts"><a href="#Asserts" class="headerlink" title="Asserts:"></a>Asserts:</h2><h3 id="Internet-Security"><a href="#Internet-Security" class="headerlink" title="Internet-Security"></a>Internet-Security</h3><h4 id="Sniffer"><a href="#Sniffer" class="headerlink" title="Sniffer"></a>Sniffer</h4><ul>
+<li><a href="./WPE%E4%B8%89%E4%BB%B6%E5%A5%97.zip">WPE三件套.zip</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Arsenal</category>
+      </categories>
+      <tags>
+        <tag>Arsenal</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>算法模板</title>
     <url>/2023/11/06/Algorithm-Templates/</url>
-    <content><![CDATA[<p><a href="https://github.com/TheAlgorithms">Github算法仓库</a></p>
+    <content><![CDATA[<p><a href="https://github.com/TheAlgorithms">Github 算法仓库</a></p>
 <h2 id="个人整理"><a href="#个人整理" class="headerlink" title="个人整理"></a>个人整理</h2><h3 id="BFS算法框架-11-29-《labuladong的算法笔记》"><a href="#BFS算法框架-11-29-《labuladong的算法笔记》" class="headerlink" title="BFS算法框架 - 11.29 - 《labuladong的算法笔记》"></a>BFS算法框架 - 11.29 - 《labuladong的算法笔记》</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 计算从起点start到终点target的最近距离</span><br><span class="line">int BFS(Node start, Node target) &#123;</span><br><span class="line">	Queue&lt;Node&gt; q; // 核心数据结构</span><br><span class="line">	Set&lt;Node&gt; visited; // 避免走回头路</span><br><span class="line">	</span><br><span class="line">	q.offer(start); // 将起点加入队列</span><br><span class="line">	visited.add(start);</span><br><span class="line">	int step = 0; // 记录扩散的步数</span><br><span class="line">	</span><br><span class="line">	while (q not empty) &#123;</span><br><span class="line">		int sz = q.size();</span><br><span class="line">		/* 将当前队列中的所有节点向四周扩散 */</span><br><span class="line">		for (int i = 0; i &lt; sz; ++i) &#123;</span><br><span class="line">			Node cur = q.poll();</span><br><span class="line">			/* 划重点：这里判断是否到达终点 */</span><br><span class="line">			if (cur is target) return step;</span><br><span class="line">			/* 将cur的相邻节点加入队列 */</span><br><span class="line">			for (Node x : cur.adj()) &#123;</span><br><span class="line">				if (x not in visited) &#123;</span><br><span class="line">					q.offer();</span><br><span class="line">					visited.add(x);</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		/* 划重点：更新步数在这里 */</span><br><span class="line">		step++;</span><br><span class="line">	&#125;</span><br><span class="line">	return step;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h3 id="加法计算代码模板"><a href="#加法计算代码模板" class="headerlink" title="加法计算代码模板"></a>加法计算代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">n1</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">n2</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">carry</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> n1 + n2 + carry;</span><br><span class="line">carry = sum / <span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">res</span> <span class="operator">=</span> sum % <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
@@ -38,29 +52,30 @@
 
 ]]></content>
       <categories>
-        <category>计算机科学与技术</category>
-        <category>算法</category>
+        <category>算法代码切片</category>
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>切片</tag>
+        <tag>模板</tag>
       </tags>
   </entry>
   <entry>
-    <title>Arsenal</title>
-    <url>/2024/02/08/Arsenal/</url>
-    <content><![CDATA[<h1 id="PERSONAL-ARSENAL"><a href="#PERSONAL-ARSENAL" class="headerlink" title="&#x2F;&#x2F;&#x2F; PERSONAL ARSENAL &#x2F;&#x2F;&#x2F;"></a>&#x2F;&#x2F;&#x2F; PERSONAL ARSENAL &#x2F;&#x2F;&#x2F;</h1><h2 id="Asserts"><a href="#Asserts" class="headerlink" title="Asserts:"></a>Asserts:</h2><h3 id="Internet-Security"><a href="#Internet-Security" class="headerlink" title="Internet-Security"></a>Internet-Security</h3><h4 id="Sniffer"><a href="#Sniffer" class="headerlink" title="Sniffer"></a>Sniffer</h4><ul>
-<li><a href="./WPE%E4%B8%89%E4%BB%B6%E5%A5%97.zip">WPE三件套.zip</a></li>
-</ul>
+    <title>计算机体系结构/组成原理</title>
+    <url>/2023/11/14/Computer-Architecture/</url>
+    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1ZJ411b7Na/?spm_id_from=333.999.0.0&vd_source=760264507c20c8ac38634e47af1aa1fa">微机原理 （西安电子科技大学）_哔哩哔哩_bilibili</a></p>
 ]]></content>
       <categories>
-        <category>Arsenal</category>
+        <category>计算机科学与技术</category>
       </categories>
       <tags>
-        <tag>Arsenal</tag>
+        <tag>计算机体系</tag>
+        <tag>计算机组成原理</tag>
+        <tag>微机原理</tag>
       </tags>
   </entry>
   <entry>
-    <title>四级备考</title>
+    <title>英语备考笔记</title>
     <url>/2024/02/14/CET4Translation/</url>
     <content><![CDATA[<h1 id="议论文模板"><a href="#议论文模板" class="headerlink" title="议论文模板"></a>议论文模板</h1><h2 id="开头段（总论点-30-50字）："><a href="#开头段（总论点-30-50字）：" class="headerlink" title="开头段（总论点 30~50字）："></a>开头段（总论点 30~50字）：</h2><ol>
 <li><p>第一句：</p>
@@ -265,38 +280,11 @@
 </ol>
 ]]></content>
       <categories>
-        <category>英语</category>
+        <category>英语考试</category>
       </categories>
       <tags>
-        <tag>英语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>计算机体系结构/组成原理</title>
-    <url>/2023/11/14/Computer-Architecture/</url>
-    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1ZJ411b7Na/?spm_id_from=333.999.0.0&vd_source=760264507c20c8ac38634e47af1aa1fa">微机原理 （西安电子科技大学）_哔哩哔哩_bilibili</a></p>
-]]></content>
-      <categories>
-        <category>计算机科学与技术</category>
-      </categories>
-      <tags>
-        <tag>计算机体系</tag>
-        <tag>计算机组成原理</tag>
-        <tag>微机原理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>前端技术栈</title>
-    <url>/2024/01/15/Frontend-Skills/</url>
-    <content><![CDATA[<h1 id="Promise-模块化编程"><a href="#Promise-模块化编程" class="headerlink" title="Promise &amp; 模块化编程"></a>Promise &amp; 模块化编程</h1><h2 id="Promise"><a href="#Promise" class="headerlink" title="Promise"></a>Promise</h2><h2 id="模块化编程"><a href="#模块化编程" class="headerlink" title="模块化编程"></a>模块化编程</h2><h1 id="Vue-Axios"><a href="#Vue-Axios" class="headerlink" title="Vue + Axios"></a>Vue + Axios</h1><h2 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h2><h2 id="Axios"><a href="#Axios" class="headerlink" title="Axios"></a>Axios</h2>]]></content>
-      <categories>
-        <category>计算机科学与技术</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>Vue</tag>
-        <tag>Axios</tag>
-        <tag>ElementUI</tag>
+        <tag>英语四级</tag>
+        <tag>CET4/6</tag>
       </tags>
   </entry>
   <entry>
@@ -330,53 +318,18 @@
       </tags>
   </entry>
   <entry>
-    <title>JVM</title>
-    <url>/2024/01/22/JVM/</url>
-    <content><![CDATA[<h1 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h1><p><a href="https://www.bilibili.com/video/BV1Er4y1r7as">Java JVM 虚拟机 已完结（IDEA 2021版本）4K蓝光画质 全程劝退 - by 青空の霞光</a></p>
+    <title>JUC 笔记</title>
+    <url>/2024/01/27/JUC/</url>
+    <content><![CDATA[<h1 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h1><p><a href="https://www.bilibili.com/video/BV1JT4y1S7K8">Java JUC 并发编程 已完结（IDEA 2021版本）4K蓝光画质 玩转多线程</a></p>
 <h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1><p><a href="https://www.itbaima.cn/document">柏码 - 让每一行代码都闪耀智慧的光芒！ (itbaima.cn)</a></p>
-<h2 id="报错记录"><a href="#报错记录" class="headerlink" title="报错记录"></a>报错记录</h2><ol>
-<li><p>time is more than 10 years from present</p>
-<img src="/2024/01/22/JVM/image-20240122205714797.png" class title="image-20240122205714797">
-
-<blockquote>
-<p>解决办法：</p>
-<ol>
-<li><p>（亲测无效）（<a href="https://yddmax.github.io/2017/06/12/openjdk%E4%B9%8B%E7%BC%96%E8%AF%91%E7%BB%8F%E5%B8%B8%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/">博客地址</a>）：</p>
-<p>修改 jdk&#x2F;src&#x2F;share&#x2F;classes&#x2F;java&#x2F;util&#x2F;CurrencyData.properties 文件</p>
-<p>修改108行<br><code>AZ=AZM;2009-12-31-20-00-00;AZN</code><br>修改381行<br><code>MZ=MZM;2009-06-30-22-00-00;MZN</code><br>修改443行<br><code>RO=ROL;2009-06-30-21-00-00;RON</code><br>修改535行<br><code>TR=TRL;2009-12-31-22-00-00;TRY</code><br>修改561行<br><code>VE=VEB;2009-01-01-04-00-00;VEF</code></p>
-</li>
-<li><p>（亲测有效）（<a href="https://github.com/NixOS/nixpkgs/commit/9b81769950b6d0221643c7b0758d894f7742a62a">Github 地址</a>）</p>
-<p>修改相关时间计算函数中的计算代码</p>
-</li>
-</ol>
-</blockquote>
-</li>
-<li><p>还有几个 Not found 报错原因：只将更改前的（nashorn&#x2F;make&#x2F;BuildNashorn.gmk 文件中的）代码注释而未删掉</p>
-</li>
-</ol>
-<h2 id="成功瞬间"><a href="#成功瞬间" class="headerlink" title="成功瞬间"></a>成功瞬间</h2><ol>
-<li><p>JDK8 编译成功</p>
-<img src="/2024/01/22/JVM/image-20240122235019452.png" class title="image-20240122235019452">
-
-<p>截止 2024.1.23 00:00</p>
-</li>
-</ol>
 ]]></content>
       <categories>
-        <category>计算机科学与技术</category>
+        <category>JavaSE</category>
       </categories>
       <tags>
-        <tag>Java</tag>
-        <tag>JVM</tag>
-        <tag>虚拟机</tag>
-        <tag>计算机科学与技术</tag>
-        <tag>底层</tag>
+        <tag>JUC</tag>
+        <tag>并发</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>JUC</title>
-    <url>/2024/01/27/JUC/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Java 项目</title>
@@ -526,6 +479,50 @@
       </categories>
       <tags>
         <tag>Java项目</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JVM 笔记</title>
+    <url>/2024/01/22/JVM/</url>
+    <content><![CDATA[<h1 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h1><p><a href="https://www.bilibili.com/video/BV1Er4y1r7as">Java JVM 虚拟机 已完结（IDEA 2021版本）4K蓝光画质 全程劝退 - by 青空の霞光</a></p>
+<h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1><p><a href="https://www.itbaima.cn/document">柏码 - 让每一行代码都闪耀智慧的光芒！ (itbaima.cn)</a></p>
+<h2 id="报错记录"><a href="#报错记录" class="headerlink" title="报错记录"></a>报错记录</h2><ol>
+<li><p>time is more than 10 years from present</p>
+<img src="/2024/01/22/JVM/image-20240122205714797.png" class title="image-20240122205714797">
+
+<blockquote>
+<p>解决办法：</p>
+<ol>
+<li><p>（亲测无效）（<a href="https://yddmax.github.io/2017/06/12/openjdk%E4%B9%8B%E7%BC%96%E8%AF%91%E7%BB%8F%E5%B8%B8%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/">博客地址</a>）：</p>
+<p>修改 jdk&#x2F;src&#x2F;share&#x2F;classes&#x2F;java&#x2F;util&#x2F;CurrencyData.properties 文件</p>
+<p>修改108行<br><code>AZ=AZM;2009-12-31-20-00-00;AZN</code><br>修改381行<br><code>MZ=MZM;2009-06-30-22-00-00;MZN</code><br>修改443行<br><code>RO=ROL;2009-06-30-21-00-00;RON</code><br>修改535行<br><code>TR=TRL;2009-12-31-22-00-00;TRY</code><br>修改561行<br><code>VE=VEB;2009-01-01-04-00-00;VEF</code></p>
+</li>
+<li><p>（亲测有效）（<a href="https://github.com/NixOS/nixpkgs/commit/9b81769950b6d0221643c7b0758d894f7742a62a">Github 地址</a>）</p>
+<p>修改相关时间计算函数中的计算代码</p>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p>还有几个 Not found 报错原因：只将更改前的（nashorn&#x2F;make&#x2F;BuildNashorn.gmk 文件中的）代码注释而未删掉</p>
+</li>
+</ol>
+<h2 id="成功瞬间"><a href="#成功瞬间" class="headerlink" title="成功瞬间"></a>成功瞬间</h2><ol>
+<li><p>JDK8 编译成功</p>
+<img src="/2024/01/22/JVM/image-20240122235019452.png" class title="image-20240122235019452">
+
+<p>截止 2024.1.23 00:00</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>JVM</tag>
+        <tag>虚拟机</tag>
+        <tag>计算机科学与技术</tag>
+        <tag>底层</tag>
       </tags>
   </entry>
   <entry>
@@ -1147,65 +1144,6 @@
       </categories>
       <tags>
         <tag>JavaWeb</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Maven</title>
-    <url>/2024/01/08/Maven/</url>
-    <content><![CDATA[<h1 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h1><p><a href="https://www.bilibili.com/video/BV14j411S76G">Apache Maven 依赖管理 极速上手 已完结（2021 版本）4K蓝光画质+杜比音效 从导入到冲突</a></p>
-<h1 id="笔记引用"><a href="#笔记引用" class="headerlink" title="笔记引用"></a>笔记引用</h1><p><a href="https://www.itbaima.cn/document">柏码 - 让每一行代码都闪耀智慧的光芒！ (itbaima.cn)</a></p>
-]]></content>
-      <categories>
-        <category>计算机科学与技术</category>
-      </categories>
-      <tags>
-        <tag>Maven</tag>
-        <tag>Apache</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>乐理</title>
-    <url>/2024/01/04/Music-Theory/</url>
-    <content><![CDATA[<h1 id="音阶推算"><a href="#音阶推算" class="headerlink" title="音阶推算"></a>音阶推算</h1><h2 id="十二平均律"><a href="#十二平均律" class="headerlink" title="十二平均律"></a>十二平均律</h2><img src="/2024/01/04/Music-Theory/image-20240114211936310.png" class title="image-20240114211936310">
-
-<h1 id="音程"><a href="#音程" class="headerlink" title="音程"></a>音程</h1><ul>
-<li>音与音之间的距离，单位&#x2F;度</li>
-</ul>
-<h2 id="大三度"><a href="#大三度" class="headerlink" title="大三度"></a>大三度</h2><p>三度之间皆为全音关系</p>
-<h2 id="小三度"><a href="#小三度" class="headerlink" title="小三度"></a>小三度</h2><p>三度之间为全半音关系</p>
-<h2 id="纯四度"><a href="#纯四度" class="headerlink" title="纯四度"></a>纯四度</h2><p>四度之间含半音</p>
-<h2 id="增四度"><a href="#增四度" class="headerlink" title="增四度"></a>增四度</h2><p>纯四度之外（四度之间无半音）</p>
-<h1 id="音名-唱名"><a href="#音名-唱名" class="headerlink" title="音名 &amp; 唱名"></a>音名 &amp; 唱名</h1><h2 id="音名"><a href="#音名" class="headerlink" title="音名"></a>音名</h2><p>A B C D E F G</p>
-<h2 id="唱名"><a href="#唱名" class="headerlink" title="唱名"></a>唱名</h2><p>Do …</p>
-<h1 id="和弦"><a href="#和弦" class="headerlink" title="和弦"></a>和弦</h1><img src="/2024/01/04/Music-Theory/image-20240115122124843.png" class title="image-20240115122124843">
-
-<h2 id="和弦构成"><a href="#和弦构成" class="headerlink" title="和弦构成"></a>和弦构成</h2><h3 id="大三和弦"><a href="#大三和弦" class="headerlink" title="大三和弦"></a>大三和弦</h3><p>大三度 + 小三度</p>
-<h3 id="小三和弦（音名后加m，如-Dm）"><a href="#小三和弦（音名后加m，如-Dm）" class="headerlink" title="小三和弦（音名后加m，如 Dm）"></a>小三和弦（音名后加m，如 Dm）</h3><p>小三度 + 大三度</p>
-<img src="/2024/01/04/Music-Theory/image-20240115154436648.png" class title="image-20240115154436648">
-
-<h2 id="和弦级数"><a href="#和弦级数" class="headerlink" title="和弦级数"></a>和弦级数</h2><img src="/2024/01/04/Music-Theory/image-20240117110605931.png" class title="image-20240117110605931">
-
-]]></content>
-      <categories>
-        <category>乐理</category>
-      </categories>
-      <tags>
-        <tag>音乐</tag>
-        <tag>吉他</tag>
-        <tag>乐理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MyBatis 笔记</title>
-    <url>/2024/01/08/MyBatis/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>计算机科学与技术</category>
-      </categories>
-      <tags>
-        <tag>计算机科学与技术</tag>
-        <tag>MyBatis</tag>
-        <tag>数据持久化</tag>
       </tags>
   </entry>
   <entry>
@@ -3196,19 +3134,88 @@
 </ol>
 ]]></content>
       <categories>
-        <category>计算机科学与技术</category>
+        <category>JavaSE</category>
       </categories>
       <tags>
+        <tag>计算机科学与技术</tag>
         <tag>JavaSE</tag>
       </tags>
   </entry>
   <entry>
-    <title>Nginx</title>
-    <url>/2024/01/08/Nginx/</url>
-    <content><![CDATA[]]></content>
+    <title>Maven 笔记</title>
+    <url>/2024/01/08/Maven/</url>
+    <content><![CDATA[<h1 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h1><p><a href="https://www.bilibili.com/video/BV14j411S76G">Apache Maven 依赖管理 极速上手 已完结（2021 版本）4K蓝光画质+杜比音效 从导入到冲突</a></p>
+<h1 id="笔记引用"><a href="#笔记引用" class="headerlink" title="笔记引用"></a>笔记引用</h1><p><a href="https://www.itbaima.cn/document">柏码 - 让每一行代码都闪耀智慧的光芒！ (itbaima.cn)</a></p>
+]]></content>
+      <categories>
+        <category>Java 包管理</category>
+      </categories>
+      <tags>
+        <tag>Maven</tag>
+        <tag>Apache</tag>
+      </tags>
   </entry>
   <entry>
-    <title>操作系统</title>
+    <title>乐理</title>
+    <url>/2024/01/04/Music-Theory/</url>
+    <content><![CDATA[<h1 id="音阶推算"><a href="#音阶推算" class="headerlink" title="音阶推算"></a>音阶推算</h1><h2 id="十二平均律"><a href="#十二平均律" class="headerlink" title="十二平均律"></a>十二平均律</h2><img src="/2024/01/04/Music-Theory/image-20240114211936310.png" class title="image-20240114211936310">
+
+<h1 id="音程"><a href="#音程" class="headerlink" title="音程"></a>音程</h1><ul>
+<li>音与音之间的距离，单位&#x2F;度</li>
+</ul>
+<h2 id="大三度"><a href="#大三度" class="headerlink" title="大三度"></a>大三度</h2><p>三度之间皆为全音关系</p>
+<h2 id="小三度"><a href="#小三度" class="headerlink" title="小三度"></a>小三度</h2><p>三度之间为全半音关系</p>
+<h2 id="纯四度"><a href="#纯四度" class="headerlink" title="纯四度"></a>纯四度</h2><p>四度之间含半音</p>
+<h2 id="增四度"><a href="#增四度" class="headerlink" title="增四度"></a>增四度</h2><p>纯四度之外（四度之间无半音）</p>
+<h1 id="音名-唱名"><a href="#音名-唱名" class="headerlink" title="音名 &amp; 唱名"></a>音名 &amp; 唱名</h1><h2 id="音名"><a href="#音名" class="headerlink" title="音名"></a>音名</h2><p>A B C D E F G</p>
+<h2 id="唱名"><a href="#唱名" class="headerlink" title="唱名"></a>唱名</h2><p>Do …</p>
+<h1 id="和弦"><a href="#和弦" class="headerlink" title="和弦"></a>和弦</h1><img src="/2024/01/04/Music-Theory/image-20240115122124843.png" class title="image-20240115122124843">
+
+<h2 id="和弦构成"><a href="#和弦构成" class="headerlink" title="和弦构成"></a>和弦构成</h2><h3 id="大三和弦"><a href="#大三和弦" class="headerlink" title="大三和弦"></a>大三和弦</h3><p>大三度 + 小三度</p>
+<h3 id="小三和弦（音名后加m，如-Dm）"><a href="#小三和弦（音名后加m，如-Dm）" class="headerlink" title="小三和弦（音名后加m，如 Dm）"></a>小三和弦（音名后加m，如 Dm）</h3><p>小三度 + 大三度</p>
+<img src="/2024/01/04/Music-Theory/image-20240115154436648.png" class title="image-20240115154436648">
+
+<h2 id="和弦级数"><a href="#和弦级数" class="headerlink" title="和弦级数"></a>和弦级数</h2><img src="/2024/01/04/Music-Theory/image-20240117110605931.png" class title="image-20240117110605931">
+
+]]></content>
+      <categories>
+        <category>乐理</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
+        <tag>吉他</tag>
+        <tag>乐理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nginx 笔记</title>
+    <url>/2024/01/08/Nginx/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Web 中间件</category>
+      </categories>
+      <tags>
+        <tag>Nginx</tag>
+        <tag>Web 中间件</tag>
+        <tag>负载均衡</tag>
+        <tag>反向代理</tag>
+        <tag>代理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MyBatis 笔记</title>
+    <url>/2024/01/08/MyBatis/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>计算机科学与技术</category>
+      </categories>
+      <tags>
+        <tag>MyBatis</tag>
+        <tag>数据持久化</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>操作系统笔记</title>
     <url>/2023/11/07/OS-Notes/</url>
     <content><![CDATA[<h1 id="8086基础阶段总结"><a href="#8086基础阶段总结" class="headerlink" title="8086基础阶段总结"></a>8086基础阶段总结</h1><h2 id="通用寄存器"><a href="#通用寄存器" class="headerlink" title="通用寄存器"></a>通用寄存器</h2><h2 id="内存访问-字节序"><a href="#内存访问-字节序" class="headerlink" title="内存访问&amp;字节序"></a>内存访问&amp;字节序</h2><h2 id="段地址-偏移地址"><a href="#段地址-偏移地址" class="headerlink" title="段地址&amp;偏移地址"></a>段地址&amp;偏移地址</h2><h2 id="虚拟硬盘の写入-虚拟机-Bochs"><a href="#虚拟硬盘の写入-虚拟机-Bochs" class="headerlink" title="虚拟硬盘の写入&amp;虚拟机(Bochs)"></a>虚拟硬盘の写入&amp;虚拟机(Bochs)</h2><h3 id="虚拟硬盘"><a href="#虚拟硬盘" class="headerlink" title="虚拟硬盘"></a>虚拟硬盘</h3><ol>
 <li>写入数据工具：WinHex</li>
@@ -3484,17 +3491,48 @@
       </categories>
       <tags>
         <tag>计算机</tag>
+        <tag>操作系统</tag>
+        <tag>内核</tag>
       </tags>
   </entry>
   <entry>
-    <title>Redis</title>
+    <title>Redis 笔记</title>
     <url>/2024/01/08/Redis/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>NoSQL</category>
+      </categories>
+      <tags>
+        <tag>NoSQL</tag>
+        <tag>基于内存</tag>
+        <tag>数据库</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpringBoot 笔记</title>
+    <url>/2024/01/08/SpringBoot/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Spring 系框架</category>
+      </categories>
+      <tags>
+        <tag>SpringBoot</tag>
+        <tag>框架</tag>
+      </tags>
   </entry>
   <entry>
     <title>SSM</title>
     <url>/2024/01/08/SSM/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>Spring 系框架</category>
+      </categories>
+      <tags>
+        <tag>MyBatis</tag>
+        <tag>SSM</tag>
+        <tag>Spring</tag>
+        <tag>SpringMVC</tag>
+      </tags>
   </entry>
   <entry>
     <title>Spring 笔记</title>
@@ -3511,22 +3549,22 @@
       </categories>
       <tags>
         <tag>计算机科学与技术</tag>
+        <tag>框架</tag>
         <tag>Spring</tag>
         <tag>Spring6</tag>
-        <tag>框架</tag>
         <tag>Web后端</tag>
       </tags>
   </entry>
   <entry>
-    <title>SpringBoot 笔记</title>
-    <url>/2024/01/08/SpringBoot/</url>
+    <title>SpringMVC 笔记</title>
+    <url>/2024/01/08/SpringMVC/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>Spring 系框架</category>
       </categories>
       <tags>
-        <tag>框架</tag>
-        <tag>SpringBoot</tag>
+        <tag>SpringMVC</tag>
+        <tag>Spring Web MVC</tag>
       </tags>
   </entry>
   <entry>
@@ -3574,36 +3612,6 @@
       </tags>
   </entry>
   <entry>
-    <title>SpringMVC 笔记</title>
-    <url>/2024/01/08/SpringMVC/</url>
-    <content><![CDATA[<h2 id><a href="#" class="headerlink" title></a></h2>]]></content>
-      <categories>
-        <category>Spring 系框架</category>
-      </categories>
-      <tags>
-        <tag>SpringMVC</tag>
-        <tag>Spring Web MVC</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>工具集</title>
-    <url>/2023/11/16/Utils/</url>
-    <content><![CDATA[<h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><ol>
-<li><a href="./utils.py.zip">utils.py.zip</a> -&gt; <em>ChromeWebdriverAntiCrawlSettingsFile</em></li>
-</ol>
-<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><ol>
-<li><a href="./Utility.java.zip">Utility.java.zip</a> -&gt; <em>UserInputHandler</em></li>
-</ol>
-]]></content>
-      <categories>
-        <category>计算机科学与技术</category>
-      </categories>
-      <tags>
-        <tag>编程工具类</tag>
-        <tag>编程模板</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>网络安全</title>
     <url>/2024/02/07/Web-Security/</url>
     <content><![CDATA[<h1 id="必备网站"><a href="#必备网站" class="headerlink" title="必备网站"></a>必备网站</h1><ul>
@@ -3633,8 +3641,7 @@
 
 <img src="/2024/02/07/Web-Security/image-20240211230122442.png" class title="image-20240211230122442">
 
-
-
+<p><img src="/image-20240215175317545.png" alt="image-20240215175317545"></p>
 <h1 id="PHP-开发"><a href="#PHP-开发" class="headerlink" title="PHP 开发"></a>PHP 开发</h1>]]></content>
       <categories>
         <category>计算机安全</category>
@@ -3642,13 +3649,31 @@
       <tags>
         <tag>计算机</tag>
         <tag>网络</tag>
-        <tag>安全</tag>
+        <tag>信息安全</tag>
         <tag>Web</tag>
         <tag>红蓝对抗</tag>
       </tags>
   </entry>
   <entry>
-    <title>“趣”学架构</title>
+    <title>工具库</title>
+    <url>/2023/11/16/Utils/</url>
+    <content><![CDATA[<h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><ol>
+<li><a href="./utils.py.zip">utils.py.zip</a> -&gt; <em>ChromeWebdriverAntiCrawlSettingsFile</em></li>
+</ol>
+<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><ol>
+<li><a href="./Utility.java.zip">Utility.java.zip</a> -&gt; <em>UserInputHandler</em></li>
+</ol>
+]]></content>
+      <categories>
+        <category>工具代码切片</category>
+      </categories>
+      <tags>
+        <tag>编程工具类</tag>
+        <tag>代码模板</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>“趣”学架构 系列笔记</title>
     <url>/2024/02/12/Web-Architecture/</url>
     <content><![CDATA[<h1 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h1><p><a href="https://www.bilibili.com/video/BV1Sx4y117bU">【学架构也可以很有趣】【“趣”学架构】</a></p>
 <h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1>]]></content>
