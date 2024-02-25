@@ -567,10 +567,33 @@
 <li>先更新数据库，再写缓存（✅缓存更新速度快，相对影响小）</li>
 </ol>
 </li>
+<li><p>缓存穿透</p>
+<p>指客户端请求的数据在缓存中和数据库中都不存在，这样缓存永远不会生效，这些请求都会打到数据库</p>
+<ol>
+<li>缓存空对象<ol>
+<li>优：实现简单，维护方便</li>
+<li>缺：<ol>
+<li>额外内存消耗</li>
+<li>可能造成短期数据不一致</li>
 </ol>
 </li>
 </ol>
-<h1 id="x-硅谷课程（SpringBoot-后）"><a href="#x-硅谷课程（SpringBoot-后）" class="headerlink" title="x. 硅谷课程（SpringBoot 后）"></a>x. 硅谷课程（SpringBoot 后）</h1><p>含公众号开发、文件上传、点播、直播…</p>
+</li>
+<li>布隆过滤<ol>
+<li>优：内存占用少，无多余 key</li>
+<li>缺：<ol>
+<li>实现复杂</li>
+<li>存在误判可能</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h1 id="7-鱼泡网-伙伴匹配系统"><a href="#7-鱼泡网-伙伴匹配系统" class="headerlink" title="7. 鱼泡网 - 伙伴匹配系统"></a>7. 鱼泡网 - 伙伴匹配系统</h1><h2 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h2><h1 id="x-硅谷课程（SpringBoot-后）"><a href="#x-硅谷课程（SpringBoot-后）" class="headerlink" title="x. 硅谷课程（SpringBoot 后）"></a>x. 硅谷课程（SpringBoot 后）</h1><p>含公众号开发、文件上传、点播、直播…</p>
 <h1 id="x-智能-BI（React-SpringBoot-MQ-AIGC）"><a href="#x-智能-BI（React-SpringBoot-MQ-AIGC）" class="headerlink" title="x. 智能 BI（React + SpringBoot + MQ + AIGC）"></a>x. 智能 BI（React + SpringBoot + MQ + AIGC）</h1><h1 id="x-尚医通（微服务一血）"><a href="#x-尚医通（微服务一血）" class="headerlink" title="x. 尚医通（微服务一血）"></a>x. 尚医通（微服务一血）</h1>]]></content>
       <categories>
         <category>计算机科学与技术</category>
