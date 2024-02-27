@@ -61,6 +61,38 @@
       </tags>
   </entry>
   <entry>
+    <title>Github资源集</title>
+    <url>/2023/11/13/Github-Resources/</url>
+    <content><![CDATA[<ol>
+<li><a href="https://github.com/ruanyf/weekly/tree/master">科技爱好者周刊跳转链接 –to-&gt; Github</a></li>
+<li><a href="https://github.com/EbookFoundation/free-programming-books">编程资源跳转链接 –to-&gt; Github</a></li>
+<li><a href="https://github.com/TheAlgorithms">算法模板大全 –to–&gt; Github</a></li>
+<li><a href="https://github.com/krahets/hello-algo">Hello算法 –to–&gt; Github</a></li>
+<li><a href="https://github.com/HeroHai/it-pdf-books">新版 1000 多本计算机电子书免费下载 –to–&gt; Github</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>资源归档</category>
+      </categories>
+      <tags>
+        <tag>男男交友</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机体系结构/组成原理</title>
+    <url>/2023/11/14/Computer-Architecture/</url>
+    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1ZJ411b7Na/?spm_id_from=333.999.0.0&vd_source=760264507c20c8ac38634e47af1aa1fa">微机原理 （西安电子科技大学）_哔哩哔哩_bilibili</a></p>
+]]></content>
+      <categories>
+        <category>计算机科学与技术</category>
+      </categories>
+      <tags>
+        <tag>计算机体系</tag>
+        <tag>计算机组成原理</tag>
+        <tag>微机原理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>英语备考笔记</title>
     <url>/2024/02/14/CET4Translation/</url>
     <content><![CDATA[<h1 id="议论文模板"><a href="#议论文模板" class="headerlink" title="议论文模板"></a>议论文模板</h1><h2 id="开头段（总论点-30-50字）："><a href="#开头段（总论点-30-50字）：" class="headerlink" title="开头段（总论点 30~50字）："></a>开头段（总论点 30~50字）：</h2><ol>
@@ -274,35 +306,17 @@
       </tags>
   </entry>
   <entry>
-    <title>计算机体系结构/组成原理</title>
-    <url>/2023/11/14/Computer-Architecture/</url>
-    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1ZJ411b7Na/?spm_id_from=333.999.0.0&vd_source=760264507c20c8ac38634e47af1aa1fa">微机原理 （西安电子科技大学）_哔哩哔哩_bilibili</a></p>
+    <title>JUC 笔记</title>
+    <url>/2024/01/27/JUC/</url>
+    <content><![CDATA[<h1 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h1><p><a href="https://www.bilibili.com/video/BV1JT4y1S7K8">Java JUC 并发编程 已完结（IDEA 2021版本）4K蓝光画质 玩转多线程</a></p>
+<h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1><p><a href="https://www.itbaima.cn/document">柏码 - 让每一行代码都闪耀智慧的光芒！ (itbaima.cn)</a></p>
 ]]></content>
       <categories>
-        <category>计算机科学与技术</category>
+        <category>JavaSE</category>
       </categories>
       <tags>
-        <tag>计算机体系</tag>
-        <tag>计算机组成原理</tag>
-        <tag>微机原理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github资源集</title>
-    <url>/2023/11/13/Github-Resources/</url>
-    <content><![CDATA[<ol>
-<li><a href="https://github.com/ruanyf/weekly/tree/master">科技爱好者周刊跳转链接 –to-&gt; Github</a></li>
-<li><a href="https://github.com/EbookFoundation/free-programming-books">编程资源跳转链接 –to-&gt; Github</a></li>
-<li><a href="https://github.com/TheAlgorithms">算法模板大全 –to–&gt; Github</a></li>
-<li><a href="https://github.com/krahets/hello-algo">Hello算法 –to–&gt; Github</a></li>
-<li><a href="https://github.com/HeroHai/it-pdf-books">新版 1000 多本计算机电子书免费下载 –to–&gt; Github</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>资源归档</category>
-      </categories>
-      <tags>
-        <tag>男男交友</tag>
+        <tag>JUC</tag>
+        <tag>并发</tag>
       </tags>
   </entry>
   <entry>
@@ -359,20 +373,6 @@
         <tag>虚拟机</tag>
         <tag>计算机科学与技术</tag>
         <tag>底层</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JUC 笔记</title>
-    <url>/2024/01/27/JUC/</url>
-    <content><![CDATA[<h1 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h1><p><a href="https://www.bilibili.com/video/BV1JT4y1S7K8">Java JUC 并发编程 已完结（IDEA 2021版本）4K蓝光画质 玩转多线程</a></p>
-<h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1><p><a href="https://www.itbaima.cn/document">柏码 - 让每一行代码都闪耀智慧的光芒！ (itbaima.cn)</a></p>
-]]></content>
-      <categories>
-        <category>JavaSE</category>
-      </categories>
-      <tags>
-        <tag>JUC</tag>
-        <tag>并发</tag>
       </tags>
   </entry>
   <entry>
@@ -637,7 +637,12 @@
 </ol>
 <h2 id="优惠券秒杀"><a href="#优惠券秒杀" class="headerlink" title="优惠券秒杀"></a>优惠券秒杀</h2><ol>
 <li><p>全局唯一 ID</p>
-<img src="/2023/11/25/JavaProjects/image-20240226105739989.png" class title="image-20240226105739989"></li>
+<img src="/2023/11/25/JavaProjects/image-20240226105739989.png" class title="image-20240226105739989">
+</li>
+<li><p>实现优惠券秒杀下单</p>
+</li>
+<li><p>超卖问题</p>
+</li>
 </ol>
 <h1 id="6-扎堆网（PileUp）-（伙伴匹配系统）"><a href="#6-扎堆网（PileUp）-（伙伴匹配系统）" class="headerlink" title="6. 扎堆网（PileUp） - （伙伴匹配系统）"></a>6. 扎堆网（PileUp） - （伙伴匹配系统）</h1><ol>
 <li>Repos:<ol>
@@ -673,8 +678,10 @@
 <li>Swagger + Knife4j 接口文档</li>
 </ol>
 <h2 id="代码归档"><a href="#代码归档" class="headerlink" title="代码归档"></a>代码归档</h2><ol>
-<li>前端项目初始化（1.x）</li>
-<li>前端主页 + 组件概览（2.x）<ol>
+<li><p>前端项目初始化（1.x）</p>
+</li>
+<li><p>前端主页 + 组件概览（2.x）</p>
+<ol>
 <li>设计<ol>
 <li>tabbar<ol>
 <li>首页（推荐 + 广告）<ol>
@@ -691,8 +698,10 @@
 <li>开发</li>
 </ol>
 </li>
-<li>数据库表设计（3.x）<ol>
-<li>标签表<ol>
+<li><p>数据库表设计（3.x）</p>
+<ol>
+<li><p>标签表</p>
+<ol>
 <li>性别：男、女</li>
 <li>方向：Java、C++、Go、前端、网安</li>
 <li>正在学：Spring</li>
@@ -706,7 +715,7 @@
 <li>标签名 varchar 非空</li>
 <li>上传标签的用户 userId int</li>
 <li>父标签 id parentId int（分类）</li>
-<li>是否为父标签 isParent tinyint （0&#x2F;1）</li>
+<li>是否为父标签 isParent tinyint （0 -&gt; 不是父标签 &#x2F; 1 -&gt; 是父标签）</li>
 <li>创建时间 createTime datetime</li>
 <li>更新时间 updateTime datetime</li>
 <li>是否删除 isDelete tinyint （0&#x2F;1）</li>
@@ -714,11 +723,38 @@
 </li>
 </ol>
 </li>
-<li>用户表</li>
+<li><p>修改用户表（<strong>根据需求</strong>）</p>
+<ol>
+<li><p>补充 tags 字段，存 json 字符串</p>
+<ol>
+<li><p>优：查询方便、不用新建关联表，标签是 <strong>用户的固有属性</strong> （除该系统之外还可能用到）</p>
+<blockquote>
+<p>性能低可用 Redis</p>
+</blockquote>
+</li>
+<li><p>缺：用户表多一列</p>
+</li>
 </ol>
 </li>
-<li>根据标签搜索用户 - 后端（）</li>
-<li>根据标签搜索用户 - 前端（）</li>
+<li><p>加一个关联表，记录用户和标签的关系</p>
+<ol>
+<li><p>优：（应用场景：）查询灵活、可正查反查</p>
+</li>
+<li><p>缺：要多建一个表、多维护一个表</p>
+<blockquote>
+<p>企业大项目开发中尽量减少关联查询，很影响扩展性，而且影响查询性能</p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>根据标签搜索用户 - 后端（）</p>
+</li>
+<li><p>根据标签搜索用户 - 前端（）</p>
+</li>
 </ol>
 <h1 id="x-硅谷课程（SpringBoot-后）"><a href="#x-硅谷课程（SpringBoot-后）" class="headerlink" title="x. 硅谷课程（SpringBoot 后）"></a>x. 硅谷课程（SpringBoot 后）</h1><p>含公众号开发、文件上传、点播、直播…</p>
 <h1 id="x-智能-BI（React-SpringBoot-MQ-AIGC）"><a href="#x-智能-BI（React-SpringBoot-MQ-AIGC）" class="headerlink" title="x. 智能 BI（React + SpringBoot + MQ + AIGC）"></a>x. 智能 BI（React + SpringBoot + MQ + AIGC）</h1><h1 id="x-尚医通（微服务一血）"><a href="#x-尚医通（微服务一血）" class="headerlink" title="x. 尚医通（微服务一血）"></a>x. 尚医通（微服务一血）</h1>]]></content>
@@ -1362,53 +1398,6 @@
       <tags>
         <tag>Maven</tag>
         <tag>Apache</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>乐理</title>
-    <url>/2024/01/04/Music-Theory/</url>
-    <content><![CDATA[<h1 id="音阶推算"><a href="#音阶推算" class="headerlink" title="音阶推算"></a>音阶推算</h1><h2 id="十二平均律"><a href="#十二平均律" class="headerlink" title="十二平均律"></a>十二平均律</h2><img src="/2024/01/04/Music-Theory/image-20240114211936310.png" class title="image-20240114211936310">
-
-<h1 id="音程"><a href="#音程" class="headerlink" title="音程"></a>音程</h1><ul>
-<li>音与音之间的距离，单位&#x2F;度</li>
-</ul>
-<h2 id="大三度"><a href="#大三度" class="headerlink" title="大三度"></a>大三度</h2><p>三度之间皆为全音关系</p>
-<h2 id="小三度"><a href="#小三度" class="headerlink" title="小三度"></a>小三度</h2><p>三度之间为全半音关系</p>
-<h2 id="纯四度"><a href="#纯四度" class="headerlink" title="纯四度"></a>纯四度</h2><p>四度之间含半音</p>
-<h2 id="增四度"><a href="#增四度" class="headerlink" title="增四度"></a>增四度</h2><p>纯四度之外（四度之间无半音）</p>
-<h1 id="音名-唱名"><a href="#音名-唱名" class="headerlink" title="音名 &amp; 唱名"></a>音名 &amp; 唱名</h1><h2 id="音名"><a href="#音名" class="headerlink" title="音名"></a>音名</h2><p>A B C D E F G</p>
-<h2 id="唱名"><a href="#唱名" class="headerlink" title="唱名"></a>唱名</h2><p>Do …</p>
-<h1 id="和弦"><a href="#和弦" class="headerlink" title="和弦"></a>和弦</h1><img src="/2024/01/04/Music-Theory/image-20240115122124843.png" class title="image-20240115122124843">
-
-<h2 id="和弦构成"><a href="#和弦构成" class="headerlink" title="和弦构成"></a>和弦构成</h2><h3 id="大三和弦"><a href="#大三和弦" class="headerlink" title="大三和弦"></a>大三和弦</h3><p>大三度 + 小三度</p>
-<h3 id="小三和弦（音名后加m，如-Dm）"><a href="#小三和弦（音名后加m，如-Dm）" class="headerlink" title="小三和弦（音名后加m，如 Dm）"></a>小三和弦（音名后加m，如 Dm）</h3><p>小三度 + 大三度</p>
-<img src="/2024/01/04/Music-Theory/image-20240115154436648.png" class title="image-20240115154436648">
-
-<h2 id="和弦级数"><a href="#和弦级数" class="headerlink" title="和弦级数"></a>和弦级数</h2><img src="/2024/01/04/Music-Theory/image-20240117110605931.png" class title="image-20240117110605931">
-
-]]></content>
-      <categories>
-        <category>乐理</category>
-      </categories>
-      <tags>
-        <tag>音乐</tag>
-        <tag>吉他</tag>
-        <tag>乐理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Nginx 笔记</title>
-    <url>/2024/01/08/Nginx/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Web 中间件</category>
-      </categories>
-      <tags>
-        <tag>Nginx</tag>
-        <tag>Web 中间件</tag>
-        <tag>负载均衡</tag>
-        <tag>反向代理</tag>
-        <tag>代理</tag>
       </tags>
   </entry>
   <entry>
@@ -3407,6 +3396,53 @@
       </tags>
   </entry>
   <entry>
+    <title>Nginx 笔记</title>
+    <url>/2024/01/08/Nginx/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Web 中间件</category>
+      </categories>
+      <tags>
+        <tag>Nginx</tag>
+        <tag>Web 中间件</tag>
+        <tag>负载均衡</tag>
+        <tag>反向代理</tag>
+        <tag>代理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>乐理</title>
+    <url>/2024/01/04/Music-Theory/</url>
+    <content><![CDATA[<h1 id="音阶推算"><a href="#音阶推算" class="headerlink" title="音阶推算"></a>音阶推算</h1><h2 id="十二平均律"><a href="#十二平均律" class="headerlink" title="十二平均律"></a>十二平均律</h2><img src="/2024/01/04/Music-Theory/image-20240114211936310.png" class title="image-20240114211936310">
+
+<h1 id="音程"><a href="#音程" class="headerlink" title="音程"></a>音程</h1><ul>
+<li>音与音之间的距离，单位&#x2F;度</li>
+</ul>
+<h2 id="大三度"><a href="#大三度" class="headerlink" title="大三度"></a>大三度</h2><p>三度之间皆为全音关系</p>
+<h2 id="小三度"><a href="#小三度" class="headerlink" title="小三度"></a>小三度</h2><p>三度之间为全半音关系</p>
+<h2 id="纯四度"><a href="#纯四度" class="headerlink" title="纯四度"></a>纯四度</h2><p>四度之间含半音</p>
+<h2 id="增四度"><a href="#增四度" class="headerlink" title="增四度"></a>增四度</h2><p>纯四度之外（四度之间无半音）</p>
+<h1 id="音名-唱名"><a href="#音名-唱名" class="headerlink" title="音名 &amp; 唱名"></a>音名 &amp; 唱名</h1><h2 id="音名"><a href="#音名" class="headerlink" title="音名"></a>音名</h2><p>A B C D E F G</p>
+<h2 id="唱名"><a href="#唱名" class="headerlink" title="唱名"></a>唱名</h2><p>Do …</p>
+<h1 id="和弦"><a href="#和弦" class="headerlink" title="和弦"></a>和弦</h1><img src="/2024/01/04/Music-Theory/image-20240115122124843.png" class title="image-20240115122124843">
+
+<h2 id="和弦构成"><a href="#和弦构成" class="headerlink" title="和弦构成"></a>和弦构成</h2><h3 id="大三和弦"><a href="#大三和弦" class="headerlink" title="大三和弦"></a>大三和弦</h3><p>大三度 + 小三度</p>
+<h3 id="小三和弦（音名后加m，如-Dm）"><a href="#小三和弦（音名后加m，如-Dm）" class="headerlink" title="小三和弦（音名后加m，如 Dm）"></a>小三和弦（音名后加m，如 Dm）</h3><p>小三度 + 大三度</p>
+<img src="/2024/01/04/Music-Theory/image-20240115154436648.png" class title="image-20240115154436648">
+
+<h2 id="和弦级数"><a href="#和弦级数" class="headerlink" title="和弦级数"></a>和弦级数</h2><img src="/2024/01/04/Music-Theory/image-20240117110605931.png" class title="image-20240117110605931">
+
+]]></content>
+      <categories>
+        <category>乐理</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
+        <tag>吉他</tag>
+        <tag>乐理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>MyBatis 笔记</title>
     <url>/2024/01/08/MyBatis/</url>
     <content><![CDATA[]]></content>
@@ -3689,7 +3725,35 @@
 <li><p>外围设备及其接口</p>
 </li>
 </ol>
-<h2 id="中断-动态时钟显示"><a href="#中断-动态时钟显示" class="headerlink" title="中断&amp;动态时钟显示"></a>中断&amp;动态时钟显示</h2><h1 id="32位x86处理器架构"><a href="#32位x86处理器架构" class="headerlink" title="32位x86处理器架构"></a>32位x86处理器架构</h1><h2 id="保护模式"><a href="#保护模式" class="headerlink" title="保护模式"></a>保护模式</h2>]]></content>
+<h2 id="中断-动态时钟显示"><a href="#中断-动态时钟显示" class="headerlink" title="中断&amp;动态时钟显示"></a>中断&amp;动态时钟显示</h2><h3 id="中断"><a href="#中断" class="headerlink" title="中断"></a>中断</h3><ol>
+<li><p>外部硬件中断</p>
+<img src="/2023/11/07/OS-Notes/image-20240227180916141.png" class title="image-20240227180916141">
+
+<p>后经中断屏蔽寄存器</p>
+<img src="/2023/11/07/OS-Notes/image-20240227180946481.png" class title="image-20240227180946481">
+
+<p>标志寄存器可选是否忽略中断</p>
+<img src="/2023/11/07/OS-Notes/image-20240227181029879.png" class title="image-20240227181029879">
+
+<p>1 -&gt; 接受&amp;响应中断，0 -&gt; 屏蔽信号</p>
+<img src="/2023/11/07/OS-Notes/image-20240227181219914.png" class title="image-20240227181219914">
+</li>
+<li><p>实模式下的中断向量表（由 BIOS 在开机时创建供 CPU 使用）</p>
+<img src="/2023/11/07/OS-Notes/image-20240227185652674.png" class title="image-20240227185652674">
+
+<blockquote>
+<p>中断号 x 4 &#x3D; 物理地址（段地址 + 偏移地址）</p>
+</blockquote>
+</li>
+<li><p>遇到中断时操作</p>
+<ol>
+<li>保护断点现场（将标志寄存器、指令指针寄存器等压栈）</li>
+<li>执行中断处理程序（取得地址、执行）</li>
+<li>遇到 iret（中断返回）指令，返回断点，将前状态出栈，继续执行</li>
+</ol>
+</li>
+</ol>
+<h1 id="32位x86处理器架构"><a href="#32位x86处理器架构" class="headerlink" title="32位x86处理器架构"></a>32位x86处理器架构</h1><h2 id="保护模式"><a href="#保护模式" class="headerlink" title="保护模式"></a>保护模式</h2>]]></content>
       <categories>
         <category>计算机科学与技术</category>
       </categories>
@@ -3745,6 +3809,18 @@
         <tag>Spring6</tag>
         <tag>框架</tag>
         <tag>Web后端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpringBoot 笔记</title>
+    <url>/2024/01/08/SpringBoot/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Spring 系框架</category>
+      </categories>
+      <tags>
+        <tag>框架</tag>
+        <tag>SpringBoot</tag>
       </tags>
   </entry>
   <entry>
@@ -3804,34 +3880,6 @@
       </tags>
   </entry>
   <entry>
-    <title>“趣”学架构 系列笔记</title>
-    <url>/2024/02/12/Web-Architecture/</url>
-    <content><![CDATA[<h1 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h1><p><a href="https://www.bilibili.com/video/BV1Sx4y117bU">【学架构也可以很有趣】【“趣”学架构】</a></p>
-<h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1>]]></content>
-      <categories>
-        <category>工程架构思想与设计</category>
-      </categories>
-      <tags>
-        <tag>Web</tag>
-        <tag>架构</tag>
-        <tag>工程架构</tag>
-        <tag>工程设计</tag>
-        <tag>架构师</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringBoot 笔记</title>
-    <url>/2024/01/08/SpringBoot/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Spring 系框架</category>
-      </categories>
-      <tags>
-        <tag>框架</tag>
-        <tag>SpringBoot</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>工具库</title>
     <url>/2023/11/16/Utils/</url>
     <content><![CDATA[<h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><ol>
@@ -3847,6 +3895,22 @@
       <tags>
         <tag>编程工具类</tag>
         <tag>代码模板</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>“趣”学架构 系列笔记</title>
+    <url>/2024/02/12/Web-Architecture/</url>
+    <content><![CDATA[<h1 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h1><p><a href="https://www.bilibili.com/video/BV1Sx4y117bU">【学架构也可以很有趣】【“趣”学架构】</a></p>
+<h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1>]]></content>
+      <categories>
+        <category>工程架构思想与设计</category>
+      </categories>
+      <tags>
+        <tag>Web</tag>
+        <tag>架构</tag>
+        <tag>工程架构</tag>
+        <tag>工程设计</tag>
+        <tag>架构师</tag>
       </tags>
   </entry>
   <entry>
