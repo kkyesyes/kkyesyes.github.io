@@ -698,7 +698,7 @@
 <li>开发</li>
 </ol>
 </li>
-<li><p>数据库表设计（3.x）</p>
+<li><p>数据库表设计</p>
 <ol>
 <li><p>标签表</p>
 <ol>
@@ -712,8 +712,8 @@
 <li><strong>用户自定义标签</strong></li>
 <li>字段<ol>
 <li>id int 主键</li>
-<li>标签名 varchar 非空</li>
-<li>上传标签的用户 userId int</li>
+<li>标签名 varchar 非空（必须唯一，唯一索引）</li>
+<li>上传标签的用户 userId int（根据 userId 查已上传标签，普通索引）</li>
 <li>父标签 id parentId int（分类）</li>
 <li>是否为父标签 isParent tinyint （0 -&gt; 不是父标签 &#x2F; 1 -&gt; 是父标签）</li>
 <li>创建时间 createTime datetime</li>
@@ -725,7 +725,7 @@
 </li>
 <li><p>修改用户表（<strong>根据需求</strong>）</p>
 <ol>
-<li><p>补充 tags 字段，存 json 字符串</p>
+<li><p>补充 tags 字段，存 json 字符串 :white_check_mark:</p>
 <ol>
 <li><p>优：查询方便、不用新建关联表，标签是 <strong>用户的固有属性</strong> （除该系统之外还可能用到）</p>
 <blockquote>
@@ -751,7 +751,7 @@
 </li>
 </ol>
 </li>
-<li><p>根据标签搜索用户 - 后端（）</p>
+<li><p>根据标签搜索用户 - 后端（3.x）</p>
 </li>
 <li><p>根据标签搜索用户 - 前端（）</p>
 </li>
