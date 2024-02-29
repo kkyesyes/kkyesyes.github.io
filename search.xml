@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Arsenal</title>
+    <url>/2024/02/08/Arsenal/</url>
+    <content><![CDATA[<h1 id="PERSONAL-ARSENAL"><a href="#PERSONAL-ARSENAL" class="headerlink" title="&#x2F;&#x2F;&#x2F; PERSONAL ARSENAL &#x2F;&#x2F;&#x2F;"></a>&#x2F;&#x2F;&#x2F; PERSONAL ARSENAL &#x2F;&#x2F;&#x2F;</h1><h2 id="Asserts"><a href="#Asserts" class="headerlink" title="Asserts:"></a>Asserts:</h2><h3 id="Internet-Security"><a href="#Internet-Security" class="headerlink" title="Internet-Security"></a>Internet-Security</h3><h4 id="Sniffer"><a href="#Sniffer" class="headerlink" title="Sniffer"></a>Sniffer</h4><ul>
+<li><a href="./WPE%E4%B8%89%E4%BB%B6%E5%A5%97.zip">WPE三件套.zip</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Arsenal</category>
+      </categories>
+      <tags>
+        <tag>Arsenal</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>算法模板</title>
     <url>/2023/11/06/Algorithm-Templates/</url>
     <content><![CDATA[<p><a href="https://github.com/TheAlgorithms">Github 算法仓库</a></p>
@@ -44,52 +58,6 @@
         <tag>算法</tag>
         <tag>切片</tag>
         <tag>模板</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Arsenal</title>
-    <url>/2024/02/08/Arsenal/</url>
-    <content><![CDATA[<h1 id="PERSONAL-ARSENAL"><a href="#PERSONAL-ARSENAL" class="headerlink" title="&#x2F;&#x2F;&#x2F; PERSONAL ARSENAL &#x2F;&#x2F;&#x2F;"></a>&#x2F;&#x2F;&#x2F; PERSONAL ARSENAL &#x2F;&#x2F;&#x2F;</h1><h2 id="Asserts"><a href="#Asserts" class="headerlink" title="Asserts:"></a>Asserts:</h2><h3 id="Internet-Security"><a href="#Internet-Security" class="headerlink" title="Internet-Security"></a>Internet-Security</h3><h4 id="Sniffer"><a href="#Sniffer" class="headerlink" title="Sniffer"></a>Sniffer</h4><ul>
-<li><a href="./WPE%E4%B8%89%E4%BB%B6%E5%A5%97.zip">WPE三件套.zip</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Arsenal</category>
-      </categories>
-      <tags>
-        <tag>Arsenal</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github资源集</title>
-    <url>/2023/11/13/Github-Resources/</url>
-    <content><![CDATA[<ol>
-<li><a href="https://github.com/ruanyf/weekly/tree/master">科技爱好者周刊跳转链接 –to-&gt; Github</a></li>
-<li><a href="https://github.com/EbookFoundation/free-programming-books">编程资源跳转链接 –to-&gt; Github</a></li>
-<li><a href="https://github.com/TheAlgorithms">算法模板大全 –to–&gt; Github</a></li>
-<li><a href="https://github.com/krahets/hello-algo">Hello算法 –to–&gt; Github</a></li>
-<li><a href="https://github.com/HeroHai/it-pdf-books">新版 1000 多本计算机电子书免费下载 –to–&gt; Github</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>资源归档</category>
-      </categories>
-      <tags>
-        <tag>男男交友</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>计算机体系结构/组成原理</title>
-    <url>/2023/11/14/Computer-Architecture/</url>
-    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1ZJ411b7Na/?spm_id_from=333.999.0.0&vd_source=760264507c20c8ac38634e47af1aa1fa">微机原理 （西安电子科技大学）_哔哩哔哩_bilibili</a></p>
-]]></content>
-      <categories>
-        <category>计算机科学与技术</category>
-      </categories>
-      <tags>
-        <tag>计算机体系</tag>
-        <tag>计算机组成原理</tag>
-        <tag>微机原理</tag>
       </tags>
   </entry>
   <entry>
@@ -306,6 +274,39 @@
       </tags>
   </entry>
   <entry>
+    <title>计算机体系结构/组成原理</title>
+    <url>/2023/11/14/Computer-Architecture/</url>
+    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1ZJ411b7Na/?spm_id_from=333.999.0.0&vd_source=760264507c20c8ac38634e47af1aa1fa">微机原理 （西安电子科技大学）_哔哩哔哩_bilibili</a></p>
+]]></content>
+      <categories>
+        <category>计算机科学与技术</category>
+      </categories>
+      <tags>
+        <tag>计算机体系</tag>
+        <tag>计算机组成原理</tag>
+        <tag>微机原理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github资源集</title>
+    <url>/2023/11/13/Github-Resources/</url>
+    <content><![CDATA[<ol>
+<li><a href="https://github.com/ruanyf/weekly/tree/master">科技爱好者周刊跳转链接 –to-&gt; Github</a></li>
+<li><a href="https://github.com/EbookFoundation/free-programming-books">编程资源跳转链接 –to-&gt; Github</a></li>
+<li><a href="https://github.com/TheAlgorithms">算法模板大全 –to–&gt; Github</a></li>
+<li><a href="https://github.com/krahets/hello-algo">Hello算法 –to–&gt; Github</a></li>
+<li><a href="https://github.com/HeroHai/it-pdf-books">新版 1000 多本计算机电子书免费下载 –to–&gt; Github</a></li>
+<li><a href="https://github.com/wolverinn/Waking-Up">后端开发校招面试笔记本 –to–&gt; Github</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>资源归档</category>
+      </categories>
+      <tags>
+        <tag>男男交友</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JUC 笔记</title>
     <url>/2024/01/27/JUC/</url>
     <content><![CDATA[<h1 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h1><p><a href="https://www.bilibili.com/video/BV1JT4y1S7K8">Java JUC 并发编程 已完结（IDEA 2021版本）4K蓝光画质 玩转多线程</a></p>
@@ -317,18 +318,6 @@
       <tags>
         <tag>JUC</tag>
         <tag>并发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>计算机网络</title>
-    <url>/2023/11/14/Internet/</url>
-    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1JV411t7ow/?spm_id_from=333.337.search-card.all.click&vd_source=760264507c20c8ac38634e47af1aa1fa">中科大郑烇、杨坚全套《计算机网络（自顶向下方法 第7版，James F.Kurose，Keith W.Ross）》课程_哔哩哔哩_bilibili</a></p>
-]]></content>
-      <categories>
-        <category>计算机科学与技术</category>
-      </categories>
-      <tags>
-        <tag>计算机网络</tag>
       </tags>
   </entry>
   <entry>
@@ -373,6 +362,18 @@
         <tag>虚拟机</tag>
         <tag>计算机科学与技术</tag>
         <tag>底层</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机网络</title>
+    <url>/2023/11/14/Internet/</url>
+    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1JV411t7ow/?spm_id_from=333.337.search-card.all.click&vd_source=760264507c20c8ac38634e47af1aa1fa">中科大郑烇、杨坚全套《计算机网络（自顶向下方法 第7版，James F.Kurose，Keith W.Ross）》课程_哔哩哔哩_bilibili</a></p>
+]]></content>
+      <categories>
+        <category>计算机科学与技术</category>
+      </categories>
+      <tags>
+        <tag>计算机网络</tag>
       </tags>
   </entry>
   <entry>
@@ -763,641 +764,6 @@
       </categories>
       <tags>
         <tag>Java项目</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JavaWeb 笔记【完结】</title>
-    <url>/2023/12/21/JavaWeb/</url>
-    <content><![CDATA[<h1 id="资源归档"><a href="#资源归档" class="headerlink" title="资源归档"></a>资源归档</h1><ul>
-<li><a href="./JAVA_EE_api_%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AF%B9%E7%85%A7%E7%89%88.chm">JAVA_EE_api_中英文对照版.chm</a></li>
-</ul>
-<h1 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h1><h2 id="配置开发"><a href="#配置开发" class="headerlink" title="配置开发"></a>配置开发</h2><img src="/2023/12/21/JavaWeb/image-20231223232226072.png" class title="image-20231223232226072">
-
-<img src="/2023/12/21/JavaWeb/image-20231223232306106.png" class title="image-20231223232306106">
-
-
-
-<h2 id="注解开发"><a href="#注解开发" class="headerlink" title="注解开发"></a>注解开发</h2><img src="/2023/12/21/JavaWeb/image-20231223232843563.png" class title="image-20231223232843563">
-
-<p>与 <strong>配置开发</strong> 的区别在于读取注解，后对所注解的类进行反射（而非用给定的类的全路径）</p>
-<blockquote>
-<p>Ctrl + Alt + 方向键 -&gt; <em>切换历史标签页</em></p>
-</blockquote>
-<h1 id="HTTP协议"><a href="#HTTP协议" class="headerlink" title="HTTP协议"></a>HTTP协议</h1><img src="/2023/12/21/JavaWeb/image-20231224100149838.png" class title="image-20231224100149838">
-
-<h2 id="请求头"><a href="#请求头" class="headerlink" title="请求头"></a>请求头</h2><img src="/2023/12/21/JavaWeb/image-20231224101646524.png" class title="image-20231224101646524">
-
-<h2 id="响应头"><a href="#响应头" class="headerlink" title="响应头"></a>响应头</h2><img src="/2023/12/21/JavaWeb/image-20231224101733001.png" class title="image-20231224101733001">
-
-<h2 id="响应体"><a href="#响应体" class="headerlink" title="响应体"></a>响应体</h2><img src="/2023/12/21/JavaWeb/image-20231224101815734.png" class title="image-20231224101815734">
-
-<h2 id="HTTP请求包分析"><a href="#HTTP请求包分析" class="headerlink" title="HTTP请求包分析"></a>HTTP请求包分析</h2><h3 id="GET请求"><a href="#GET请求" class="headerlink" title="GET请求"></a>GET请求</h3><h3 id="POST请求"><a href="#POST请求" class="headerlink" title="POST请求"></a>POST请求</h3><h2 id="HTTP响应包分析"><a href="#HTTP响应包分析" class="headerlink" title="HTTP响应包分析"></a>HTTP响应包分析</h2><img src="/2023/12/21/JavaWeb/image-20231225005246431.png" class title="image-20231225005246431">
-
-<h3 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h3><ul>
-<li><a href="./HTTP_common_reqHeader_resHeader.zip">HTTP常见请求和响应头-说明.pdf（ZIP压缩包）</a></li>
-</ul>
-<h2 id="HTTP状态码"><a href="#HTTP状态码" class="headerlink" title="HTTP状态码"></a>HTTP状态码</h2><p>当浏览者访问一个网页时，浏览者的浏览器会向网页所在服务器发出请求。当浏览器接收并显示网页前，此网页所在的服务器会返回一个包含HTTP状态码（HTTP Status Code）的信息头（Server Header）用以响应浏览器的请求</p>
-<h3 id="常见HTTP状态码"><a href="#常见HTTP状态码" class="headerlink" title="常见HTTP状态码"></a>常见HTTP状态码</h3><ul>
-<li>200 - 请求成功</li>
-<li>301 - 资源（网页等）被永久转移到其它URL</li>
-<li>404 - 请求的资源（网页等）不存在</li>
-<li>500 - 内部服务器错误</li>
-</ul>
-<h3 id="状态码补充"><a href="#状态码补充" class="headerlink" title="状态码补充"></a>状态码补充</h3><ul>
-<li>302 - 临时移动（类似301），但资源只是临时被移动。客户端应继续使用原有URL</li>
-<li>304 - 未修改，取缓存页面</li>
-</ul>
-<h3 id="资源-1"><a href="#资源-1" class="headerlink" title="资源"></a>资源</h3><ul>
-<li><a href="./HTTP_resStatusCode.zip">HTTP响应状态码说明.docx（ZIP压缩包）</a></li>
-</ul>
-<h2 id="MIME类型"><a href="#MIME类型" class="headerlink" title="MIME类型"></a>MIME类型</h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><ul>
-<li>MIME (Multipurpose Internet Mail Extensions 多功能 Internet 邮件扩充服务) 是 HTTP 协议中数据类型（但不一定只能在浏览器中使用）。</li>
-</ul>
-<h3 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h3><ul>
-<li>大类型 &#x2F; 小类型 （并与某一种文件的扩展名相对应）e.g. text&#x2F;html</li>
-</ul>
-<h3 id="常见类型"><a href="#常见类型" class="headerlink" title="常见类型"></a>常见类型</h3><img src="/2023/12/21/JavaWeb/image-20231225111939228.png" class title="image-20231225111939228">
-
-<h1 id="ServletConfig"><a href="#ServletConfig" class="headerlink" title="ServletConfig"></a>ServletConfig</h1><p>通过 getServletConfig() 来获得配置详情</p>
-<h1 id="ServletContext"><a href="#ServletContext" class="headerlink" title="ServletContext"></a>ServletContext</h1><img src="/2023/12/21/JavaWeb/image-20231225152249922.png" class title="image-20231225152249922">
-
-<h2 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h2><ol>
-<li><p>ServletContext 是一个接口，它表示 Servlet 上下文对象</p>
-</li>
-<li><p>一个 web 工程，只有一个 ServletContext 对象实例</p>
-</li>
-<li><p>ServletContext 对象 是在 web 工程启动的时候创建的，在 web 工程停止的时候销毁</p>
-</li>
-<li><p>ServletContext 对象可以通过 ServletConfig.getServletContext() 方法获得对 ServletContext 对象的引用，也可以通过 this.getServletContext() 来获得其对象的引用</p>
-</li>
-<li><p>由于一个 web 应用中的所有 Servlet 共享同一个 ServletContext 对象，因此 Servlet 对象之间可以通过 ServletContext 对象来实现多个 Servlet 间通讯。ServletContext 对象通常也被称之为 域对象</p>
-<img src="/2023/12/21/JavaWeb/image-20231225154055956.png" class title="image-20231225154055956"></li>
-</ol>
-<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><ol>
-<li>获取 web.xml 中配置的上下文参数 context-param [信息和整个 web 应用相关，而不是属于某个 Servlet]</li>
-<li>获取当前的工程路径，格式：&#x2F; 工程路径</li>
-<li>获取工程<strong>部署后</strong>在服务器硬盘上的<strong>绝对路径</strong></li>
-<li>像 <strong>Map</strong> 一样存取数据，多个 Servlet 共享数据</li>
-</ol>
-<h1 id="HttpServletRequest"><a href="#HttpServletRequest" class="headerlink" title="HttpServletRequest"></a>HttpServletRequest</h1><h2 id="介绍-1"><a href="#介绍-1" class="headerlink" title="介绍"></a>介绍</h2><ol>
-<li>HttpServletRequest 对象代表客户端的请求</li>
-<li>当 客户端 &#x2F; 浏览器 通过 HTTP 协议访问服务器时，HTTP 请求头中的所有信息都封装在这个对象中</li>
-<li>通过这个对象的方法，可以获得客户这些信息</li>
-</ol>
-<h2 id="常用方法"><a href="#常用方法" class="headerlink" title="常用方法"></a>常用方法</h2><ol>
-<li>getRequestURI() -&gt; <em>获取请求的资源路径</em></li>
-<li>getRequestURL() -&gt; <em>获取请求的统一资源定位符（绝对路径）</em></li>
-<li>getRemoteHost() -&gt; <em>获取客户端的主机</em></li>
-<li>getHeader() -&gt; <em>获取请求头</em></li>
-<li>getParameter() -&gt; <em>获取请求的参数</em></li>
-<li>getParameterValues() -&gt; <em>获取请求的参数（多个值的时候使用），如checkbox</em></li>
-<li>getMethod() -&gt; <em>获取请求的方式 GET 或 POST</em></li>
-<li>setAttribute(key, value) -&gt; <em>设置域数据</em></li>
-<li>getAttribute(key) -&gt; <em>获取域数据</em></li>
-<li>getRequestDispatcher() -&gt; <em>获取请求转发对象</em></li>
-</ol>
-<h2 id="请求转发"><a href="#请求转发" class="headerlink" title="请求转发"></a>请求转发</h2><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><ol>
-<li>实现请求转发：请求转发是指一个 web 资源收到客户端请求后，通知服务器去调用另一个 web 资源进行处理</li>
-<li>HttpServletRequest 对象（也叫 Request 对象）提供了一个 getRequestDispatcher 方法，该方法返回一个 RequestDispatcher 对象，调用这个对象的 forward 方法可以实现 请求转发</li>
-<li>request 对象 同时也是一个域对象，开发人员通过 request 对象在实现转发时，把数据通过 request 对象带给其它 web 资源处理<ul>
-<li>setAttribute()</li>
-<li>getAttribute()</li>
-<li>removeAttribute()</li>
-<li>getAttributeNames()</li>
-</ul>
-</li>
-</ol>
-<h3 id="示意图"><a href="#示意图" class="headerlink" title="示意图"></a>示意图</h3><img src="/2023/12/21/JavaWeb/image-20231228233617020.png" class title="image-20231228233617020">
-
-<img src="/2023/12/21/JavaWeb/image-20231229001125198.png" class title="image-20231229001125198">
-
-<h3 id="转发代码"><a href="#转发代码" class="headerlink" title="转发代码"></a>转发代码</h3><img src="/2023/12/21/JavaWeb/image-20231229000152839.png" class title="image-20231229000152839">
-
-<h3 id="注意事项-细节"><a href="#注意事项-细节" class="headerlink" title="注意事项 &amp; 细节"></a>注意事项 &amp; 细节</h3><ol>
-<li>浏览器地址不会变化（转发过程没有与浏览器交互）</li>
-<li>在同一次 HTTP 请求中，进行多次转发，仍然是一次 HTTP 请求</li>
-<li>在同一次 HTTP 请求中，进行多次转发，多个 Servlet 可以共享 request域 &#x2F; 对象 的数据（因为始终是同一个对象）</li>
-<li>可以转发到 WEB-INF 目录下</li>
-<li>不能访问当前 web 工程外的资源</li>
-<li>因为浏览器地址栏会停止在第一个 Servlet ，如果刷新页面，会再次发出请求（并且会带数据），所以在支付页面情况下，不能使用请求转发，否则会造成重复支付</li>
-</ol>
-<h1 id="HttpServletResponse"><a href="#HttpServletResponse" class="headerlink" title="HttpServletResponse"></a>HttpServletResponse</h1><h2 id="介绍-2"><a href="#介绍-2" class="headerlink" title="介绍"></a>介绍</h2><ol>
-<li><p>每次 HTTP 请求，Tomcat 会创建一个 HttpServletResponse 对象传递给 Servlet 程序去使用</p>
-</li>
-<li><p>HttpServletRequest 表示请求过来的信息，HttpServletResponse 表示所有响应的信息，如果需要设置返回给客户端的信息，通过 HttpServletResponse 对象来进行设置即可</p>
-<img src="/2023/12/21/JavaWeb/image-20231229003708391.png" class title="image-20231229003708391"></li>
-</ol>
-<h2 id="向客户端返回数据-注意事项-细节"><a href="#向客户端返回数据-注意事项-细节" class="headerlink" title="向客户端返回数据 注意事项 &amp; 细节"></a>向客户端返回数据 注意事项 &amp; 细节</h2><ol>
-<li><p>处理中文乱码问题（方案一）</p>
-<img src="/2023/12/21/JavaWeb/image-20231229004800885.png" class title="image-20231229004800885">
-</li>
-<li><p>处理中文乱码问题（方案二）</p>
-<img src="/2023/12/21/JavaWeb/image-20231229004818833.png" class title="image-20231229004818833"></li>
-</ol>
-<h1 id="Maven-简单引入"><a href="#Maven-简单引入" class="headerlink" title="Maven 简单引入"></a>Maven 简单引入</h1><h2 id="传统-Java-项目"><a href="#传统-Java-项目" class="headerlink" title="传统 Java 项目"></a>传统 Java 项目</h2><img src="/2023/12/21/JavaWeb/image-20231230161230672.png" class title="image-20231230161230672">
-
-<h2 id="Maven-的-Java-项目"><a href="#Maven-的-Java-项目" class="headerlink" title="Maven 的 Java 项目"></a>Maven 的 Java 项目</h2><img src="/2023/12/21/JavaWeb/image-20231230161329530.png" class title="image-20231230161329530">
-
-<h2 id="项目创建"><a href="#项目创建" class="headerlink" title="项目创建"></a>项目创建</h2><img src="/2023/12/21/JavaWeb/image-20231230163836243.png" class title="image-20231230163836243">
-
-<h1 id="JUL-日志框架"><a href="#JUL-日志框架" class="headerlink" title="JUL 日志框架"></a>JUL 日志框架</h1><h1 id="MyBatis-简单引入"><a href="#MyBatis-简单引入" class="headerlink" title="MyBatis 简单引入"></a>MyBatis 简单引入</h1><p>笔记引用：<a href="https://www.itbaima.cn/document">柏码 - 让每一行代码都闪耀智慧的光芒！ (itbaima.cn)</a></p>
-<h1 id="Tomcat手动实现"><a href="#Tomcat手动实现" class="headerlink" title="Tomcat手动实现"></a>Tomcat手动实现</h1><p>Repo:	<a href="https://github.com/kkyesyes/KKTomcat">KKTomcat (Github)</a></p>
-<img src="/2023/12/21/JavaWeb/image-20231231195004662.png" class title="image-20231231195004662">
-
-<h2 id="原理图解-BIO-多线程模型"><a href="#原理图解-BIO-多线程模型" class="headerlink" title="原理图解 (BIO 多线程模型)"></a>原理图解 (BIO 多线程模型)</h2><img src="/2023/12/21/JavaWeb/image-20240101192059636.png" class title="image-20240101192059636">
-
-<h1 id="Web-工程路径专题"><a href="#Web-工程路径专题" class="headerlink" title="Web 工程路径专题"></a>Web 工程路径专题</h1><h2 id="表单跳转网址过长-解决方案"><a href="#表单跳转网址过长-解决方案" class="headerlink" title="表单跳转网址过长 解决方案"></a>表单跳转网址过长 解决方案</h2><h3 id="相对路径："><a href="#相对路径：" class="headerlink" title="相对路径："></a>相对路径：</h3><ol>
-<li>相对路径下一个非常重要的规则：<strong>页面所有的相对路径（默认）都会参考当前浏览器地址栏路径来跳转</strong></li>
-</ol>
-<h3 id="base-标签"><a href="#base-标签" class="headerlink" title="base 标签"></a>base 标签</h3><ol>
-<li>base 标签是 HTML 语言中的基准网址标记，它是一个单标签，位于网页头部的 head 标签内</li>
-<li>一个页面最多只能使用一个 base 元素，用来提供一个指定的默认目标，是一种表达路径和连接网址的标记</li>
-<li>常见的 url 路径形式分别有 相对路径 与 绝对路径，如果 base 标签指定了目标，浏览器将通过这个目标解析当前文档中的所有相对路径，包括（a、img、link、form）</li>
-<li>浏览器解析时会在路径前加上 base 给的目标，而页面中的相对路径也都转换成了绝对路径。使用了 base 标签就应带上 href 属性和 target 属性</li>
-</ol>
-<blockquote>
-<img src="/2023/12/21/JavaWeb/image-20240104153414454.png" class title="image-20240104153414454">
-</blockquote>
-<h1 id="Web-开发会话技术（Cookie-Session）"><a href="#Web-开发会话技术（Cookie-Session）" class="headerlink" title="Web 开发会话技术（Cookie &amp; Session）"></a>Web 开发会话技术（Cookie &amp; Session）</h1><h2 id="会话"><a href="#会话" class="headerlink" title="会话"></a>会话</h2><h3 id="基本介绍-1"><a href="#基本介绍-1" class="headerlink" title="基本介绍"></a>基本介绍</h3><ol>
-<li><p>什么是会话</p>
-<p>会话 可简单理解为 <strong>用户开一个浏览器，点击多个超链接，访问服务器多个 web 资源，然后关闭浏览器</strong> 这样一整个过程</p>
-</li>
-<li><p>会话要解决的问题</p>
-<p>每个用户在使用浏览器与服务器进行会话的过程中，不可避免各自会产生一些数据，服务器要想办法为每个用户保存这些数据</p>
-</li>
-</ol>
-<h3 id="两种技术"><a href="#两种技术" class="headerlink" title="两种技术"></a>两种技术</h3><ol>
-<li>Session</li>
-<li>Cookie</li>
-</ol>
-<h2 id="Cookie"><a href="#Cookie" class="headerlink" title="Cookie"></a>Cookie</h2><img src="/2023/12/21/JavaWeb/image-20240104200742930.png" class title="image-20240104200742930">
-
-<h3 id="二说-Cookie"><a href="#二说-Cookie" class="headerlink" title="二说 Cookie"></a>二说 Cookie</h3><ol>
-<li>Cookie 是服务器在客户端保存的用户的信息，如登录名，浏览历史 等就可以以 Cookie 方式保存</li>
-<li>Cookie 信息就像是曲奇，数据量并不大，服务端需要的时候可以从客户端读取</li>
-<li>保存在浏览器中</li>
-</ol>
-<h3 id="Cookie-应用"><a href="#Cookie-应用" class="headerlink" title="Cookie 应用"></a>Cookie 应用</h3><ol>
-<li>保存登录时间</li>
-<li>保存登录信息，一定时间内不用重复登录</li>
-<li>网站个性化，定制内容</li>
-</ol>
-<h3 id="Cookie-常用方法"><a href="#Cookie-常用方法" class="headerlink" title="Cookie 常用方法"></a>Cookie 常用方法</h3><p><a href="./JAVA_EE_api_%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AF%B9%E7%85%A7%E7%89%88.chm">JAVA_EE_api_中英文对照版.chm</a></p>
-<ol>
-<li><p>Cookie 像一张表 (K-V)，一个是名字，一个是值，数据类型都是 String</p>
-</li>
-<li><p>如何创建一个 Cookie （在服务端创建）</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">Cookie</span> <span class="variable">c</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Cookie</span>(String name, String val);</span><br><span class="line">c.setMaxAge(); <span class="comment">// 保存时间</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>如何将一个 Cookie 添加到客户端</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">resp.addCookie(c);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>如何读取一个 Cookie （在服务端读取）</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">req.getCookies();</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h3 id="底层（Cookie-创建-读取）"><a href="#底层（Cookie-创建-读取）" class="headerlink" title="底层（Cookie 创建 &amp; 读取）"></a>底层（Cookie 创建 &amp; 读取）</h3><p>注：</p>
-<ol>
-<li>服务端创建与客户端同名 Cookie 相当于覆盖原 Cookie</li>
-</ol>
-<h3 id="JSESSIONID"><a href="#JSESSIONID" class="headerlink" title="JSESSIONID"></a>JSESSIONID</h3><ul>
-<li>作为在同一服务器上区分不同会话的唯一标识</li>
-</ul>
-<h3 id="Cookie-生命周期"><a href="#Cookie-生命周期" class="headerlink" title="Cookie 生命周期"></a>Cookie 生命周期</h3><ol>
-<li>Cookie 生命周期指的是如何管理 Cookie 什么时候销毁（删除、不再携带）</li>
-<li>setMaxAge(int expiry)：（以秒为单位）<ol>
-<li>正数：表示在指定的秒数后过期</li>
-<li>负数：表示浏览器关闭，Cookie 就会被删除（默认值为 -1）</li>
-<li>0，表示马上删除 Cookie</li>
-</ol>
-</li>
-</ol>
-<h3 id="Cookie-有效路径"><a href="#Cookie-有效路径" class="headerlink" title="Cookie 有效路径"></a>Cookie 有效路径</h3><ol>
-<li>Cookie 的 path 属性可以有效过滤哪些 Cookie 可以发送给服务器，哪些不发，path 属性是通过 <strong>请求的地址</strong> 来进行有效过滤的（长路径包含短路径则有效）</li>
-<li>默认为 <strong>上下文工程路径</strong></li>
-</ol>
-<h3 id="注意事项-细节-1"><a href="#注意事项-细节-1" class="headerlink" title="注意事项 &amp; 细节"></a>注意事项 &amp; 细节</h3><ol>
-<li>一个 Cookie 只能标识一种信息，它至少含有一个标识该信息的名称（name）和设置值（value）</li>
-<li>一个 web 站点可以给一个浏览器发送多个 Cookie，一个浏览器也可以存储多个 web 站点提供的 Cookie</li>
-<li>Cookie 的总数量没有限制，但是每个域名的 Cookie 数量 和 每个 Cookie 的大小是有限制的，Cookie 不适合存放数据量大的信息</li>
-<li>删除 Cookie 时，path 必须一致，否则不会删除</li>
-<li>Java Servlet 中 Cookie 中文乱码解决（存放中文默认报错，可通过 URL 编码（工具类）来解决）</li>
-</ol>
-<h2 id="Session"><a href="#Session" class="headerlink" title="Session"></a>Session</h2><h3 id="介绍-3"><a href="#介绍-3" class="headerlink" title="介绍"></a>介绍</h3><ol>
-<li>Session 是服务端技术，服务器在运行时为每一个用户的浏览器创建一个其独享的 Session 对象</li>
-<li>由于 Session 为各个用户浏览器独享，所以用户在访问服务器的不同页面时，可以从各自的 Session 中 读取 &#x2F; 添加 数据，从而完成相应任务</li>
-</ol>
-<h3 id="Session-基本原理"><a href="#Session-基本原理" class="headerlink" title="Session 基本原理"></a>Session 基本原理</h3><ol>
-<li>当用户打开浏览器，访问某个网站，<strong>操作 Session 时</strong>，服务器就会在内存中为该浏览品名<strong>分配</strong>一个 Session 对象，该 Session 对象被这个浏览器独占（JSESSIONID）</li>
-<li>这个 Session 对象也可看做是一个容器， Session 对象默认存在时间为 30 min，也可修改（tomcat &#x2F; conf &#x2F; web.xml）</li>
-</ol>
-<h3 id="Session-存储结构"><a href="#Session-存储结构" class="headerlink" title="Session 存储结构"></a>Session 存储结构</h3><ol>
-<li>Session 可看作是类似 HashMap 的容器，每一行（K-V）就是其一个属性</li>
-<li>每个属性包含两个部分，名（String） 与 值（Object）</li>
-</ol>
-<h3 id="Session-常用方法"><a href="#Session-常用方法" class="headerlink" title="Session 常用方法"></a>Session 常用方法</h3><ol>
-<li><p>创建 和 获取 Session</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">HttpSession</span> <span class="variable">hs</span> <span class="operator">=</span> req.getSession();</span><br></pre></td></tr></table></figure>
-
-<p><strong>第一次调用</strong> 是 <strong>创建</strong> Session 会话，之后调用是获取创建好的 Session 对象</p>
-</li>
-<li><p>向 Session 添加属性</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">hs.setAttribute(String name, Object val);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>从 Session 得到某个属性</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">Object</span> <span class="variable">obj</span> <span class="operator">=</span> hs.getAttribute(String name);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>从 Session 删除调某个属性</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">hs.removeAttribute(String name);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>判断是不是刚创建出来的 Session</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">hs.isNew();</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>每个 Session 都有一个唯一标识 Id 值，通过 getId() 得到 Session 会话的 Id 值</p>
-</li>
-</ol>
-<h3 id="Session-底层分析"><a href="#Session-底层分析" class="headerlink" title="Session 底层分析"></a>Session 底层分析</h3><img src="/2023/12/21/JavaWeb/image-20240104234506184.png" class title="image-20240104234506184">
-
-<img src="/2023/12/21/JavaWeb/image-20240104235756344.png" class title="image-20240104235756344">
-
-<h3 id="Session-生命周期"><a href="#Session-生命周期" class="headerlink" title="Session 生命周期"></a>Session 生命周期</h3><ol>
-<li>setMaxInactiveInterval(int interval) -&gt; <em>设置 Session 超时时间（以秒为单位），超过指定的时长，Session 就会被销毁</em></li>
-<li>值为正数的时候，设定 Session 的超时时长</li>
-<li><strong>负数表示永不超时</strong></li>
-<li>getMaxInactiveInterval() -&gt; <strong>获取 Session 的超时时间</strong></li>
-<li>invalidate() -&gt; <strong>让当前 Session 会话立即无效</strong></li>
-<li>如果没有调用 setMaxInactiveInterval() 来指定 Session 的生命周期，Tomcat 会以 Session 默认时长为准，Session 默认超时为 30 min，可以在 Tomcat 的 web.xml 中设置</li>
-<li>Session 的生命周期指的是：客户端 <strong>同一会话两次请求</strong> 最大间隔时长，而不是累积时长。即当客户端访问了自己的 Session，Session 的生命周期将从 0 开始重新计算</li>
-<li>底层：Tomcat 用一个线程来轮询会话状态，如果某个会话的空闲时间超过设定的最大值，则将该会话销毁</li>
-</ol>
-<h1 id="服务器端渲染技术"><a href="#服务器端渲染技术" class="headerlink" title="服务器端渲染技术"></a>服务器端渲染技术</h1><h2 id="JSP"><a href="#JSP" class="headerlink" title="JSP"></a>JSP</h2><h3 id="基本介绍-2"><a href="#基本介绍-2" class="headerlink" title="基本介绍"></a>基本介绍</h3><ol>
-<li>JSP 全称 Java Server Pages，即服务器渲染技术</li>
-<li>JSP 技术基于 Servlet，可以理解成是对 Servlet 的包装（或就是 Servlet）</li>
-<li>在 &lt;% %&gt; 标签中可以写 Java 代码</li>
-</ol>
-<h3 id="JSP-运行原理"><a href="#JSP-运行原理" class="headerlink" title="JSP 运行原理"></a>JSP 运行原理</h3><ol>
-<li>JSP 页面本质是一个 Servlet 程序，其性能是和 Java 关联的</li>
-<li>第一次访问 JSP 页面的时候，Tomcat 服务器会把 JSP 页面解析成为一个 Java 源文件，并且对它进行编译为 .class 字节码程序</li>
-</ol>
-<h2 id="Thymeleaf"><a href="#Thymeleaf" class="headerlink" title="Thymeleaf"></a>Thymeleaf</h2><h1 id="监听器-过滤器"><a href="#监听器-过滤器" class="headerlink" title="监听器 &amp; 过滤器"></a>监听器 &amp; 过滤器</h1><h2 id="监听器-Listener"><a href="#监听器-Listener" class="headerlink" title="监听器 Listener"></a>监听器 Listener</h2><h3 id="介绍-4"><a href="#介绍-4" class="headerlink" title="介绍"></a>介绍</h3><ol>
-<li>Listener 监听器是 JavaWeb 三大组件之一（Servlet | Listener | Filter）</li>
-<li>Listener 是 JavaEE 的规范（即接口）</li>
-<li>监听器作用：监听某种变化，触发对应方法完成相应的任务</li>
-<li>JavaWeb 中的监听器（共八个），目前最常用的是 ServletContextListener</li>
-</ol>
-<h3 id="ServletContextListener"><a href="#ServletContextListener" class="headerlink" title="ServletContextListener"></a><strong>ServletContextListener</strong></h3><ol>
-<li>作用：监听 ServletContext 创建或销毁（当 web 应用启动时，就会创建 ServletContext ），即 <strong>生命周期监听</strong> (使用前要在 web.xml 中注册)</li>
-<li>相关方法：<ol>
-<li>void contextInitialized(ServletContextEvent sce)</li>
-<li>void contextDestroyed(ServletContextEvent sce)</li>
-</ol>
-</li>
-<li>应用场景：<ol>
-<li>加载初始化的配置文件（如 Spring 的配置文件）</li>
-<li>任务调度（配合定时器 Timer &#x2F; TimerTask）</li>
-</ol>
-</li>
-</ol>
-<h3 id="ServletContextAttributeListener"><a href="#ServletContextAttributeListener" class="headerlink" title="ServletContextAttributeListener"></a><strong>ServletContextAttributeListener</strong></h3><ol>
-<li>作用：监听 ServletContext 属性变化</li>
-<li>相关方法：<ol>
-<li>void attributeAdded(ServletContextAttributeEvent event) -&gt; <em>添加属性时调用</em></li>
-<li>void attributeReplaced(ServletContextAttributeEvent event) -&gt; <em>替换属性时调用</em></li>
-<li>void attributeRemoved(ServletContextAttributeEvent event) -&gt; <em>移除属性时调用</em></li>
-</ol>
-</li>
-</ol>
-<h3 id="HttpSessionListener"><a href="#HttpSessionListener" class="headerlink" title="HttpSessionListener"></a><strong>HttpSessionListener</strong></h3><ol>
-<li>作用：监听 Session 创建或销毁，即 <strong>生命周期监听</strong></li>
-<li>相关方法：<ol>
-<li>void sessionCreated(HttpSessionEvent se) -&gt; <em>创建 session 时调用</em></li>
-<li>void sessionDestroyed(HttpSessionEvent se) -&gt; <em>销毁 session 时调用</em></li>
-</ol>
-</li>
-<li>应用场景：<ol>
-<li>监控用户上线、离线等</li>
-</ol>
-</li>
-</ol>
-<h3 id="HttpSessionAttributeListener"><a href="#HttpSessionAttributeListener" class="headerlink" title="HttpSessionAttributeListener"></a>HttpSessionAttributeListener</h3><ol>
-<li>作用：监听 Session 属性的变化</li>
-<li>相关方法：<ol>
-<li>void attributeAdded(ServletRequestAttributeEvent srae) -&gt; <em>添加</em></li>
-<li>void attributeReplaced(ServletRequestAttributeEvent srae) -&gt; <em>替换</em></li>
-<li>void attributeRemoved(ServletRequestAttributeEvent srae) -&gt; <em>移除</em></li>
-</ol>
-</li>
-<li>应用场景：较少</li>
-</ol>
-<h3 id="ServletRequestListener"><a href="#ServletRequestListener" class="headerlink" title="ServletRequestListener"></a><strong>ServletRequestListener</strong></h3><ol>
-<li>作用：监听 Request 创建或销毁，即 <strong>Request 生命周期监听</strong>，可得到 Request 中内容（若无法得到某一属性可能需要强转一下类型）</li>
-<li>相关方法：<ol>
-<li>void requestInitialized(ServletRequestEvent sre) -&gt; <em>创建 request 时</em></li>
-<li>void requestDestroyed(ServletRequestEvent sre) -&gt; <em>销毁 request 时</em></li>
-</ol>
-</li>
-<li>应用场景：<ol>
-<li>可用于监控 IP 访问网站的频率、日志记录、访问资源等的情况</li>
-</ol>
-</li>
-</ol>
-<h3 id="ServletRequestAttributeListener"><a href="#ServletRequestAttributeListener" class="headerlink" title="ServletRequestAttributeListener"></a>ServletRequestAttributeListener</h3><ol>
-<li>作用：监听 Request 属性变化</li>
-<li>相关方法：<ol>
-<li>void attributeAdded(ServletRequestAttributeEvent srae) -&gt; <em>添加</em></li>
-<li>void attributeReplaced(ServletRequestAttributeEvent srae) -&gt; <em>替换</em></li>
-<li>void attributeRemoved(ServletRequestAttributeEvent srae) -&gt; <em>移除</em></li>
-</ol>
-</li>
-<li>应用场景：同上</li>
-</ol>
-<h3 id="其它-Listener"><a href="#其它-Listener" class="headerlink" title="其它 Listener"></a>其它 Listener</h3><ol>
-<li>HttpSessionBindingListener -&gt; <em>将对象绑定至 Session 中感知监听（无需配置）</em></li>
-<li>HttpSessionActivationListener -&gt; <em>感知监听非钝化（未持久化）对象</em></li>
-</ol>
-<h2 id="过滤器-Filter"><a href="#过滤器-Filter" class="headerlink" title="过滤器 Filter"></a>过滤器 Filter</h2><img src="/2023/12/21/JavaWeb/image-20240107131453593.png" class title="image-20240107131453593">
-
-<h3 id="介绍-5"><a href="#介绍-5" class="headerlink" title="介绍"></a>介绍</h3><ol>
-<li><p>Filter 过滤器 是 JavaWeb 三大组件之一（Servlet 程序、Listener 监听器、Filter 过滤器）</p>
-</li>
-<li><p>Filter 过滤器是 JavaEE 的规范（即接口）</p>
-<img src="/2023/12/21/JavaWeb/image-20240107131842798.png" class title="image-20240107131842798">
-</li>
-<li><p>Filter 过滤器作用：拦截请求，过滤响应（<strong>转发不经过滤器</strong>）</p>
-</li>
-<li><p>应用场景：</p>
-<ol>
-<li>权限检查</li>
-<li>日志操作</li>
-<li>事务管理</li>
-</ol>
-</li>
-</ol>
-<h3 id="Filter-基本原理"><a href="#Filter-基本原理" class="headerlink" title="Filter 基本原理"></a>Filter 基本原理</h3><img src="/2023/12/21/JavaWeb/image-20240107144935405.png" class title="image-20240107144935405">
-
-<h3 id="url-pattern"><a href="#url-pattern" class="headerlink" title="url-pattern"></a>url-pattern</h3><ol>
-<li>url-pattern：Filter 的拦截路径，即浏览器在请求什么位置的资源时，过滤器会进行拦截过滤</li>
-<li>精确匹配：<code>&lt;url-pattern&gt;/a.jsp&lt;/url-pattern&gt;</code> 对应的请求地址为 http:&#x2F;&#x2F;[ip]:port&#x2F;工程路径&#x2F;a.jsp 会拦截</li>
-<li>目录匹配：<code>&lt;url-pattern&gt;/manage/*&lt;/url-pattern&gt;</code> 对应的请求地址为 http:&#x2F;&#x2F;[ip]:port&#x2F;工程路径&#x2F;manage&#x2F;xxx，即 web 工程 manage 目录下所有资源都会拦截</li>
-<li>后缀名匹配：<code>&lt;url-pattern&gt;*.jsp&lt;/url-pattern&gt;</code> 对应的请求地址为 http:&#x2F;&#x2F;[ip]:port&#x2F;工程路径&#x2F;xxx.jsp （后缀为 .jsp 的请求都会拦截）</li>
-<li><strong>Filter 过滤器只关心请求的地址是否匹配，不关心请求的资源是否存在</strong></li>
-</ol>
-<h3 id="Filter-生命周期（单例）"><a href="#Filter-生命周期（单例）" class="headerlink" title="Filter 生命周期（单例）"></a>Filter 生命周期（单例）</h3><img src="/2023/12/21/JavaWeb/image-20240107150415396.png" class title="image-20240107150415396">
-
-<h3 id="FilterConfig"><a href="#FilterConfig" class="headerlink" title="FilterConfig"></a>FilterConfig</h3><img src="/2023/12/21/JavaWeb/image-20240107151403210.png" class title="image-20240107151403210">
-
-<ol>
-<li><p>FilterConfig 是 Filter 过滤器的配置类，其作用是 <strong>获取 Filter 过滤器的配置内容</strong></p>
-</li>
-<li><p>Tomcat 在创建 Filter 实例时，同时会创建一个 FilterConfig 对象（包含 Filter 配置文件的配置信息），并通过 init() 方法传入</p>
-</li>
-<li><p>配置图解</p>
-<img src="/2023/12/21/JavaWeb/image-20240107151905384.png" class title="image-20240107151905384"></li>
-</ol>
-<h3 id="FilterChain"><a href="#FilterChain" class="headerlink" title="FilterChain"></a>FilterChain</h3><ol>
-<li><p>在处理复杂业务时，可设计多个过滤器共同完成过滤任务，形成 <strong>过滤器链</strong></p>
-</li>
-<li><p>基本原理分析</p>
-<img src="/2023/12/21/JavaWeb/image-20240107153419310.png" class title="image-20240107153419310">
-</li>
-<li><p>注意事项 &amp; 细节</p>
-<ol>
-<li>多个 Filter 和目标资源在一次 http 请求中生效，在同一个线程中</li>
-<li>当一个请求 url 和 Filter 的 url-pattern 匹配时，才会被执行。如果有多个匹配上，就会依 web.xml 中的配置顺序执行，形成一个 FilterChain</li>
-<li>多个 Filter 共同执行，使用同一个 request 对象（同一次请求）</li>
-<li>filterChain.doFilter(req, resp) -&gt; <em>执行下一个过滤器的 doFilter() 方法，若之后无过滤器，则执行目标资源</em></li>
-</ol>
-</li>
-</ol>
-<h1 id="jQuery"><a href="#jQuery" class="headerlink" title="jQuery"></a>jQuery</h1><p> 文档速查：</p>
-<ul>
-<li><a href="https://www.w3school.com.cn/jquery/index.asp">https://www.w3school.com.cn/jquery/index.asp</a></li>
-<li><a href="https://jquery.cuishifeng.cn/">https://jquery.cuishifeng.cn</a></li>
-</ul>
-<h2 id="介绍-6"><a href="#介绍-6" class="headerlink" title="介绍"></a>介绍</h2><ol>
-<li>jQuery 是一个快速的、简结的 JavaScript 库，使用户能更方便地处理 HTML</li>
-<li>提供方法、events、选择器，并且方便地为网站提供 AJAX 交互</li>
-<li>其宗旨是 <q>WRITE LESS, DO MORE</q></li>
-<li>实现了浏览器兼容问题</li>
-</ol>
-<h2 id="jQuery-原理图解"><a href="#jQuery-原理图解" class="headerlink" title="jQuery 原理图解"></a>jQuery 原理图解</h2><img src="/2023/12/21/JavaWeb/image-20240107161758913.png" class title="image-20240107161758913">
-
-<h2 id="jQuery-对象（数组对象）"><a href="#jQuery-对象（数组对象）" class="headerlink" title="jQuery 对象（数组对象）"></a>jQuery 对象（数组对象）</h2><ol>
-<li><p>jQuery 对象就是对 DOM 对象进行包装后产生的对象</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$(<span class="string">&quot;#test&quot;</span>).<span class="title function_">html</span>() <span class="comment">// 获取 id 为 test 的元素内的 HTML 代码</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>jQuery 对象是 jQuery 独有的。如果一个对象是 jQuery 对象，那么它就可以使用 jQuery 里的</p>
-</li>
-<li><p>变量名约定：如果获取的是 jQuery 对象，那么变量名前要加上 $</p>
-</li>
-<li><p>对象互转：</p>
-<ol>
-<li>jQuery -&gt; DOM：<ol>
-<li><u> jQuery 对象</u> &#x3D;  $( <u>DOM 对象</u> )</li>
-</ol>
-</li>
-<li>DOM -&gt; jQuery：<ol>
-<li><u>DOM 对象</u> &#x3D; <u> jQuery 对象</u>.get(0)</li>
-<li><u>DOM 对象</u> &#x3D; <u> jQuery 对象</u>[0]</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-<h2 id="jQuery-选择器"><a href="#jQuery-选择器" class="headerlink" title="jQuery 选择器"></a>jQuery 选择器</h2><h3 id="介绍-7"><a href="#介绍-7" class="headerlink" title="介绍"></a>介绍</h3><ol>
-<li>选择器是 jQuery 的核心，在 jQuery 中，对事件处理，遍历 DOM 和 Ajax 操作都依赖于选择器</li>
-<li>jQuery 选择器优点：<ol>
-<li>简洁的写法</li>
-<li>完善的事件处理机制</li>
-</ol>
-</li>
-</ol>
-<h3 id="基本选择器"><a href="#基本选择器" class="headerlink" title="基本选择器"></a>基本选择器</h3><ol>
-<li>id 选择器：$(“#xxx”);</li>
-<li>类选择器：$(“.xxx”);</li>
-<li>元素选择器：$(“div”);</li>
-<li>*选择器：匹配所有元素，多用于结合上下文搜索</li>
-<li>组合选择器：以逗号分割</li>
-</ol>
-<h3 id="层级选择器"><a href="#层级选择器" class="headerlink" title="层级选择器"></a>层级选择器</h3><p>如果想通过 DOM 元素之间的层次关系来获取特定元素，如 后代元素、子元素、相邻元素、兄弟元素等，则需要使用层次选择器</p>
-<ol>
-<li><p>ancestor descendant</p>
-<ol>
-<li>用法：$(“form input”); -&gt; <em>返回 集合元素</em></li>
-<li>说明：在 <u>给定的祖先元素下</u> 匹配 <u>所有后代元素</u></li>
-</ol>
-</li>
-<li><p>parent &gt; child</p>
-<ol>
-<li><p>用法：$(form &gt; input); -&gt; <em>返回 集合元素</em></p>
-</li>
-<li><p>说明：在给定的父元素下匹配所有子元素</p>
-<blockquote>
-<p>注：要区分好 后代元素 与 子元素</p>
-</blockquote>
-</li>
-</ol>
-</li>
-<li><p>prev + next</p>
-<ol>
-<li>用法：$(label _ input); -&gt; <em>返回 集合元素</em></li>
-<li>说明：匹配所有紧接在 prev 元素后的 next 元素</li>
-</ol>
-</li>
-<li><p>prev ~ siblings</p>
-<ol>
-<li><p>用法：$(form ~ input); -&gt; <em>返回 集合元素</em></p>
-</li>
-<li><p>说明：匹配 prev 元素之后的所有 siblings 元素</p>
-<blockquote>
-<p>注：是匹配之后的元素，不包含该元素在内，并且 siblings 匹配的是和 prev 同辈的元素，其后辈元素不被匹配</p>
-</blockquote>
-</li>
-</ol>
-</li>
-</ol>
-<h3 id="基础过滤选择器"><a href="#基础过滤选择器" class="headerlink" title="基础过滤选择器"></a>基础过滤选择器</h3><ul>
-<li>过滤内容为相对 <strong>前</strong> 或 <strong>后</strong> 等</li>
-</ul>
-<h3 id="内容过滤选择器"><a href="#内容过滤选择器" class="headerlink" title="内容过滤选择器"></a>内容过滤选择器</h3><ul>
-<li>过滤规则主要体现在它所包含的 <strong>子元素</strong> 和 <strong>文本内容</strong> 上</li>
-</ul>
-<h3 id="可见度过滤选择器"><a href="#可见度过滤选择器" class="headerlink" title="可见度过滤选择器"></a>可见度过滤选择器</h3><ul>
-<li>根据元素的 <strong>可见</strong> 和 <strong>不可见</strong> 状态来选择相应的元素</li>
-</ul>
-<h3 id="属性过滤选择器"><a href="#属性过滤选择器" class="headerlink" title="属性过滤选择器"></a>属性过滤选择器</h3><ul>
-<li>过滤规则是通过 <strong>元素的属性</strong> 来获取相应的元素</li>
-</ul>
-<h3 id="子元素过滤选择器"><a href="#子元素过滤选择器" class="headerlink" title="子元素过滤选择器"></a>子元素过滤选择器</h3><ul>
-<li>对子元素进行选择过滤</li>
-</ul>
-<h3 id="表单属性过滤选择器"><a href="#表单属性过滤选择器" class="headerlink" title="表单属性过滤选择器"></a>表单属性过滤选择器</h3><ul>
-<li>主要对 <strong>表单元素</strong> 进行过滤</li>
-</ul>
-<h3 id="表单选择器"><a href="#表单选择器" class="headerlink" title="表单选择器"></a>表单选择器</h3><h2 id="jQuery-の-DOM-操作"><a href="#jQuery-の-DOM-操作" class="headerlink" title="jQuery の DOM 操作"></a>jQuery の DOM 操作</h2><h3 id="查找节点，修改属性"><a href="#查找节点，修改属性" class="headerlink" title="查找节点，修改属性"></a>查找节点，修改属性</h3><ol>
-<li>查找到属性节点后，可以调用 jQuery 对象的 attr() 方法来获取它的各种属性值</li>
-</ol>
-<h3 id="创建节点"><a href="#创建节点" class="headerlink" title="创建节点"></a>创建节点</h3><ol>
-<li><p>介绍：</p>
-<ol>
-<li><p>创建：使用 jQuery 的工厂函数 <code>$():$(HTML标签);</code> 会根据传入的 HTML 标记字符串创建一个 jQuery 对象 并返回</p>
-</li>
-<li><p>动态创建的新元素节点不会被自动添加至文档中，而是需要使用其它方法将其插入至文档中</p>
-</li>
-<li><p>当创建单个元素时，需注意闭合标签和使用标准的 XHTML 格式</p>
-</li>
-<li><p>创建文本节点 就是在创建元素节点时直接把文本内容写出来；属性节点同上</p>
-</li>
-</ol>
-</li>
-<li><p>插入方法：</p>
-<ol>
-<li><p>内部插入法：在元素内插入内容（该内容变成该元素的子元素或节点）</p>
-</li>
-<li><p>外部插入法：在元素外插入内容（该内容变成该元素的兄弟节点）</p>
-<blockquote>
-<p>注：外部插入法 不但能将新 DOM 元素插入到文档中，也能对原有的 DOM 元素进行移动</p>
-</blockquote>
-</li>
-</ol>
-</li>
-</ol>
-<h3 id="删除节点"><a href="#删除节点" class="headerlink" title="删除节点"></a>删除节点</h3><ol>
-<li>remove() -&gt; <em>从 DOM 中删除所有匹配元素，传入的参数用于根据 jQuery 表达式来筛选元素。当某个节点被删除后，该节点所包含的所有后代节点将被同时删除，返回一个指向已被删除的节点的引用</em></li>
-<li>empty() -&gt; <em>清空元素中所有的后代节点（不包含属性节点）</em></li>
-</ol>
-<h3 id="复制节点"><a href="#复制节点" class="headerlink" title="复制节点"></a>复制节点</h3><ol>
-<li>clone() -&gt; <em>克隆匹配的 DOM 元素，返回克隆后的副本（但此时复制的新节点不具有任何事件行为）</em></li>
-<li>clone(true) -&gt; <em>复制元素的同时也复制元素中的事件</em></li>
-</ol>
-<h3 id="替换节点"><a href="#替换节点" class="headerlink" title="替换节点"></a>替换节点</h3><ol>
-<li><p>replaceWith() -&gt; <em>将所有匹配到的元素都替换为指定的 HTML 或 DOM 元素</em></p>
-<blockquote>
-<p>注：或在替换之前，已经在元素上绑定了事件，替换后原先绑定的事件会与原先的元素一起消失</p>
-</blockquote>
-</li>
-</ol>
-<h3 id="属性操作"><a href="#属性操作" class="headerlink" title="属性操作"></a>属性操作</h3><h3 id="样式操作"><a href="#样式操作" class="headerlink" title="样式操作"></a>样式操作</h3><h3 id="获取-HTML-文本-和-值"><a href="#获取-HTML-文本-和-值" class="headerlink" title="获取 HTML 文本 和 值"></a>获取 HTML 文本 和 值</h3><h3 id="常用遍历节点方法"><a href="#常用遍历节点方法" class="headerlink" title="常用遍历节点方法"></a>常用遍历节点方法</h3><img src="/2023/12/21/JavaWeb/image-20240108131535820.png" class title="image-20240108131535820">
-
-<h3 id="CSS-DOM-操作"><a href="#CSS-DOM-操作" class="headerlink" title="CSS-DOM 操作"></a>CSS-DOM 操作</h3><h1 id="数据交换-异步请求"><a href="#数据交换-异步请求" class="headerlink" title="数据交换 &amp; 异步请求"></a>数据交换 &amp; 异步请求</h1><h2 id="JSON"><a href="#JSON" class="headerlink" title="JSON"></a>JSON</h2><h2 id="AJAX-Asynchronous-JavaScript-And-XML"><a href="#AJAX-Asynchronous-JavaScript-And-XML" class="headerlink" title="AJAX (Asynchronous JavaScript And XML)"></a>AJAX (Asynchronous JavaScript And XML)</h2><h3 id="原理图解"><a href="#原理图解" class="headerlink" title="原理图解"></a>原理图解</h3><img src="/2023/12/21/JavaWeb/image-20240112150601609.png" class title="image-20240112150601609">
-
-<h3 id="jQuery-封装"><a href="#jQuery-封装" class="headerlink" title="jQuery 封装"></a>jQuery 封装</h3><h3 id="应用场景"><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h3><ol>
-<li>搜索引擎自动提示检索关键字</li>
-<li>动态加载数据</li>
-</ol>
-<h1 id="线程数据共享-安全-ThreadLocal"><a href="#线程数据共享-安全-ThreadLocal" class="headerlink" title="线程数据共享 &amp; 安全 - ThreadLocal"></a>线程数据共享 &amp; 安全 - ThreadLocal</h1><h2 id="什么是-ThreadLocal"><a href="#什么是-ThreadLocal" class="headerlink" title="什么是 ThreadLocal"></a>什么是 ThreadLocal</h2><ol>
-<li>ThreadLocal 可以实现 <strong>在同一个线程数据共享</strong>，从而解决多线程数据安全问题</li>
-<li>ThreadLocal 可以给 当前线程 关联 <strong>一个</strong> 数据（普通变量、对象、数组）set 方法</li>
-<li>ThreadLocal 可以像 Map 一样存取数据，key 为当前线程，get 方法</li>
-<li>每一个 ThreadLocal 对象，只能为当前线程关联一个数据，如果要为当前线程关联多个数据，就需要使用多个 ThreadLoal 对象实例</li>
-<li>每个 ThreadLocal 对象实例定义的时候，一般为 static 类型</li>
-<li>ThreadLocal 中保存数据，在线程销毁后，会自动释放</li>
-</ol>
-<h2 id="源码解读"><a href="#源码解读" class="headerlink" title="源码解读"></a>源码解读</h2><img src="/2023/12/21/JavaWeb/image-20240113180646844.png" class title="image-20240113180646844">
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">set</span> <span class="params">(T value)</span> &#123;</span><br><span class="line">    <span class="comment">// 1. 获取当前线程，关联到当前线程</span></span><br><span class="line">    <span class="type">Thread</span> <span class="variable">t</span> <span class="operator">=</span> Thread.currentThread();</span><br><span class="line">    <span class="comment">// 2. 通过线程对象，获取到 ThreadLocalMap （其静态内部类）</span></span><br><span class="line">    <span class="type">ThreadLocalMap</span> <span class="variable">map</span> <span class="operator">=</span> getMap(t);</span><br><span class="line">    <span class="comment">// 3. 如果 map 不为 null，将数据（dog、pig...）放入 map</span></span><br><span class="line">    <span class="comment">//    key = threadLocal, value:(存放的数据)</span></span><br><span class="line">    <span class="comment">// 4. 如果 map 为 null，就创建一个和当前线程关联的 ThreadLocalMap，并且将该数据放入</span></span><br><span class="line">    <span class="keyword">if</span> (map != <span class="literal">null</span>) &#123;</span><br><span class="line">        map.set(<span class="built_in">this</span>, value);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        createMap(t, value);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h1 id="文件上传下载"><a href="#文件上传下载" class="headerlink" title="文件上传下载"></a>文件上传下载</h1><h2 id="基本介绍-3"><a href="#基本介绍-3" class="headerlink" title="基本介绍"></a>基本介绍</h2><ol>
-<li><p>文件的上传和下载是 web 常见功能</p>
-</li>
-<li><p>传输大文件一般用专门的工具或插件</p>
-</li>
-<li><p>需要两个包</p>
-<img src="/2023/12/21/JavaWeb/image-20240113182144103.png" class title="image-20240113182144103"></li>
-</ol>
-<h2 id="文件上传"><a href="#文件上传" class="headerlink" title="文件上传"></a>文件上传</h2><h3 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h3><img src="/2023/12/21/JavaWeb/image-20240113235508142.png" class title="image-20240113235508142">
-
-<img src="/2023/12/21/JavaWeb/image-20240113184134139.png" class title="image-20240113184134139">
-
-<img src="/2023/12/21/JavaWeb/image-20240113184201346.png" class title="image-20240113184201346">
-
-<img src="/2023/12/21/JavaWeb/image-20240113234540687.png" class title="image-20240113234540687">
-
-<h3 id="注意事项-细节-2"><a href="#注意事项-细节-2" class="headerlink" title="注意事项 &amp; 细节"></a>注意事项 &amp; 细节</h3><ol>
-<li>如果将文件都上传到一个目录下，当上传文件很多时，会造成访问文件速度变慢，因此可以将文件上传到不同目录（如微信存储目录结构）</li>
-<li>一个完美的文件上传，要考虑因素如 断点续传，控制图片大小、尺寸，分片上传，防止恶意上传等。在项目中，可考虑使用 WebUploader 组件（by 百度）</li>
-<li>文件上传功能在项目中建议有限制使用，一般用于 头像、证明、合同、产品展示等，如果不加限制，磁盘空间将被大量占用（如 b站评论不能传图、微信一次朋友圈最多9张图）</li>
-<li>文件覆盖问题：采用系统生成 UUID 用 _ 与文件名相连解决</li>
-</ol>
-<h2 id="文件下载"><a href="#文件下载" class="headerlink" title="文件下载"></a>文件下载</h2><h3 id="原理分析图"><a href="#原理分析图" class="headerlink" title="原理分析图"></a>原理分析图</h3><img src="/2023/12/21/JavaWeb/image-20240115001237881.png" class title="image-20240115001237881">
-
-<img src="/2023/12/21/JavaWeb/image-20240115001455422.png" class title="image-20240115001455422">
-
-<h3 id="注意事项-细节-3"><a href="#注意事项-细节-3" class="headerlink" title="注意事项 &amp; 细节"></a>注意事项 &amp; 细节</h3><ol>
-<li>文件中文名处理</li>
-</ol>
-<h1 id="项目-家居网购"><a href="#项目-家居网购" class="headerlink" title="[项目] 家居网购"></a>[项目] 家居网购</h1><p>Repo:</p>
-<ul>
-<li><a href="https://github.com/kkyesyes/JavaWebQuiz">家居网购 (Github)</a></li>
-</ul>
-<p>Note:（笔记部分在项目总帖中）</p>
-<p>前置基础</p>
-<ul>
-<li>正则表达式 (P877)</li>
-<li>MySQL (P730)</li>
-<li>JDBC (P820)</li>
-<li>数据库连接池 (P841)</li>
-<li>满汉楼 (P858)</li>
-</ul>
-]]></content>
-      <categories>
-        <category>计算机科学与技术</category>
-      </categories>
-      <tags>
-        <tag>JavaWeb</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Maven 笔记</title>
-    <url>/2024/01/08/Maven/</url>
-    <content><![CDATA[<h1 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h1><p><a href="https://www.bilibili.com/video/BV14j411S76G">Apache Maven 依赖管理 极速上手 已完结（2021 版本）4K蓝光画质+杜比音效 从导入到冲突</a></p>
-<h1 id="笔记引用"><a href="#笔记引用" class="headerlink" title="笔记引用"></a>笔记引用</h1><p><a href="https://www.itbaima.cn/document">柏码 - 让每一行代码都闪耀智慧的光芒！ (itbaima.cn)</a></p>
-]]></content>
-      <categories>
-        <category>Java 包管理</category>
-      </categories>
-      <tags>
-        <tag>Maven</tag>
-        <tag>Apache</tag>
       </tags>
   </entry>
   <entry>
@@ -3396,18 +2762,650 @@
       </tags>
   </entry>
   <entry>
-    <title>Nginx 笔记</title>
-    <url>/2024/01/08/Nginx/</url>
-    <content><![CDATA[]]></content>
+    <title>JavaWeb 笔记【完结】</title>
+    <url>/2023/12/21/JavaWeb/</url>
+    <content><![CDATA[<h1 id="资源归档"><a href="#资源归档" class="headerlink" title="资源归档"></a>资源归档</h1><ul>
+<li><a href="./JAVA_EE_api_%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AF%B9%E7%85%A7%E7%89%88.chm">JAVA_EE_api_中英文对照版.chm</a></li>
+</ul>
+<h1 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h1><h2 id="配置开发"><a href="#配置开发" class="headerlink" title="配置开发"></a>配置开发</h2><img src="/2023/12/21/JavaWeb/image-20231223232226072.png" class title="image-20231223232226072">
+
+<img src="/2023/12/21/JavaWeb/image-20231223232306106.png" class title="image-20231223232306106">
+
+
+
+<h2 id="注解开发"><a href="#注解开发" class="headerlink" title="注解开发"></a>注解开发</h2><img src="/2023/12/21/JavaWeb/image-20231223232843563.png" class title="image-20231223232843563">
+
+<p>与 <strong>配置开发</strong> 的区别在于读取注解，后对所注解的类进行反射（而非用给定的类的全路径）</p>
+<blockquote>
+<p>Ctrl + Alt + 方向键 -&gt; <em>切换历史标签页</em></p>
+</blockquote>
+<h1 id="HTTP协议"><a href="#HTTP协议" class="headerlink" title="HTTP协议"></a>HTTP协议</h1><img src="/2023/12/21/JavaWeb/image-20231224100149838.png" class title="image-20231224100149838">
+
+<h2 id="请求头"><a href="#请求头" class="headerlink" title="请求头"></a>请求头</h2><img src="/2023/12/21/JavaWeb/image-20231224101646524.png" class title="image-20231224101646524">
+
+<h2 id="响应头"><a href="#响应头" class="headerlink" title="响应头"></a>响应头</h2><img src="/2023/12/21/JavaWeb/image-20231224101733001.png" class title="image-20231224101733001">
+
+<h2 id="响应体"><a href="#响应体" class="headerlink" title="响应体"></a>响应体</h2><img src="/2023/12/21/JavaWeb/image-20231224101815734.png" class title="image-20231224101815734">
+
+<h2 id="HTTP请求包分析"><a href="#HTTP请求包分析" class="headerlink" title="HTTP请求包分析"></a>HTTP请求包分析</h2><h3 id="GET请求"><a href="#GET请求" class="headerlink" title="GET请求"></a>GET请求</h3><h3 id="POST请求"><a href="#POST请求" class="headerlink" title="POST请求"></a>POST请求</h3><h2 id="HTTP响应包分析"><a href="#HTTP响应包分析" class="headerlink" title="HTTP响应包分析"></a>HTTP响应包分析</h2><img src="/2023/12/21/JavaWeb/image-20231225005246431.png" class title="image-20231225005246431">
+
+<h3 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h3><ul>
+<li><a href="./HTTP_common_reqHeader_resHeader.zip">HTTP常见请求和响应头-说明.pdf（ZIP压缩包）</a></li>
+</ul>
+<h2 id="HTTP状态码"><a href="#HTTP状态码" class="headerlink" title="HTTP状态码"></a>HTTP状态码</h2><p>当浏览者访问一个网页时，浏览者的浏览器会向网页所在服务器发出请求。当浏览器接收并显示网页前，此网页所在的服务器会返回一个包含HTTP状态码（HTTP Status Code）的信息头（Server Header）用以响应浏览器的请求</p>
+<h3 id="常见HTTP状态码"><a href="#常见HTTP状态码" class="headerlink" title="常见HTTP状态码"></a>常见HTTP状态码</h3><ul>
+<li>200 - 请求成功</li>
+<li>301 - 资源（网页等）被永久转移到其它URL</li>
+<li>404 - 请求的资源（网页等）不存在</li>
+<li>500 - 内部服务器错误</li>
+</ul>
+<h3 id="状态码补充"><a href="#状态码补充" class="headerlink" title="状态码补充"></a>状态码补充</h3><ul>
+<li>302 - 临时移动（类似301），但资源只是临时被移动。客户端应继续使用原有URL</li>
+<li>304 - 未修改，取缓存页面</li>
+</ul>
+<h3 id="资源-1"><a href="#资源-1" class="headerlink" title="资源"></a>资源</h3><ul>
+<li><a href="./HTTP_resStatusCode.zip">HTTP响应状态码说明.docx（ZIP压缩包）</a></li>
+</ul>
+<h2 id="MIME类型"><a href="#MIME类型" class="headerlink" title="MIME类型"></a>MIME类型</h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><ul>
+<li>MIME (Multipurpose Internet Mail Extensions 多功能 Internet 邮件扩充服务) 是 HTTP 协议中数据类型（但不一定只能在浏览器中使用）。</li>
+</ul>
+<h3 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h3><ul>
+<li>大类型 &#x2F; 小类型 （并与某一种文件的扩展名相对应）e.g. text&#x2F;html</li>
+</ul>
+<h3 id="常见类型"><a href="#常见类型" class="headerlink" title="常见类型"></a>常见类型</h3><img src="/2023/12/21/JavaWeb/image-20231225111939228.png" class title="image-20231225111939228">
+
+<h1 id="ServletConfig"><a href="#ServletConfig" class="headerlink" title="ServletConfig"></a>ServletConfig</h1><p>通过 getServletConfig() 来获得配置详情</p>
+<h1 id="ServletContext"><a href="#ServletContext" class="headerlink" title="ServletContext"></a>ServletContext</h1><img src="/2023/12/21/JavaWeb/image-20231225152249922.png" class title="image-20231225152249922">
+
+<h2 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h2><ol>
+<li><p>ServletContext 是一个接口，它表示 Servlet 上下文对象</p>
+</li>
+<li><p>一个 web 工程，只有一个 ServletContext 对象实例</p>
+</li>
+<li><p>ServletContext 对象 是在 web 工程启动的时候创建的，在 web 工程停止的时候销毁</p>
+</li>
+<li><p>ServletContext 对象可以通过 ServletConfig.getServletContext() 方法获得对 ServletContext 对象的引用，也可以通过 this.getServletContext() 来获得其对象的引用</p>
+</li>
+<li><p>由于一个 web 应用中的所有 Servlet 共享同一个 ServletContext 对象，因此 Servlet 对象之间可以通过 ServletContext 对象来实现多个 Servlet 间通讯。ServletContext 对象通常也被称之为 域对象</p>
+<img src="/2023/12/21/JavaWeb/image-20231225154055956.png" class title="image-20231225154055956"></li>
+</ol>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><ol>
+<li>获取 web.xml 中配置的上下文参数 context-param [信息和整个 web 应用相关，而不是属于某个 Servlet]</li>
+<li>获取当前的工程路径，格式：&#x2F; 工程路径</li>
+<li>获取工程<strong>部署后</strong>在服务器硬盘上的<strong>绝对路径</strong></li>
+<li>像 <strong>Map</strong> 一样存取数据，多个 Servlet 共享数据</li>
+</ol>
+<h1 id="HttpServletRequest"><a href="#HttpServletRequest" class="headerlink" title="HttpServletRequest"></a>HttpServletRequest</h1><h2 id="介绍-1"><a href="#介绍-1" class="headerlink" title="介绍"></a>介绍</h2><ol>
+<li>HttpServletRequest 对象代表客户端的请求</li>
+<li>当 客户端 &#x2F; 浏览器 通过 HTTP 协议访问服务器时，HTTP 请求头中的所有信息都封装在这个对象中</li>
+<li>通过这个对象的方法，可以获得客户这些信息</li>
+</ol>
+<h2 id="常用方法"><a href="#常用方法" class="headerlink" title="常用方法"></a>常用方法</h2><ol>
+<li>getRequestURI() -&gt; <em>获取请求的资源路径</em></li>
+<li>getRequestURL() -&gt; <em>获取请求的统一资源定位符（绝对路径）</em></li>
+<li>getRemoteHost() -&gt; <em>获取客户端的主机</em></li>
+<li>getHeader() -&gt; <em>获取请求头</em></li>
+<li>getParameter() -&gt; <em>获取请求的参数</em></li>
+<li>getParameterValues() -&gt; <em>获取请求的参数（多个值的时候使用），如checkbox</em></li>
+<li>getMethod() -&gt; <em>获取请求的方式 GET 或 POST</em></li>
+<li>setAttribute(key, value) -&gt; <em>设置域数据</em></li>
+<li>getAttribute(key) -&gt; <em>获取域数据</em></li>
+<li>getRequestDispatcher() -&gt; <em>获取请求转发对象</em></li>
+</ol>
+<h2 id="请求转发"><a href="#请求转发" class="headerlink" title="请求转发"></a>请求转发</h2><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><ol>
+<li>实现请求转发：请求转发是指一个 web 资源收到客户端请求后，通知服务器去调用另一个 web 资源进行处理</li>
+<li>HttpServletRequest 对象（也叫 Request 对象）提供了一个 getRequestDispatcher 方法，该方法返回一个 RequestDispatcher 对象，调用这个对象的 forward 方法可以实现 请求转发</li>
+<li>request 对象 同时也是一个域对象，开发人员通过 request 对象在实现转发时，把数据通过 request 对象带给其它 web 资源处理<ul>
+<li>setAttribute()</li>
+<li>getAttribute()</li>
+<li>removeAttribute()</li>
+<li>getAttributeNames()</li>
+</ul>
+</li>
+</ol>
+<h3 id="示意图"><a href="#示意图" class="headerlink" title="示意图"></a>示意图</h3><img src="/2023/12/21/JavaWeb/image-20231228233617020.png" class title="image-20231228233617020">
+
+<img src="/2023/12/21/JavaWeb/image-20231229001125198.png" class title="image-20231229001125198">
+
+<h3 id="转发代码"><a href="#转发代码" class="headerlink" title="转发代码"></a>转发代码</h3><img src="/2023/12/21/JavaWeb/image-20231229000152839.png" class title="image-20231229000152839">
+
+<h3 id="注意事项-细节"><a href="#注意事项-细节" class="headerlink" title="注意事项 &amp; 细节"></a>注意事项 &amp; 细节</h3><ol>
+<li>浏览器地址不会变化（转发过程没有与浏览器交互）</li>
+<li>在同一次 HTTP 请求中，进行多次转发，仍然是一次 HTTP 请求</li>
+<li>在同一次 HTTP 请求中，进行多次转发，多个 Servlet 可以共享 request域 &#x2F; 对象 的数据（因为始终是同一个对象）</li>
+<li>可以转发到 WEB-INF 目录下</li>
+<li>不能访问当前 web 工程外的资源</li>
+<li>因为浏览器地址栏会停止在第一个 Servlet ，如果刷新页面，会再次发出请求（并且会带数据），所以在支付页面情况下，不能使用请求转发，否则会造成重复支付</li>
+</ol>
+<h1 id="HttpServletResponse"><a href="#HttpServletResponse" class="headerlink" title="HttpServletResponse"></a>HttpServletResponse</h1><h2 id="介绍-2"><a href="#介绍-2" class="headerlink" title="介绍"></a>介绍</h2><ol>
+<li><p>每次 HTTP 请求，Tomcat 会创建一个 HttpServletResponse 对象传递给 Servlet 程序去使用</p>
+</li>
+<li><p>HttpServletRequest 表示请求过来的信息，HttpServletResponse 表示所有响应的信息，如果需要设置返回给客户端的信息，通过 HttpServletResponse 对象来进行设置即可</p>
+<img src="/2023/12/21/JavaWeb/image-20231229003708391.png" class title="image-20231229003708391"></li>
+</ol>
+<h2 id="向客户端返回数据-注意事项-细节"><a href="#向客户端返回数据-注意事项-细节" class="headerlink" title="向客户端返回数据 注意事项 &amp; 细节"></a>向客户端返回数据 注意事项 &amp; 细节</h2><ol>
+<li><p>处理中文乱码问题（方案一）</p>
+<img src="/2023/12/21/JavaWeb/image-20231229004800885.png" class title="image-20231229004800885">
+</li>
+<li><p>处理中文乱码问题（方案二）</p>
+<img src="/2023/12/21/JavaWeb/image-20231229004818833.png" class title="image-20231229004818833"></li>
+</ol>
+<h1 id="Maven-简单引入"><a href="#Maven-简单引入" class="headerlink" title="Maven 简单引入"></a>Maven 简单引入</h1><h2 id="传统-Java-项目"><a href="#传统-Java-项目" class="headerlink" title="传统 Java 项目"></a>传统 Java 项目</h2><img src="/2023/12/21/JavaWeb/image-20231230161230672.png" class title="image-20231230161230672">
+
+<h2 id="Maven-的-Java-项目"><a href="#Maven-的-Java-项目" class="headerlink" title="Maven 的 Java 项目"></a>Maven 的 Java 项目</h2><img src="/2023/12/21/JavaWeb/image-20231230161329530.png" class title="image-20231230161329530">
+
+<h2 id="项目创建"><a href="#项目创建" class="headerlink" title="项目创建"></a>项目创建</h2><img src="/2023/12/21/JavaWeb/image-20231230163836243.png" class title="image-20231230163836243">
+
+<h1 id="JUL-日志框架"><a href="#JUL-日志框架" class="headerlink" title="JUL 日志框架"></a>JUL 日志框架</h1><h1 id="MyBatis-简单引入"><a href="#MyBatis-简单引入" class="headerlink" title="MyBatis 简单引入"></a>MyBatis 简单引入</h1><p>笔记引用：<a href="https://www.itbaima.cn/document">柏码 - 让每一行代码都闪耀智慧的光芒！ (itbaima.cn)</a></p>
+<h1 id="Tomcat手动实现"><a href="#Tomcat手动实现" class="headerlink" title="Tomcat手动实现"></a>Tomcat手动实现</h1><p>Repo:	<a href="https://github.com/kkyesyes/KKTomcat">KKTomcat (Github)</a></p>
+<img src="/2023/12/21/JavaWeb/image-20231231195004662.png" class title="image-20231231195004662">
+
+<h2 id="原理图解-BIO-多线程模型"><a href="#原理图解-BIO-多线程模型" class="headerlink" title="原理图解 (BIO 多线程模型)"></a>原理图解 (BIO 多线程模型)</h2><img src="/2023/12/21/JavaWeb/image-20240101192059636.png" class title="image-20240101192059636">
+
+<h1 id="Web-工程路径专题"><a href="#Web-工程路径专题" class="headerlink" title="Web 工程路径专题"></a>Web 工程路径专题</h1><h2 id="表单跳转网址过长-解决方案"><a href="#表单跳转网址过长-解决方案" class="headerlink" title="表单跳转网址过长 解决方案"></a>表单跳转网址过长 解决方案</h2><h3 id="相对路径："><a href="#相对路径：" class="headerlink" title="相对路径："></a>相对路径：</h3><ol>
+<li>相对路径下一个非常重要的规则：<strong>页面所有的相对路径（默认）都会参考当前浏览器地址栏路径来跳转</strong></li>
+</ol>
+<h3 id="base-标签"><a href="#base-标签" class="headerlink" title="base 标签"></a>base 标签</h3><ol>
+<li>base 标签是 HTML 语言中的基准网址标记，它是一个单标签，位于网页头部的 head 标签内</li>
+<li>一个页面最多只能使用一个 base 元素，用来提供一个指定的默认目标，是一种表达路径和连接网址的标记</li>
+<li>常见的 url 路径形式分别有 相对路径 与 绝对路径，如果 base 标签指定了目标，浏览器将通过这个目标解析当前文档中的所有相对路径，包括（a、img、link、form）</li>
+<li>浏览器解析时会在路径前加上 base 给的目标，而页面中的相对路径也都转换成了绝对路径。使用了 base 标签就应带上 href 属性和 target 属性</li>
+</ol>
+<blockquote>
+<img src="/2023/12/21/JavaWeb/image-20240104153414454.png" class title="image-20240104153414454">
+</blockquote>
+<h1 id="Web-开发会话技术（Cookie-Session）"><a href="#Web-开发会话技术（Cookie-Session）" class="headerlink" title="Web 开发会话技术（Cookie &amp; Session）"></a>Web 开发会话技术（Cookie &amp; Session）</h1><h2 id="会话"><a href="#会话" class="headerlink" title="会话"></a>会话</h2><h3 id="基本介绍-1"><a href="#基本介绍-1" class="headerlink" title="基本介绍"></a>基本介绍</h3><ol>
+<li><p>什么是会话</p>
+<p>会话 可简单理解为 <strong>用户开一个浏览器，点击多个超链接，访问服务器多个 web 资源，然后关闭浏览器</strong> 这样一整个过程</p>
+</li>
+<li><p>会话要解决的问题</p>
+<p>每个用户在使用浏览器与服务器进行会话的过程中，不可避免各自会产生一些数据，服务器要想办法为每个用户保存这些数据</p>
+</li>
+</ol>
+<h3 id="两种技术"><a href="#两种技术" class="headerlink" title="两种技术"></a>两种技术</h3><ol>
+<li>Session</li>
+<li>Cookie</li>
+</ol>
+<h2 id="Cookie"><a href="#Cookie" class="headerlink" title="Cookie"></a>Cookie</h2><img src="/2023/12/21/JavaWeb/image-20240104200742930.png" class title="image-20240104200742930">
+
+<h3 id="二说-Cookie"><a href="#二说-Cookie" class="headerlink" title="二说 Cookie"></a>二说 Cookie</h3><ol>
+<li>Cookie 是服务器在客户端保存的用户的信息，如登录名，浏览历史 等就可以以 Cookie 方式保存</li>
+<li>Cookie 信息就像是曲奇，数据量并不大，服务端需要的时候可以从客户端读取</li>
+<li>保存在浏览器中</li>
+</ol>
+<h3 id="Cookie-应用"><a href="#Cookie-应用" class="headerlink" title="Cookie 应用"></a>Cookie 应用</h3><ol>
+<li>保存登录时间</li>
+<li>保存登录信息，一定时间内不用重复登录</li>
+<li>网站个性化，定制内容</li>
+</ol>
+<h3 id="Cookie-常用方法"><a href="#Cookie-常用方法" class="headerlink" title="Cookie 常用方法"></a>Cookie 常用方法</h3><p><a href="./JAVA_EE_api_%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AF%B9%E7%85%A7%E7%89%88.chm">JAVA_EE_api_中英文对照版.chm</a></p>
+<ol>
+<li><p>Cookie 像一张表 (K-V)，一个是名字，一个是值，数据类型都是 String</p>
+</li>
+<li><p>如何创建一个 Cookie （在服务端创建）</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">Cookie</span> <span class="variable">c</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Cookie</span>(String name, String val);</span><br><span class="line">c.setMaxAge(); <span class="comment">// 保存时间</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>如何将一个 Cookie 添加到客户端</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">resp.addCookie(c);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>如何读取一个 Cookie （在服务端读取）</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">req.getCookies();</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h3 id="底层（Cookie-创建-读取）"><a href="#底层（Cookie-创建-读取）" class="headerlink" title="底层（Cookie 创建 &amp; 读取）"></a>底层（Cookie 创建 &amp; 读取）</h3><p>注：</p>
+<ol>
+<li>服务端创建与客户端同名 Cookie 相当于覆盖原 Cookie</li>
+</ol>
+<h3 id="JSESSIONID"><a href="#JSESSIONID" class="headerlink" title="JSESSIONID"></a>JSESSIONID</h3><ul>
+<li>作为在同一服务器上区分不同会话的唯一标识</li>
+</ul>
+<h3 id="Cookie-生命周期"><a href="#Cookie-生命周期" class="headerlink" title="Cookie 生命周期"></a>Cookie 生命周期</h3><ol>
+<li>Cookie 生命周期指的是如何管理 Cookie 什么时候销毁（删除、不再携带）</li>
+<li>setMaxAge(int expiry)：（以秒为单位）<ol>
+<li>正数：表示在指定的秒数后过期</li>
+<li>负数：表示浏览器关闭，Cookie 就会被删除（默认值为 -1）</li>
+<li>0，表示马上删除 Cookie</li>
+</ol>
+</li>
+</ol>
+<h3 id="Cookie-有效路径"><a href="#Cookie-有效路径" class="headerlink" title="Cookie 有效路径"></a>Cookie 有效路径</h3><ol>
+<li>Cookie 的 path 属性可以有效过滤哪些 Cookie 可以发送给服务器，哪些不发，path 属性是通过 <strong>请求的地址</strong> 来进行有效过滤的（长路径包含短路径则有效）</li>
+<li>默认为 <strong>上下文工程路径</strong></li>
+</ol>
+<h3 id="注意事项-细节-1"><a href="#注意事项-细节-1" class="headerlink" title="注意事项 &amp; 细节"></a>注意事项 &amp; 细节</h3><ol>
+<li>一个 Cookie 只能标识一种信息，它至少含有一个标识该信息的名称（name）和设置值（value）</li>
+<li>一个 web 站点可以给一个浏览器发送多个 Cookie，一个浏览器也可以存储多个 web 站点提供的 Cookie</li>
+<li>Cookie 的总数量没有限制，但是每个域名的 Cookie 数量 和 每个 Cookie 的大小是有限制的，Cookie 不适合存放数据量大的信息</li>
+<li>删除 Cookie 时，path 必须一致，否则不会删除</li>
+<li>Java Servlet 中 Cookie 中文乱码解决（存放中文默认报错，可通过 URL 编码（工具类）来解决）</li>
+</ol>
+<h2 id="Session"><a href="#Session" class="headerlink" title="Session"></a>Session</h2><h3 id="介绍-3"><a href="#介绍-3" class="headerlink" title="介绍"></a>介绍</h3><ol>
+<li>Session 是服务端技术，服务器在运行时为每一个用户的浏览器创建一个其独享的 Session 对象</li>
+<li>由于 Session 为各个用户浏览器独享，所以用户在访问服务器的不同页面时，可以从各自的 Session 中 读取 &#x2F; 添加 数据，从而完成相应任务</li>
+</ol>
+<h3 id="Session-基本原理"><a href="#Session-基本原理" class="headerlink" title="Session 基本原理"></a>Session 基本原理</h3><ol>
+<li>当用户打开浏览器，访问某个网站，<strong>操作 Session 时</strong>，服务器就会在内存中为该浏览品名<strong>分配</strong>一个 Session 对象，该 Session 对象被这个浏览器独占（JSESSIONID）</li>
+<li>这个 Session 对象也可看做是一个容器， Session 对象默认存在时间为 30 min，也可修改（tomcat &#x2F; conf &#x2F; web.xml）</li>
+</ol>
+<h3 id="Session-存储结构"><a href="#Session-存储结构" class="headerlink" title="Session 存储结构"></a>Session 存储结构</h3><ol>
+<li>Session 可看作是类似 HashMap 的容器，每一行（K-V）就是其一个属性</li>
+<li>每个属性包含两个部分，名（String） 与 值（Object）</li>
+</ol>
+<h3 id="Session-常用方法"><a href="#Session-常用方法" class="headerlink" title="Session 常用方法"></a>Session 常用方法</h3><ol>
+<li><p>创建 和 获取 Session</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">HttpSession</span> <span class="variable">hs</span> <span class="operator">=</span> req.getSession();</span><br></pre></td></tr></table></figure>
+
+<p><strong>第一次调用</strong> 是 <strong>创建</strong> Session 会话，之后调用是获取创建好的 Session 对象</p>
+</li>
+<li><p>向 Session 添加属性</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">hs.setAttribute(String name, Object val);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>从 Session 得到某个属性</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">Object</span> <span class="variable">obj</span> <span class="operator">=</span> hs.getAttribute(String name);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>从 Session 删除调某个属性</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">hs.removeAttribute(String name);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>判断是不是刚创建出来的 Session</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">hs.isNew();</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>每个 Session 都有一个唯一标识 Id 值，通过 getId() 得到 Session 会话的 Id 值</p>
+</li>
+</ol>
+<h3 id="Session-底层分析"><a href="#Session-底层分析" class="headerlink" title="Session 底层分析"></a>Session 底层分析</h3><img src="/2023/12/21/JavaWeb/image-20240104234506184.png" class title="image-20240104234506184">
+
+<img src="/2023/12/21/JavaWeb/image-20240104235756344.png" class title="image-20240104235756344">
+
+<h3 id="Session-生命周期"><a href="#Session-生命周期" class="headerlink" title="Session 生命周期"></a>Session 生命周期</h3><ol>
+<li>setMaxInactiveInterval(int interval) -&gt; <em>设置 Session 超时时间（以秒为单位），超过指定的时长，Session 就会被销毁</em></li>
+<li>值为正数的时候，设定 Session 的超时时长</li>
+<li><strong>负数表示永不超时</strong></li>
+<li>getMaxInactiveInterval() -&gt; <strong>获取 Session 的超时时间</strong></li>
+<li>invalidate() -&gt; <strong>让当前 Session 会话立即无效</strong></li>
+<li>如果没有调用 setMaxInactiveInterval() 来指定 Session 的生命周期，Tomcat 会以 Session 默认时长为准，Session 默认超时为 30 min，可以在 Tomcat 的 web.xml 中设置</li>
+<li>Session 的生命周期指的是：客户端 <strong>同一会话两次请求</strong> 最大间隔时长，而不是累积时长。即当客户端访问了自己的 Session，Session 的生命周期将从 0 开始重新计算</li>
+<li>底层：Tomcat 用一个线程来轮询会话状态，如果某个会话的空闲时间超过设定的最大值，则将该会话销毁</li>
+</ol>
+<h1 id="服务器端渲染技术"><a href="#服务器端渲染技术" class="headerlink" title="服务器端渲染技术"></a>服务器端渲染技术</h1><h2 id="JSP"><a href="#JSP" class="headerlink" title="JSP"></a>JSP</h2><h3 id="基本介绍-2"><a href="#基本介绍-2" class="headerlink" title="基本介绍"></a>基本介绍</h3><ol>
+<li>JSP 全称 Java Server Pages，即服务器渲染技术</li>
+<li>JSP 技术基于 Servlet，可以理解成是对 Servlet 的包装（或就是 Servlet）</li>
+<li>在 &lt;% %&gt; 标签中可以写 Java 代码</li>
+</ol>
+<h3 id="JSP-运行原理"><a href="#JSP-运行原理" class="headerlink" title="JSP 运行原理"></a>JSP 运行原理</h3><ol>
+<li>JSP 页面本质是一个 Servlet 程序，其性能是和 Java 关联的</li>
+<li>第一次访问 JSP 页面的时候，Tomcat 服务器会把 JSP 页面解析成为一个 Java 源文件，并且对它进行编译为 .class 字节码程序</li>
+</ol>
+<h2 id="Thymeleaf"><a href="#Thymeleaf" class="headerlink" title="Thymeleaf"></a>Thymeleaf</h2><h1 id="监听器-过滤器"><a href="#监听器-过滤器" class="headerlink" title="监听器 &amp; 过滤器"></a>监听器 &amp; 过滤器</h1><h2 id="监听器-Listener"><a href="#监听器-Listener" class="headerlink" title="监听器 Listener"></a>监听器 Listener</h2><h3 id="介绍-4"><a href="#介绍-4" class="headerlink" title="介绍"></a>介绍</h3><ol>
+<li>Listener 监听器是 JavaWeb 三大组件之一（Servlet | Listener | Filter）</li>
+<li>Listener 是 JavaEE 的规范（即接口）</li>
+<li>监听器作用：监听某种变化，触发对应方法完成相应的任务</li>
+<li>JavaWeb 中的监听器（共八个），目前最常用的是 ServletContextListener</li>
+</ol>
+<h3 id="ServletContextListener"><a href="#ServletContextListener" class="headerlink" title="ServletContextListener"></a><strong>ServletContextListener</strong></h3><ol>
+<li>作用：监听 ServletContext 创建或销毁（当 web 应用启动时，就会创建 ServletContext ），即 <strong>生命周期监听</strong> (使用前要在 web.xml 中注册)</li>
+<li>相关方法：<ol>
+<li>void contextInitialized(ServletContextEvent sce)</li>
+<li>void contextDestroyed(ServletContextEvent sce)</li>
+</ol>
+</li>
+<li>应用场景：<ol>
+<li>加载初始化的配置文件（如 Spring 的配置文件）</li>
+<li>任务调度（配合定时器 Timer &#x2F; TimerTask）</li>
+</ol>
+</li>
+</ol>
+<h3 id="ServletContextAttributeListener"><a href="#ServletContextAttributeListener" class="headerlink" title="ServletContextAttributeListener"></a><strong>ServletContextAttributeListener</strong></h3><ol>
+<li>作用：监听 ServletContext 属性变化</li>
+<li>相关方法：<ol>
+<li>void attributeAdded(ServletContextAttributeEvent event) -&gt; <em>添加属性时调用</em></li>
+<li>void attributeReplaced(ServletContextAttributeEvent event) -&gt; <em>替换属性时调用</em></li>
+<li>void attributeRemoved(ServletContextAttributeEvent event) -&gt; <em>移除属性时调用</em></li>
+</ol>
+</li>
+</ol>
+<h3 id="HttpSessionListener"><a href="#HttpSessionListener" class="headerlink" title="HttpSessionListener"></a><strong>HttpSessionListener</strong></h3><ol>
+<li>作用：监听 Session 创建或销毁，即 <strong>生命周期监听</strong></li>
+<li>相关方法：<ol>
+<li>void sessionCreated(HttpSessionEvent se) -&gt; <em>创建 session 时调用</em></li>
+<li>void sessionDestroyed(HttpSessionEvent se) -&gt; <em>销毁 session 时调用</em></li>
+</ol>
+</li>
+<li>应用场景：<ol>
+<li>监控用户上线、离线等</li>
+</ol>
+</li>
+</ol>
+<h3 id="HttpSessionAttributeListener"><a href="#HttpSessionAttributeListener" class="headerlink" title="HttpSessionAttributeListener"></a>HttpSessionAttributeListener</h3><ol>
+<li>作用：监听 Session 属性的变化</li>
+<li>相关方法：<ol>
+<li>void attributeAdded(ServletRequestAttributeEvent srae) -&gt; <em>添加</em></li>
+<li>void attributeReplaced(ServletRequestAttributeEvent srae) -&gt; <em>替换</em></li>
+<li>void attributeRemoved(ServletRequestAttributeEvent srae) -&gt; <em>移除</em></li>
+</ol>
+</li>
+<li>应用场景：较少</li>
+</ol>
+<h3 id="ServletRequestListener"><a href="#ServletRequestListener" class="headerlink" title="ServletRequestListener"></a><strong>ServletRequestListener</strong></h3><ol>
+<li>作用：监听 Request 创建或销毁，即 <strong>Request 生命周期监听</strong>，可得到 Request 中内容（若无法得到某一属性可能需要强转一下类型）</li>
+<li>相关方法：<ol>
+<li>void requestInitialized(ServletRequestEvent sre) -&gt; <em>创建 request 时</em></li>
+<li>void requestDestroyed(ServletRequestEvent sre) -&gt; <em>销毁 request 时</em></li>
+</ol>
+</li>
+<li>应用场景：<ol>
+<li>可用于监控 IP 访问网站的频率、日志记录、访问资源等的情况</li>
+</ol>
+</li>
+</ol>
+<h3 id="ServletRequestAttributeListener"><a href="#ServletRequestAttributeListener" class="headerlink" title="ServletRequestAttributeListener"></a>ServletRequestAttributeListener</h3><ol>
+<li>作用：监听 Request 属性变化</li>
+<li>相关方法：<ol>
+<li>void attributeAdded(ServletRequestAttributeEvent srae) -&gt; <em>添加</em></li>
+<li>void attributeReplaced(ServletRequestAttributeEvent srae) -&gt; <em>替换</em></li>
+<li>void attributeRemoved(ServletRequestAttributeEvent srae) -&gt; <em>移除</em></li>
+</ol>
+</li>
+<li>应用场景：同上</li>
+</ol>
+<h3 id="其它-Listener"><a href="#其它-Listener" class="headerlink" title="其它 Listener"></a>其它 Listener</h3><ol>
+<li>HttpSessionBindingListener -&gt; <em>将对象绑定至 Session 中感知监听（无需配置）</em></li>
+<li>HttpSessionActivationListener -&gt; <em>感知监听非钝化（未持久化）对象</em></li>
+</ol>
+<h2 id="过滤器-Filter"><a href="#过滤器-Filter" class="headerlink" title="过滤器 Filter"></a>过滤器 Filter</h2><img src="/2023/12/21/JavaWeb/image-20240107131453593.png" class title="image-20240107131453593">
+
+<h3 id="介绍-5"><a href="#介绍-5" class="headerlink" title="介绍"></a>介绍</h3><ol>
+<li><p>Filter 过滤器 是 JavaWeb 三大组件之一（Servlet 程序、Listener 监听器、Filter 过滤器）</p>
+</li>
+<li><p>Filter 过滤器是 JavaEE 的规范（即接口）</p>
+<img src="/2023/12/21/JavaWeb/image-20240107131842798.png" class title="image-20240107131842798">
+</li>
+<li><p>Filter 过滤器作用：拦截请求，过滤响应（<strong>转发不经过滤器</strong>）</p>
+</li>
+<li><p>应用场景：</p>
+<ol>
+<li>权限检查</li>
+<li>日志操作</li>
+<li>事务管理</li>
+</ol>
+</li>
+</ol>
+<h3 id="Filter-基本原理"><a href="#Filter-基本原理" class="headerlink" title="Filter 基本原理"></a>Filter 基本原理</h3><img src="/2023/12/21/JavaWeb/image-20240107144935405.png" class title="image-20240107144935405">
+
+<h3 id="url-pattern"><a href="#url-pattern" class="headerlink" title="url-pattern"></a>url-pattern</h3><ol>
+<li>url-pattern：Filter 的拦截路径，即浏览器在请求什么位置的资源时，过滤器会进行拦截过滤</li>
+<li>精确匹配：<code>&lt;url-pattern&gt;/a.jsp&lt;/url-pattern&gt;</code> 对应的请求地址为 http:&#x2F;&#x2F;[ip]:port&#x2F;工程路径&#x2F;a.jsp 会拦截</li>
+<li>目录匹配：<code>&lt;url-pattern&gt;/manage/*&lt;/url-pattern&gt;</code> 对应的请求地址为 http:&#x2F;&#x2F;[ip]:port&#x2F;工程路径&#x2F;manage&#x2F;xxx，即 web 工程 manage 目录下所有资源都会拦截</li>
+<li>后缀名匹配：<code>&lt;url-pattern&gt;*.jsp&lt;/url-pattern&gt;</code> 对应的请求地址为 http:&#x2F;&#x2F;[ip]:port&#x2F;工程路径&#x2F;xxx.jsp （后缀为 .jsp 的请求都会拦截）</li>
+<li><strong>Filter 过滤器只关心请求的地址是否匹配，不关心请求的资源是否存在</strong></li>
+</ol>
+<h3 id="Filter-生命周期（单例）"><a href="#Filter-生命周期（单例）" class="headerlink" title="Filter 生命周期（单例）"></a>Filter 生命周期（单例）</h3><img src="/2023/12/21/JavaWeb/image-20240107150415396.png" class title="image-20240107150415396">
+
+<h3 id="FilterConfig"><a href="#FilterConfig" class="headerlink" title="FilterConfig"></a>FilterConfig</h3><img src="/2023/12/21/JavaWeb/image-20240107151403210.png" class title="image-20240107151403210">
+
+<ol>
+<li><p>FilterConfig 是 Filter 过滤器的配置类，其作用是 <strong>获取 Filter 过滤器的配置内容</strong></p>
+</li>
+<li><p>Tomcat 在创建 Filter 实例时，同时会创建一个 FilterConfig 对象（包含 Filter 配置文件的配置信息），并通过 init() 方法传入</p>
+</li>
+<li><p>配置图解</p>
+<img src="/2023/12/21/JavaWeb/image-20240107151905384.png" class title="image-20240107151905384"></li>
+</ol>
+<h3 id="FilterChain"><a href="#FilterChain" class="headerlink" title="FilterChain"></a>FilterChain</h3><ol>
+<li><p>在处理复杂业务时，可设计多个过滤器共同完成过滤任务，形成 <strong>过滤器链</strong></p>
+</li>
+<li><p>基本原理分析</p>
+<img src="/2023/12/21/JavaWeb/image-20240107153419310.png" class title="image-20240107153419310">
+</li>
+<li><p>注意事项 &amp; 细节</p>
+<ol>
+<li>多个 Filter 和目标资源在一次 http 请求中生效，在同一个线程中</li>
+<li>当一个请求 url 和 Filter 的 url-pattern 匹配时，才会被执行。如果有多个匹配上，就会依 web.xml 中的配置顺序执行，形成一个 FilterChain</li>
+<li>多个 Filter 共同执行，使用同一个 request 对象（同一次请求）</li>
+<li>filterChain.doFilter(req, resp) -&gt; <em>执行下一个过滤器的 doFilter() 方法，若之后无过滤器，则执行目标资源</em></li>
+</ol>
+</li>
+</ol>
+<h1 id="jQuery"><a href="#jQuery" class="headerlink" title="jQuery"></a>jQuery</h1><p> 文档速查：</p>
+<ul>
+<li><a href="https://www.w3school.com.cn/jquery/index.asp">https://www.w3school.com.cn/jquery/index.asp</a></li>
+<li><a href="https://jquery.cuishifeng.cn/">https://jquery.cuishifeng.cn</a></li>
+</ul>
+<h2 id="介绍-6"><a href="#介绍-6" class="headerlink" title="介绍"></a>介绍</h2><ol>
+<li>jQuery 是一个快速的、简结的 JavaScript 库，使用户能更方便地处理 HTML</li>
+<li>提供方法、events、选择器，并且方便地为网站提供 AJAX 交互</li>
+<li>其宗旨是 <q>WRITE LESS, DO MORE</q></li>
+<li>实现了浏览器兼容问题</li>
+</ol>
+<h2 id="jQuery-原理图解"><a href="#jQuery-原理图解" class="headerlink" title="jQuery 原理图解"></a>jQuery 原理图解</h2><img src="/2023/12/21/JavaWeb/image-20240107161758913.png" class title="image-20240107161758913">
+
+<h2 id="jQuery-对象（数组对象）"><a href="#jQuery-对象（数组对象）" class="headerlink" title="jQuery 对象（数组对象）"></a>jQuery 对象（数组对象）</h2><ol>
+<li><p>jQuery 对象就是对 DOM 对象进行包装后产生的对象</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$(<span class="string">&quot;#test&quot;</span>).<span class="title function_">html</span>() <span class="comment">// 获取 id 为 test 的元素内的 HTML 代码</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>jQuery 对象是 jQuery 独有的。如果一个对象是 jQuery 对象，那么它就可以使用 jQuery 里的</p>
+</li>
+<li><p>变量名约定：如果获取的是 jQuery 对象，那么变量名前要加上 $</p>
+</li>
+<li><p>对象互转：</p>
+<ol>
+<li>jQuery -&gt; DOM：<ol>
+<li><u> jQuery 对象</u> &#x3D;  $( <u>DOM 对象</u> )</li>
+</ol>
+</li>
+<li>DOM -&gt; jQuery：<ol>
+<li><u>DOM 对象</u> &#x3D; <u> jQuery 对象</u>.get(0)</li>
+<li><u>DOM 对象</u> &#x3D; <u> jQuery 对象</u>[0]</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="jQuery-选择器"><a href="#jQuery-选择器" class="headerlink" title="jQuery 选择器"></a>jQuery 选择器</h2><h3 id="介绍-7"><a href="#介绍-7" class="headerlink" title="介绍"></a>介绍</h3><ol>
+<li>选择器是 jQuery 的核心，在 jQuery 中，对事件处理，遍历 DOM 和 Ajax 操作都依赖于选择器</li>
+<li>jQuery 选择器优点：<ol>
+<li>简洁的写法</li>
+<li>完善的事件处理机制</li>
+</ol>
+</li>
+</ol>
+<h3 id="基本选择器"><a href="#基本选择器" class="headerlink" title="基本选择器"></a>基本选择器</h3><ol>
+<li>id 选择器：$(“#xxx”);</li>
+<li>类选择器：$(“.xxx”);</li>
+<li>元素选择器：$(“div”);</li>
+<li>*选择器：匹配所有元素，多用于结合上下文搜索</li>
+<li>组合选择器：以逗号分割</li>
+</ol>
+<h3 id="层级选择器"><a href="#层级选择器" class="headerlink" title="层级选择器"></a>层级选择器</h3><p>如果想通过 DOM 元素之间的层次关系来获取特定元素，如 后代元素、子元素、相邻元素、兄弟元素等，则需要使用层次选择器</p>
+<ol>
+<li><p>ancestor descendant</p>
+<ol>
+<li>用法：$(“form input”); -&gt; <em>返回 集合元素</em></li>
+<li>说明：在 <u>给定的祖先元素下</u> 匹配 <u>所有后代元素</u></li>
+</ol>
+</li>
+<li><p>parent &gt; child</p>
+<ol>
+<li><p>用法：$(form &gt; input); -&gt; <em>返回 集合元素</em></p>
+</li>
+<li><p>说明：在给定的父元素下匹配所有子元素</p>
+<blockquote>
+<p>注：要区分好 后代元素 与 子元素</p>
+</blockquote>
+</li>
+</ol>
+</li>
+<li><p>prev + next</p>
+<ol>
+<li>用法：$(label _ input); -&gt; <em>返回 集合元素</em></li>
+<li>说明：匹配所有紧接在 prev 元素后的 next 元素</li>
+</ol>
+</li>
+<li><p>prev ~ siblings</p>
+<ol>
+<li><p>用法：$(form ~ input); -&gt; <em>返回 集合元素</em></p>
+</li>
+<li><p>说明：匹配 prev 元素之后的所有 siblings 元素</p>
+<blockquote>
+<p>注：是匹配之后的元素，不包含该元素在内，并且 siblings 匹配的是和 prev 同辈的元素，其后辈元素不被匹配</p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="基础过滤选择器"><a href="#基础过滤选择器" class="headerlink" title="基础过滤选择器"></a>基础过滤选择器</h3><ul>
+<li>过滤内容为相对 <strong>前</strong> 或 <strong>后</strong> 等</li>
+</ul>
+<h3 id="内容过滤选择器"><a href="#内容过滤选择器" class="headerlink" title="内容过滤选择器"></a>内容过滤选择器</h3><ul>
+<li>过滤规则主要体现在它所包含的 <strong>子元素</strong> 和 <strong>文本内容</strong> 上</li>
+</ul>
+<h3 id="可见度过滤选择器"><a href="#可见度过滤选择器" class="headerlink" title="可见度过滤选择器"></a>可见度过滤选择器</h3><ul>
+<li>根据元素的 <strong>可见</strong> 和 <strong>不可见</strong> 状态来选择相应的元素</li>
+</ul>
+<h3 id="属性过滤选择器"><a href="#属性过滤选择器" class="headerlink" title="属性过滤选择器"></a>属性过滤选择器</h3><ul>
+<li>过滤规则是通过 <strong>元素的属性</strong> 来获取相应的元素</li>
+</ul>
+<h3 id="子元素过滤选择器"><a href="#子元素过滤选择器" class="headerlink" title="子元素过滤选择器"></a>子元素过滤选择器</h3><ul>
+<li>对子元素进行选择过滤</li>
+</ul>
+<h3 id="表单属性过滤选择器"><a href="#表单属性过滤选择器" class="headerlink" title="表单属性过滤选择器"></a>表单属性过滤选择器</h3><ul>
+<li>主要对 <strong>表单元素</strong> 进行过滤</li>
+</ul>
+<h3 id="表单选择器"><a href="#表单选择器" class="headerlink" title="表单选择器"></a>表单选择器</h3><h2 id="jQuery-の-DOM-操作"><a href="#jQuery-の-DOM-操作" class="headerlink" title="jQuery の DOM 操作"></a>jQuery の DOM 操作</h2><h3 id="查找节点，修改属性"><a href="#查找节点，修改属性" class="headerlink" title="查找节点，修改属性"></a>查找节点，修改属性</h3><ol>
+<li>查找到属性节点后，可以调用 jQuery 对象的 attr() 方法来获取它的各种属性值</li>
+</ol>
+<h3 id="创建节点"><a href="#创建节点" class="headerlink" title="创建节点"></a>创建节点</h3><ol>
+<li><p>介绍：</p>
+<ol>
+<li><p>创建：使用 jQuery 的工厂函数 <code>$():$(HTML标签);</code> 会根据传入的 HTML 标记字符串创建一个 jQuery 对象 并返回</p>
+</li>
+<li><p>动态创建的新元素节点不会被自动添加至文档中，而是需要使用其它方法将其插入至文档中</p>
+</li>
+<li><p>当创建单个元素时，需注意闭合标签和使用标准的 XHTML 格式</p>
+</li>
+<li><p>创建文本节点 就是在创建元素节点时直接把文本内容写出来；属性节点同上</p>
+</li>
+</ol>
+</li>
+<li><p>插入方法：</p>
+<ol>
+<li><p>内部插入法：在元素内插入内容（该内容变成该元素的子元素或节点）</p>
+</li>
+<li><p>外部插入法：在元素外插入内容（该内容变成该元素的兄弟节点）</p>
+<blockquote>
+<p>注：外部插入法 不但能将新 DOM 元素插入到文档中，也能对原有的 DOM 元素进行移动</p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="删除节点"><a href="#删除节点" class="headerlink" title="删除节点"></a>删除节点</h3><ol>
+<li>remove() -&gt; <em>从 DOM 中删除所有匹配元素，传入的参数用于根据 jQuery 表达式来筛选元素。当某个节点被删除后，该节点所包含的所有后代节点将被同时删除，返回一个指向已被删除的节点的引用</em></li>
+<li>empty() -&gt; <em>清空元素中所有的后代节点（不包含属性节点）</em></li>
+</ol>
+<h3 id="复制节点"><a href="#复制节点" class="headerlink" title="复制节点"></a>复制节点</h3><ol>
+<li>clone() -&gt; <em>克隆匹配的 DOM 元素，返回克隆后的副本（但此时复制的新节点不具有任何事件行为）</em></li>
+<li>clone(true) -&gt; <em>复制元素的同时也复制元素中的事件</em></li>
+</ol>
+<h3 id="替换节点"><a href="#替换节点" class="headerlink" title="替换节点"></a>替换节点</h3><ol>
+<li><p>replaceWith() -&gt; <em>将所有匹配到的元素都替换为指定的 HTML 或 DOM 元素</em></p>
+<blockquote>
+<p>注：或在替换之前，已经在元素上绑定了事件，替换后原先绑定的事件会与原先的元素一起消失</p>
+</blockquote>
+</li>
+</ol>
+<h3 id="属性操作"><a href="#属性操作" class="headerlink" title="属性操作"></a>属性操作</h3><h3 id="样式操作"><a href="#样式操作" class="headerlink" title="样式操作"></a>样式操作</h3><h3 id="获取-HTML-文本-和-值"><a href="#获取-HTML-文本-和-值" class="headerlink" title="获取 HTML 文本 和 值"></a>获取 HTML 文本 和 值</h3><h3 id="常用遍历节点方法"><a href="#常用遍历节点方法" class="headerlink" title="常用遍历节点方法"></a>常用遍历节点方法</h3><img src="/2023/12/21/JavaWeb/image-20240108131535820.png" class title="image-20240108131535820">
+
+<h3 id="CSS-DOM-操作"><a href="#CSS-DOM-操作" class="headerlink" title="CSS-DOM 操作"></a>CSS-DOM 操作</h3><h1 id="数据交换-异步请求"><a href="#数据交换-异步请求" class="headerlink" title="数据交换 &amp; 异步请求"></a>数据交换 &amp; 异步请求</h1><h2 id="JSON"><a href="#JSON" class="headerlink" title="JSON"></a>JSON</h2><h2 id="AJAX-Asynchronous-JavaScript-And-XML"><a href="#AJAX-Asynchronous-JavaScript-And-XML" class="headerlink" title="AJAX (Asynchronous JavaScript And XML)"></a>AJAX (Asynchronous JavaScript And XML)</h2><h3 id="原理图解"><a href="#原理图解" class="headerlink" title="原理图解"></a>原理图解</h3><img src="/2023/12/21/JavaWeb/image-20240112150601609.png" class title="image-20240112150601609">
+
+<h3 id="jQuery-封装"><a href="#jQuery-封装" class="headerlink" title="jQuery 封装"></a>jQuery 封装</h3><h3 id="应用场景"><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h3><ol>
+<li>搜索引擎自动提示检索关键字</li>
+<li>动态加载数据</li>
+</ol>
+<h1 id="线程数据共享-安全-ThreadLocal"><a href="#线程数据共享-安全-ThreadLocal" class="headerlink" title="线程数据共享 &amp; 安全 - ThreadLocal"></a>线程数据共享 &amp; 安全 - ThreadLocal</h1><h2 id="什么是-ThreadLocal"><a href="#什么是-ThreadLocal" class="headerlink" title="什么是 ThreadLocal"></a>什么是 ThreadLocal</h2><ol>
+<li>ThreadLocal 可以实现 <strong>在同一个线程数据共享</strong>，从而解决多线程数据安全问题</li>
+<li>ThreadLocal 可以给 当前线程 关联 <strong>一个</strong> 数据（普通变量、对象、数组）set 方法</li>
+<li>ThreadLocal 可以像 Map 一样存取数据，key 为当前线程，get 方法</li>
+<li>每一个 ThreadLocal 对象，只能为当前线程关联一个数据，如果要为当前线程关联多个数据，就需要使用多个 ThreadLoal 对象实例</li>
+<li>每个 ThreadLocal 对象实例定义的时候，一般为 static 类型</li>
+<li>ThreadLocal 中保存数据，在线程销毁后，会自动释放</li>
+</ol>
+<h2 id="源码解读"><a href="#源码解读" class="headerlink" title="源码解读"></a>源码解读</h2><img src="/2023/12/21/JavaWeb/image-20240113180646844.png" class title="image-20240113180646844">
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">set</span> <span class="params">(T value)</span> &#123;</span><br><span class="line">    <span class="comment">// 1. 获取当前线程，关联到当前线程</span></span><br><span class="line">    <span class="type">Thread</span> <span class="variable">t</span> <span class="operator">=</span> Thread.currentThread();</span><br><span class="line">    <span class="comment">// 2. 通过线程对象，获取到 ThreadLocalMap （其静态内部类）</span></span><br><span class="line">    <span class="type">ThreadLocalMap</span> <span class="variable">map</span> <span class="operator">=</span> getMap(t);</span><br><span class="line">    <span class="comment">// 3. 如果 map 不为 null，将数据（dog、pig...）放入 map</span></span><br><span class="line">    <span class="comment">//    key = threadLocal, value:(存放的数据)</span></span><br><span class="line">    <span class="comment">// 4. 如果 map 为 null，就创建一个和当前线程关联的 ThreadLocalMap，并且将该数据放入</span></span><br><span class="line">    <span class="keyword">if</span> (map != <span class="literal">null</span>) &#123;</span><br><span class="line">        map.set(<span class="built_in">this</span>, value);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        createMap(t, value);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="文件上传下载"><a href="#文件上传下载" class="headerlink" title="文件上传下载"></a>文件上传下载</h1><h2 id="基本介绍-3"><a href="#基本介绍-3" class="headerlink" title="基本介绍"></a>基本介绍</h2><ol>
+<li><p>文件的上传和下载是 web 常见功能</p>
+</li>
+<li><p>传输大文件一般用专门的工具或插件</p>
+</li>
+<li><p>需要两个包</p>
+<img src="/2023/12/21/JavaWeb/image-20240113182144103.png" class title="image-20240113182144103"></li>
+</ol>
+<h2 id="文件上传"><a href="#文件上传" class="headerlink" title="文件上传"></a>文件上传</h2><h3 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h3><img src="/2023/12/21/JavaWeb/image-20240113235508142.png" class title="image-20240113235508142">
+
+<img src="/2023/12/21/JavaWeb/image-20240113184134139.png" class title="image-20240113184134139">
+
+<img src="/2023/12/21/JavaWeb/image-20240113184201346.png" class title="image-20240113184201346">
+
+<img src="/2023/12/21/JavaWeb/image-20240113234540687.png" class title="image-20240113234540687">
+
+<h3 id="注意事项-细节-2"><a href="#注意事项-细节-2" class="headerlink" title="注意事项 &amp; 细节"></a>注意事项 &amp; 细节</h3><ol>
+<li>如果将文件都上传到一个目录下，当上传文件很多时，会造成访问文件速度变慢，因此可以将文件上传到不同目录（如微信存储目录结构）</li>
+<li>一个完美的文件上传，要考虑因素如 断点续传，控制图片大小、尺寸，分片上传，防止恶意上传等。在项目中，可考虑使用 WebUploader 组件（by 百度）</li>
+<li>文件上传功能在项目中建议有限制使用，一般用于 头像、证明、合同、产品展示等，如果不加限制，磁盘空间将被大量占用（如 b站评论不能传图、微信一次朋友圈最多9张图）</li>
+<li>文件覆盖问题：采用系统生成 UUID 用 _ 与文件名相连解决</li>
+</ol>
+<h2 id="文件下载"><a href="#文件下载" class="headerlink" title="文件下载"></a>文件下载</h2><h3 id="原理分析图"><a href="#原理分析图" class="headerlink" title="原理分析图"></a>原理分析图</h3><img src="/2023/12/21/JavaWeb/image-20240115001237881.png" class title="image-20240115001237881">
+
+<img src="/2023/12/21/JavaWeb/image-20240115001455422.png" class title="image-20240115001455422">
+
+<h3 id="注意事项-细节-3"><a href="#注意事项-细节-3" class="headerlink" title="注意事项 &amp; 细节"></a>注意事项 &amp; 细节</h3><ol>
+<li>文件中文名处理</li>
+</ol>
+<h1 id="项目-家居网购"><a href="#项目-家居网购" class="headerlink" title="[项目] 家居网购"></a>[项目] 家居网购</h1><p>Repo:</p>
+<ul>
+<li><a href="https://github.com/kkyesyes/JavaWebQuiz">家居网购 (Github)</a></li>
+</ul>
+<p>Note:（笔记部分在项目总帖中）</p>
+<p>前置基础</p>
+<ul>
+<li>正则表达式 (P877)</li>
+<li>MySQL (P730)</li>
+<li>JDBC (P820)</li>
+<li>数据库连接池 (P841)</li>
+<li>满汉楼 (P858)</li>
+</ul>
+]]></content>
       <categories>
-        <category>Web 中间件</category>
+        <category>计算机科学与技术</category>
       </categories>
       <tags>
-        <tag>Nginx</tag>
-        <tag>Web 中间件</tag>
-        <tag>负载均衡</tag>
-        <tag>反向代理</tag>
-        <tag>代理</tag>
+        <tag>JavaWeb</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Maven 笔记</title>
+    <url>/2024/01/08/Maven/</url>
+    <content><![CDATA[<h1 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h1><p><a href="https://www.bilibili.com/video/BV14j411S76G">Apache Maven 依赖管理 极速上手 已完结（2021 版本）4K蓝光画质+杜比音效 从导入到冲突</a></p>
+<h1 id="笔记引用"><a href="#笔记引用" class="headerlink" title="笔记引用"></a>笔记引用</h1><p><a href="https://www.itbaima.cn/document">柏码 - 让每一行代码都闪耀智慧的光芒！ (itbaima.cn)</a></p>
+]]></content>
+      <categories>
+        <category>Java 包管理</category>
+      </categories>
+      <tags>
+        <tag>Maven</tag>
+        <tag>Apache</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MyBatis 笔记</title>
+    <url>/2024/01/08/MyBatis/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>计算机科学与技术</category>
+      </categories>
+      <tags>
+        <tag>MyBatis</tag>
+        <tag>数据持久化</tag>
       </tags>
   </entry>
   <entry>
@@ -3443,15 +3441,18 @@
       </tags>
   </entry>
   <entry>
-    <title>MyBatis 笔记</title>
-    <url>/2024/01/08/MyBatis/</url>
+    <title>Nginx 笔记</title>
+    <url>/2024/01/08/Nginx/</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>计算机科学与技术</category>
+        <category>Web 中间件</category>
       </categories>
       <tags>
-        <tag>MyBatis</tag>
-        <tag>数据持久化</tag>
+        <tag>Nginx</tag>
+        <tag>Web 中间件</tag>
+        <tag>负载均衡</tag>
+        <tag>反向代理</tag>
+        <tag>代理</tag>
       </tags>
   </entry>
   <entry>
@@ -3753,6 +3754,50 @@
 </ol>
 </li>
 </ol>
+<h3 id="时钟（RTC-电路-CMOS-RAM）"><a href="#时钟（RTC-电路-CMOS-RAM）" class="headerlink" title="时钟（RTC 电路 + CMOS RAM）"></a>时钟（RTC 电路 + CMOS RAM）</h3><ol>
+<li><p>RTC：单独供电，CMOS RAM 中一小部分存储时钟信息，其它空间存储硬件配置等信息</p>
+<img src="/2023/11/07/OS-Notes/image-20240229210815336.png" class title="image-20240229210815336">
+</li>
+<li><p>RTC 电路可以发出的中断信号</p>
+<ol>
+<li><p>周期性中断信号（Periodic Interrupt: PI）</p>
+<img src="/2023/11/07/OS-Notes/image-20240229211413997.png" class title="image-20240229211413997">
+
+<img src="/2023/11/07/OS-Notes/image-20240229211440827.png" class title="image-20240229211440827">
+
+<img src="/2023/11/07/OS-Notes/image-20240229211714335.png" class title="image-20240229211714335">
+
+<blockquote>
+<p>PIE 置 1 时需将 0 ~ 3 位置数选择速率（0 ~ 3 全部置 0 则 PIE 自动置 0）</p>
+</blockquote>
+</li>
+<li><p>更新周期结束中断（Update-ended Interrupt: UI）</p>
+<p>进行时钟更新的周期</p>
+<ol>
+<li><p>更新周期的开关</p>
+<img src="/2023/11/07/OS-Notes/image-20240229212352301.png" class title="image-20240229212352301">
+</li>
+<li><p>更新周期的过程监视</p>
+<img src="/2023/11/07/OS-Notes/image-20240229212618188.png" class title="image-20240229212618188">
+
+<blockquote>
+<p>时钟更新过程中会暂时与总线断开以防误访问</p>
+</blockquote>
+</li>
+</ol>
+</li>
+<li><p>闹钟中断（Alarm Interrupt: AI）</p>
+<img src="/2023/11/07/OS-Notes/image-20240229213007110.png" class title="image-20240229213007110"></li>
+</ol>
+</li>
+<li><p>中断类型的判别</p>
+<img src="/2023/11/07/OS-Notes/image-20240229213852782.png" class title="image-20240229213852782">
+
+<blockquote>
+<p>对 寄存器 C（只读寄存器） 的读操作会使所有位清零，低 4 位为保留位（始终为 0）</p>
+</blockquote>
+</li>
+</ol>
 <h1 id="32位x86处理器架构"><a href="#32位x86处理器架构" class="headerlink" title="32位x86处理器架构"></a>32位x86处理器架构</h1><h2 id="保护模式"><a href="#保护模式" class="headerlink" title="保护模式"></a>保护模式</h2>]]></content>
       <categories>
         <category>计算机科学与技术</category>
@@ -3791,6 +3836,18 @@
       </tags>
   </entry>
   <entry>
+    <title>SpringMVC 笔记</title>
+    <url>/2024/01/08/SpringMVC/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Spring 系框架</category>
+      </categories>
+      <tags>
+        <tag>SpringMVC</tag>
+        <tag>Spring Web MVC</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Spring 笔记</title>
     <url>/2024/01/08/Spring/</url>
     <content><![CDATA[<h1 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h1><p><a href="https://www.bilibili.com/video/BV1Kv4y1x7is">Spring 核心教程 已完结（IDEA 2023最新版）4K蓝光画质 基于Spring6的全新重制版本 起立到起飞</a></p>
@@ -3821,18 +3878,6 @@
       <tags>
         <tag>框架</tag>
         <tag>SpringBoot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringMVC 笔记</title>
-    <url>/2024/01/08/SpringMVC/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Spring 系框架</category>
-      </categories>
-      <tags>
-        <tag>SpringMVC</tag>
-        <tag>Spring Web MVC</tag>
       </tags>
   </entry>
   <entry>
@@ -3877,24 +3922,6 @@
         <tag>随想</tag>
         <tag>音乐分享</tag>
         <tag>人生思考</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>工具库</title>
-    <url>/2023/11/16/Utils/</url>
-    <content><![CDATA[<h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><ol>
-<li><a href="./utils.py.zip">utils.py.zip</a> -&gt; <em>ChromeWebdriverAntiCrawlSettingsFile</em></li>
-</ol>
-<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><ol>
-<li><a href="./Utility.java.zip">Utility.java.zip</a> -&gt; <em>UserInputHandler</em></li>
-</ol>
-]]></content>
-      <categories>
-        <category>工具代码切片</category>
-      </categories>
-      <tags>
-        <tag>编程工具类</tag>
-        <tag>代码模板</tag>
       </tags>
   </entry>
   <entry>
@@ -3954,6 +3981,24 @@
         <tag>网络</tag>
         <tag>信息安全</tag>
         <tag>红蓝对抗</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>工具库</title>
+    <url>/2023/11/16/Utils/</url>
+    <content><![CDATA[<h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><ol>
+<li><a href="./utils.py.zip">utils.py.zip</a> -&gt; <em>ChromeWebdriverAntiCrawlSettingsFile</em></li>
+</ol>
+<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><ol>
+<li><a href="./Utility.java.zip">Utility.java.zip</a> -&gt; <em>UserInputHandler</em></li>
+</ol>
+]]></content>
+      <categories>
+        <category>工具代码切片</category>
+      </categories>
+      <tags>
+        <tag>编程工具类</tag>
+        <tag>代码模板</tag>
       </tags>
   </entry>
 </search>
