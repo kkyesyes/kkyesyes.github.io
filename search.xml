@@ -18,7 +18,7 @@
     <title>算法</title>
     <url>/2023/11/06/Algorithm-Templates/</url>
     <content><![CDATA[<p><a href="https://github.com/TheAlgorithms">Github 算法仓库</a></p>
-<h1 id="常用函数"><a href="#常用函数" class="headerlink" title="常用函数"></a>常用函数</h1><h2 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h2><h3 id><a href="#" class="headerlink" title="&lt;ctype.h&gt;"></a>&lt;ctype.h&gt;</h3><ol>
+<h1 id="常用函数速查"><a href="#常用函数速查" class="headerlink" title="常用函数速查"></a>常用函数速查</h1><h2 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h2><h3 id><a href="#" class="headerlink" title="&lt;ctype.h&gt;"></a>&lt;ctype.h&gt;</h3><ol>
 <li><p>toupper() -&gt; <em>将传入的字符转换为大写</em></p>
 <img src="/2023/11/06/Algorithm-Templates/image-20240302202123346.png" class title="image-20240302202123346">
 </li>
@@ -36,7 +36,7 @@
 <h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h2><ol>
 <li>.split() -&gt; <em>字符串分割</em></li>
 </ol>
-<h1 id="蓝桥杯复习"><a href="#蓝桥杯复习" class="headerlink" title="蓝桥杯复习"></a>蓝桥杯复习</h1><h2 id="知识点归档"><a href="#知识点归档" class="headerlink" title="知识点归档"></a>知识点归档</h2><h3 id="C-组考点"><a href="#C-组考点" class="headerlink" title="C 组考点"></a>C 组考点</h3><ol>
+<h1 id="大纲"><a href="#大纲" class="headerlink" title="大纲"></a>大纲</h1><h2 id="知识点归档"><a href="#知识点归档" class="headerlink" title="知识点归档"></a>知识点归档</h2><h3 id="C-组考点"><a href="#C-组考点" class="headerlink" title="C 组考点"></a>C 组考点</h3><ol>
 <li>枚举✅</li>
 <li>排序<ol>
 <li>冒泡</li>
@@ -48,9 +48,9 @@
 <li>贪心</li>
 <li>模拟</li>
 <li>二分✅</li>
-<li>DP（普通一维问题）</li>
+<li>DP（普通一维问题）✅</li>
 <li>高精度✅</li>
-<li>数据结构<ol>
+<li>数据结构✅<ol>
 <li>栈✅</li>
 <li>队列✅</li>
 <li>链表✅</li>
@@ -129,7 +129,18 @@
 </ol>
 </li>
 </ol>
-<h1 id="算法模板"><a href="#算法模板" class="headerlink" title="算法模板"></a>算法模板</h1><h2 id="双指针"><a href="#双指针" class="headerlink" title="双指针"></a>双指针</h2><h3 id="双指针双对象代码模板"><a href="#双指针双对象代码模板" class="headerlink" title="双指针双对象代码模板"></a>双指针双对象代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">num1</span> <span class="operator">=</span> <span class="string">&quot;51198&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">num2</span> <span class="operator">=</span> <span class="string">&quot;967895&quot;</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> num1.length() - <span class="number">1</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> num2.length() - <span class="number">1</span>;</span><br><span class="line"><span class="keyword">while</span> (i &gt;= <span class="number">0</span> || j &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">n1</span> <span class="operator">=</span> i &gt;= <span class="number">0</span> ? num1.charAt(i) - <span class="string">&#x27;0&#x27;</span> : <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> <span class="variable">n2</span> <span class="operator">=</span> j &gt;= <span class="number">0</span> ? num2.charAt(j) - <span class="string">&#x27;0&#x27;</span> : <span class="number">0</span>;</span><br><span class="line">    i--;j--;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="常用-Excel-技巧"><a href="#常用-Excel-技巧" class="headerlink" title="常用 Excel 技巧"></a>常用 Excel 技巧</h1><h2 id="日期类"><a href="#日期类" class="headerlink" title="日期类"></a>日期类</h2><h3 id="日期直接运算"><a href="#日期直接运算" class="headerlink" title="日期直接运算"></a>日期直接运算</h3><ol>
+<li>设置单元格为日期格式</li>
+<li>单元格运算</li>
+</ol>
+<h3 id="计算当前日期是星期几"><a href="#计算当前日期是星期几" class="headerlink" title="计算当前日期是星期几"></a>计算当前日期是星期几</h3><img src="/2023/11/06/Algorithm-Templates/image-20240302211148792.png" class title="image-20240302211148792">
+
+<h3 id="返回一年中的周数"><a href="#返回一年中的周数" class="headerlink" title="返回一年中的周数"></a>返回一年中的周数</h3><img src="/2023/11/06/Algorithm-Templates/image-20240302212055451.png" class title="image-20240302212055451">
+
+<blockquote>
+<p>Excel只能计算1900年之后的，看网上都说1000年闰年平年为一个循环，可以加1000年之后再映射</p>
+</blockquote>
+<h2 id="计算类"><a href="#计算类" class="headerlink" title="计算类"></a>计算类</h2><h3 id="利用-Excel-计算出日期列表后传入程序计算"><a href="#利用-Excel-计算出日期列表后传入程序计算" class="headerlink" title="利用 Excel 计算出日期列表后传入程序计算"></a>利用 Excel 计算出日期列表后传入程序计算</h3><h1 id="算法模板"><a href="#算法模板" class="headerlink" title="算法模板"></a>算法模板</h1><h2 id="双指针"><a href="#双指针" class="headerlink" title="双指针"></a>双指针</h2><h3 id="双指针双对象代码模板"><a href="#双指针双对象代码模板" class="headerlink" title="双指针双对象代码模板"></a>双指针双对象代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">num1</span> <span class="operator">=</span> <span class="string">&quot;51198&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">num2</span> <span class="operator">=</span> <span class="string">&quot;967895&quot;</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> num1.length() - <span class="number">1</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> num2.length() - <span class="number">1</span>;</span><br><span class="line"><span class="keyword">while</span> (i &gt;= <span class="number">0</span> || j &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">n1</span> <span class="operator">=</span> i &gt;= <span class="number">0</span> ? num1.charAt(i) - <span class="string">&#x27;0&#x27;</span> : <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> <span class="variable">n2</span> <span class="operator">=</span> j &gt;= <span class="number">0</span> ? num2.charAt(j) - <span class="string">&#x27;0&#x27;</span> : <span class="number">0</span>;</span><br><span class="line">    i--;j--;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2><h3 id="字符串转十进制转换数代码模板"><a href="#字符串转十进制转换数代码模板" class="headerlink" title="字符串转十进制转换数代码模板"></a>字符串转十进制转换数代码模板</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">num</span> <span class="operator">=</span> <span class="string">&quot;1234&quot;</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">index</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span> (index &lt; len &amp;&amp; Character.isDigit(num.charAt(index))) &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">ans</span> <span class="operator">=</span> num.charAt(index) - <span class="string">&#x27;0&#x27;</span>;</span><br><span class="line">    sum = sum * <span class="number">10</span> + ans;</span><br><span class="line">    index++;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> sum;</span><br></pre></td></tr></table></figure>
 
@@ -169,7 +180,28 @@
 
 <h2 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h2><h3 id="BFS算法框架-11-29-《labuladong的算法笔记》"><a href="#BFS算法框架-11-29-《labuladong的算法笔记》" class="headerlink" title="BFS算法框架 - 11.29 - 《labuladong的算法笔记》"></a>BFS算法框架 - 11.29 - 《labuladong的算法笔记》</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 计算从起点start到终点target的最近距离</span><br><span class="line">int BFS(Node start, Node target) &#123;</span><br><span class="line">	Queue&lt;Node&gt; q; // 核心数据结构</span><br><span class="line">	Set&lt;Node&gt; visited; // 避免走回头路</span><br><span class="line">	</span><br><span class="line">	q.offer(start); // 将起点加入队列</span><br><span class="line">	visited.add(start);</span><br><span class="line">	int step = 0; // 记录扩散的步数</span><br><span class="line">	</span><br><span class="line">	while (q not empty) &#123;</span><br><span class="line">		int sz = q.size();</span><br><span class="line">		/* 将当前队列中的所有节点向四周扩散 */</span><br><span class="line">		for (int i = 0; i &lt; sz; ++i) &#123;</span><br><span class="line">			Node cur = q.poll();</span><br><span class="line">			/* 划重点：这里判断是否到达终点 */</span><br><span class="line">			if (cur is target) return step;</span><br><span class="line">			/* 将cur的相邻节点加入队列 */</span><br><span class="line">			for (Node x : cur.adj()) &#123;</span><br><span class="line">				if (x not in visited) &#123;</span><br><span class="line">					q.offer();</span><br><span class="line">					visited.add(x);</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		/* 划重点：更新步数在这里 */</span><br><span class="line">		step++;</span><br><span class="line">	&#125;</span><br><span class="line">	return step;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-]]></content>
+<h1 id="真题回顾"><a href="#真题回顾" class="headerlink" title="真题回顾"></a>真题回顾</h1><h2 id="✨枚举与模拟"><a href="#✨枚举与模拟" class="headerlink" title="✨枚举与模拟"></a>✨枚举与模拟</h2><p><a href="https://blog.csdn.net/qq_52156445/article/details/122752259">蓝桥杯第八讲–枚举与模拟【例题】</a></p>
+<h3 id="👊连号区间数"><a href="#👊连号区间数" class="headerlink" title="👊连号区间数"></a>👊连号区间数</h3><blockquote>
+<p>第四届蓝桥杯省赛 C++ B 组</p>
+</blockquote>
+<h3 id="👊递增三元组"><a href="#👊递增三元组" class="headerlink" title="👊递增三元组"></a>👊递增三元组</h3><blockquote>
+<p>第九届蓝桥杯省赛 C++ B 组</p>
+</blockquote>
+<ol>
+<li>思路<ol>
+<li>前缀和</li>
+<li>二分</li>
+<li>双指针</li>
+</ol>
+</li>
+</ol>
+<h3 id="👊特别数的和"><a href="#👊特别数的和" class="headerlink" title="👊特别数的和"></a>👊特别数的和</h3><blockquote>
+<p>第十届蓝桥杯省赛 C++ B 组</p>
+</blockquote>
+<h3 id="👊错误票据"><a href="#👊错误票据" class="headerlink" title="👊错误票据"></a>👊错误票据</h3><blockquote>
+<p>第四届蓝桥杯省赛 C++ A &#x2F; B 组</p>
+</blockquote>
+<h3 id="👊回文日期"><a href="#👊回文日期" class="headerlink" title="👊回文日期"></a>👊回文日期</h3>]]></content>
       <categories>
         <category>算法代码切片</category>
       </categories>
@@ -716,6 +748,7 @@
 </ol>
 </li>
 <li><p>缓存击穿</p>
+<p>查询过程较慢导致大量请求打到数据库</p>
 <ol>
 <li><p>互斥锁</p>
 <img src="/2023/11/25/JavaProjects/image-20240225143659833.png" class title="image-20240225143659833">
@@ -759,9 +792,91 @@
 <li><p>全局唯一 ID</p>
 <img src="/2023/11/25/JavaProjects/image-20240226105739989.png" class title="image-20240226105739989">
 </li>
-<li><p>实现优惠券秒杀下单</p>
+<li><p>实现优惠券下单</p>
 </li>
-<li><p>超卖问题</p>
+<li><p>超卖问题（JMeter 实测）</p>
+<ol>
+<li><p>加锁</p>
+<img src="/2023/11/25/JavaProjects/image-20240303091412085.png" class title="image-20240303091412085">
+
+<ol>
+<li><p>乐观锁</p>
+<p>不加锁，在更新时判断是否有其它线程在修改</p>
+<ol>
+<li><p>版本号法</p>
+<p>在表中加一个版本号字段，用于判断</p>
+</li>
+<li><p>CAS 法（比较和替换）</p>
+<p>库存与版本号同时变化，那么库存同时具有与版本号相同的功能</p>
+<ol>
+<li><p>优：性能好</p>
+</li>
+<li><p>缺：存在成功率低的问题</p>
+<blockquote>
+<p>可分批加锁 或 低要求加锁</p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>悲观锁</p>
+<p>添加同步锁，让线程串行执行</p>
+<ol>
+<li>优：简单粗暴</li>
+<li>缺：性能一般</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>一人一单</p>
+<p>判断同人同单的订单是否存在</p>
+<p>因为是插入操作而不是更新，所以采用悲观锁</p>
+<blockquote>
+<p>快捷键：Ctrl + Alt + M -&gt; <em>封装所选代码段为私有方法</em></p>
+</blockquote>
+<ol>
+<li><p>加锁位置</p>
+<ol>
+<li><p>对用户加锁而不是操作</p>
+<img src="/2023/11/25/JavaProjects/image-20240303101810350.png" class title="image-20240303101810350">
+
+<p>要对同一用户加锁，故将锁加在 userId 字段上，注意以值判断是否等价（getId() 返回的是新对象，toString() 方法返回的也是新对象）</p>
+</li>
+</ol>
+</li>
+<li><p>释放锁后事务可能未提交</p>
+<ol>
+<li><p>要对封装方法加锁</p>
+<img src="/2023/11/25/JavaProjects/image-20240303102442995.png" class title="image-20240303102442995"></li>
+</ol>
+</li>
+<li><p>非代理对象事务失效</p>
+<p>return 处调用的函数的对象为 this，还未被 Spring 代理，会造成事务失效</p>
+<ol>
+<li><p>取得代理对象后用代理调用方法</p>
+<img src="/2023/11/25/JavaProjects/image-20240303103111895.png" class title="image-20240303103111895">
+
+<blockquote>
+<p>使用代理对象需要的配置</p>
+<ol>
+<li><p>引入依赖 org.aspectj</p>
+<img src="/2023/11/25/JavaProjects/image-20240303103456350.png" class title="image-20240303103456350">
+</li>
+<li><p>暴露代理对象</p>
+<img src="/2023/11/25/JavaProjects/image-20240303103601093.png" class title="image-20240303103601093"></li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</li>
+<li><p>集群并发安全（⬇️分布式锁⬇️）</p>
+</li>
+</ol>
+</li>
+<li><p>分布式锁</p>
 </li>
 </ol>
 <h1 id="6-扎堆网（PileUp）-（伙伴匹配系统）"><a href="#6-扎堆网（PileUp）-（伙伴匹配系统）" class="headerlink" title="6. 扎堆网（PileUp） - （伙伴匹配系统）"></a>6. 扎堆网（PileUp） - （伙伴匹配系统）</h1><ol>
